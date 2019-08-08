@@ -294,12 +294,23 @@ function configSigmaElements(config) {
       myvar.push(sigInst.clusters[b].length);
     };
     myvar.sort(compare);
-    var a = [],
+    console.log(myvar);
+    var a = [], clusters_usados = [],
         b, x=1;
     for (var i = 0; i <= myvar.length; i++) {
       for (b in sigInst.clusters) {
-        if (sigInst.clusters[b].length == myvar[i]) {
-          a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
+        var mytest = [];
+        if ( (!clusters_usados.includes(b)) && sigInst.clusters[b].length == myvar[i] ) {
+          sigInst.iterNodes(function(n) {
+            if (n.id == sigInst.clusters[b][0]) {
+              mytest.push(n.attr.attributes.cluster)
+            }
+          });
+        }
+
+        if (mytest[0] == (i + 1)) {
+          a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Cluster ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
+          clusters_usados.push(b);
           break;
         }
       }
