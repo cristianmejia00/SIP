@@ -10,7 +10,7 @@
   "text": {
     "more": "Two companies are connected if they are mentioned together in the same document. \u003cbr\u003e\nThe more times they are mentioned together the strongest is their link (a wider link in the visual). \u003cbr\u003e\nCompanies thigly connected appear as clusters of different color. \n\n",
     "intro": "",
-    "title": "Company co-occurrence network for patents about IoT"
+    "title": "Company co-occurrence network for news about Edge Computing"
   },
   "legend": {
     "edgeLabel": "Co-occurrence",
