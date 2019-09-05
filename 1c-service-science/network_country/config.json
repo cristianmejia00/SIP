@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Cristian Mejia, Yuya Kajikawa"
+  },
+  "text": {
+    "more": "Two companies are connected if they are mentioned together in the same document. \u003cbr\u003e\nThe more times they are mentioned together the strongest is their link (a wider link in the visual). \u003cbr\u003e\nCompanies thigly connected appear as clusters of different color. \n\n",
+    "intro": "",
+    "title": "Company co-occurrence network for patents about IoT"
+  },
+  "legend": {
+    "edgeLabel": "Co-occurrence",
+    "colorLabel": "Clusters",
+    "nodeLabel": "Companies"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "cluster",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 20,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 16
+    },
+    "graphProperties": {
+      "maxEdgeSize": 10,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
