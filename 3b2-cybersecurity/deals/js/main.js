@@ -289,33 +289,17 @@ function configSigmaElements(config) {
     }
     $GP.bg = $(sigInst._core.domElements.bg);
     $GP.bg2 = $(sigInst._core.domElements.bg2);
-    var myvar = [];
-    for (b in sigInst.clusters) {
-      myvar.push(sigInst.clusters[b].length);
-    };
-    myvar.sort(compare);
-    console.log(myvar);
-    var a = [], clusters_usados = [],
-        b, x=1;
-    for (var i = 0; i <= myvar.length; i++) {
-      for (b in sigInst.clusters) {
-        var mytest = [];
-        if ( (!clusters_usados.includes(b)) && sigInst.clusters[b].length == myvar[i] ) {
-          sigInst.iterNodes(function(n) {
-            if (n.id == sigInst.clusters[b][0]) {
-              mytest.push(n.attr.attributes.cluster)
-            }
-          });
-        }
 
-        if (mytest[0] == (i + 1)) {
-          a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Cluster ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
-          clusters_usados.push(b);
-          break;
-        }
-      }
-    };
+    var mytest = [];
+    sigInst.iterNodes(function(n) {
+      mytest[n.attr.attributes.cluster] = n.color
+    });
 
+    var a = [];
+    for (var i = 0; i <= mytest.length; i++) {
+      a.push('<div style="line-height:12px"><a href="#' + mytest[i] + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + mytest[i] + ';display:inline-block"></div> Cluster ' + (i) + ' (' + sigInst.clusters[mytest[i]].length + ' members)</a></div>');
+    };
+    
     $GP.cluster.content(a.join(""));
     b = {
         minWidth: 400,
