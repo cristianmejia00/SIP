@@ -290,16 +290,22 @@ function configSigmaElements(config) {
     $GP.bg = $(sigInst._core.domElements.bg);
     $GP.bg2 = $(sigInst._core.domElements.bg2);
 
-    var mytest = [];
+    var cl_size = [];
+    for (b in sigInst.clusters) {
+      cl_size.push(sigInst.clusters[b].length);
+    };
+    cl_size.sort(compare);
+
+    var cl_color = [];
     sigInst.iterNodes(function(n) {
-      mytest[n.attr.attributes.cluster] = n.color
+      cl_color[n.attr.attributes.cluster - 1] = n.color
     });
 
     var a = [];
-    for (var i = 0; i <= mytest.length; i++) {
-      a.push('<div style="line-height:12px"><a href="#' + mytest[i] + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + mytest[i] + ';display:inline-block"></div> Cluster ' + (i) + ' (' + sigInst.clusters[mytest[i]].length + ' members)</a></div>');
+    for (var i = 0; i <= (cl_color.length - 1); i++) {
+      a.push('<div style="line-height:12px"><a href="#' + cl_color[i] + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + cl_color[i] + ';display:inline-block"></div> Cluster ' + (i + 1) + ' (' + cl_size[i] + ' members)</a></div>');
     };
-    
+
     $GP.cluster.content(a.join(""));
     b = {
         minWidth: 400,
