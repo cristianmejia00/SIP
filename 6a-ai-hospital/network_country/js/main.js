@@ -629,25 +629,58 @@ function nodeActive(a) {
     window.location.hash = b.label;
 }
 
+// This is the function that hides or shows the nodes of a cluster.
 function showCluster(a) {
+    var greyColor = '#E0E0E0';
     var b = sigInst.clusters[a];
     if (b && 0 < b.length) {
-        showGroups(!1);
-        sigInst.detail = !0;
+        showGroups(false);
+        sigInst.detail = true;
         b.sort();
-        sigInst.iterEdges(function (a) {
-            a.hidden = !1;
-            a.attr.lineWidth = !1;
-            a.attr.color = !1
-        });
         sigInst.iterNodes(function (a) {
-            a.hidden = !0
+            a.hidden = false
+            if(!a.attr['grey']){
+              a.attr['true_color'] = a.color;
+              a.color = greyColor;
+              a.attr['grey'] = 1;
+            }
         });
         for (var f = [], e = [], c = 0, g = b.length; c < g; c++) {
             var d = sigInst._core.graph.nodesIndex[b[c]];
-            !0 == d.hidden && (e.push(b[c]), d.hidden = !1, d.attr.lineWidth = !1, d.attr.color = d.color, f.push('<li class="membership"><a href="#'+d.label+'" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + d.id + "'])\" onclick=\"nodeActive('" + d.id + '\')" onmouseout="sigInst.refresh()">' + d.label + "</a></li>"))
-        }
+            e.push(b[c]);
+            d.attr.lineWidth = false;
+            window.mycolor = d.attr["true_color"];
+            f.push('<li class="membership"><a href="#'+d.label+'" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + d.id + "'])\" onclick=\"nodeActive('" + d.id + '\')" onmouseout="sigInst.refresh()">' + d.label + "</a></li>");
+            //false == d.hidden && (e.push(b[c]), d.hidden = false, d.attr.lineWidth = false, d.color = d.attr["true_color"], f.push('<li class="membership"><a href="#'+d.label+'" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + d.id + "'])\" onclick=\"nodeActive('" + d.id + '\')" onmouseout="sigInst.refresh()">' + d.label + "</a></li>"))
+        };
         sigInst.clusters[a] = e;
+        sigInst.iterEdges(function (a) {
+            a.hidden = false;
+            a.attr.lineWidth = false;
+            a.attr.color = false
+            if(!a.attr['grey']){
+              a.attr['true_color'] = a.color;
+              a.color = greyColor;
+              a.attr['grey'] = 1;
+            }
+            if(a.attr['true_color'] == window.mycolor){
+              a.color = a.attr['true_color']
+            } else {
+              a.color = greyColor;
+            }
+        });
+        sigInst.iterNodes(function (a) {
+            if(!a.attr['grey']){
+              a.attr['true_color'] = a.color;
+              a.color = greyColor;
+              a.attr['grey'] = 1;
+            }
+            if(a.attr['true_color'] == window.mycolor){
+              a.color = a.attr['true_color']
+            } else {
+              a.color = greyColor;
+            }
+        });
         sigInst.draw(2, 2, 2, 2);
         $GP.info_name.html("<b>" + a + "</b>");
         $GP.info_data.hide();
@@ -656,7 +689,7 @@ function showCluster(a) {
         $GP.info.animate({width:'show'},350);
         $GP.search.clean();
 		$GP.cluster.hide();
-        return !0
+        return true
     }
-    return !1
+    return false
 }
