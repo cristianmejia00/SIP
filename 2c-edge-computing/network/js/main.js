@@ -632,7 +632,7 @@ function nodeActive(a) {
 
 // This is the function that hides or shows the nodes of a cluster.
 function showCluster(a) {
-    var greyColor = '#F5F5F5';
+    var greyColor = '#E0E0E0';
     var b = sigInst.clusters[a];
     if (b && 0 < b.length) {
         showGroups(false);
