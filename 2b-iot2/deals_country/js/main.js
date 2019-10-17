@@ -221,45 +221,45 @@ function configSigmaElements(config) {
     // Node hover behaviour
     if (config.features.hoverBehavior == "dim") {
 
-		var greyColor = '#ccc';
-		sigInst.bind('overnodes',function(event){
-		var nodes = event.content;
-		var neighbors = {};
-		sigInst.iterEdges(function(e){
-		if(nodes.indexOf(e.source)<0 && nodes.indexOf(e.target)<0){
-			if(!e.attr['grey']){
-				e.attr['true_color'] = e.color;
-				e.color = greyColor;
-				e.attr['grey'] = 1;
-			}
-		}else{
-			e.color = e.attr['grey'] ? e.attr['true_color'] : e.color;
-			e.attr['grey'] = 0;
+      var greyColor = '#ccc';
+  		sigInst.bind('overnodes',function(event){
+  		var nodes = event.content;
+  		var neighbors = {};
+  		sigInst.iterEdges(function(e){
+  		if(nodes.indexOf(e.source)<0 && nodes.indexOf(e.target)<0){
+  			if(!e.attr['grey']){
+  				e.attr['true_color'] = e.color;
+  				e.color = greyColor;
+  				e.attr['grey'] = 1;
+  			}
+  		}else{
+  			e.color = e.attr['grey'] ? e.attr['true_color'] : e.color;
+  			e.attr['grey'] = 0;
 
-			neighbors[e.source] = 1;
-			neighbors[e.target] = 1;
-		}
-		}).iterNodes(function(n){
-			if(!neighbors[n.id]){
-				if(!n.attr['grey']){
-					n.attr['true_color'] = n.color;
-					n.color = greyColor;
-					n.attr['grey'] = 1;
-				}
-			}else{
-				n.color = n.attr['grey'] ? n.attr['true_color'] : n.color;
-				n.attr['grey'] = 0;
-			}
-		}).draw(2,2,2);
-		}).bind('outnodes',function(){
-		sigInst.iterEdges(function(e){
-			e.color = e.attr['grey'] ? e.attr['true_color'] : e.color;
-			e.attr['grey'] = 0;
-		}).iterNodes(function(n){
-			n.color = n.attr['grey'] ? n.attr['true_color'] : n.color;
-			n.attr['grey'] = 0;
-		}).draw(2,2,2);
-		});
+  			neighbors[e.source] = 1;
+  			neighbors[e.target] = 1;
+  		}
+  		}).iterNodes(function(n){
+  			if(!neighbors[n.id]){
+  				if(!n.attr['grey']){
+  					n.attr['true_color'] = n.color;
+  					n.color = greyColor;
+  					n.attr['grey'] = 1;
+  				}
+  			}else{
+  				n.color = n.attr['grey'] ? n.attr['true_color'] : n.color;
+  				n.attr['grey'] = 0;
+  			}
+  		}).draw(2,2,2);
+  		}).bind('outnodes',function(){
+  		sigInst.iterEdges(function(e){
+  			e.color = e.attr['grey'] ? e.attr['true_color'] : e.color;
+  			e.attr['grey'] = 0;
+  		}).iterNodes(function(n){
+  			n.color = n.attr['grey'] ? n.attr['true_color'] : n.color;
+  			n.attr['grey'] = 0;
+  		}).draw(2,2,2);
+  		});
 
     } else if (config.features.hoverBehavior == "hide") {
 
@@ -405,7 +405,7 @@ function Search(a) {
         this.searching = !0;
         this.lastSearch = a;
         this.results.empty();
-        if (2 >= a.length) this.results.html("<i>You must search for a name with a minimum of 3 letters.</i>");
+        if (2 >= a.length) this.results.html("<i>You must search for a name with a minimum of 3000 letters.</i>");
         else {
             sigInst.iterNodes(function (a) {
                 g.test(a.label.toLowerCase()) && c.push({
@@ -426,7 +426,7 @@ function Search(a) {
 
 function Cluster(a) {
     this.cluster = a;
-    this.display = !1;
+    this.display = !0;
     this.list = this.cluster.find(".list");
     this.list.empty();
     this.select = this.cluster.find(".select");
@@ -444,12 +444,12 @@ function Cluster(a) {
         })
     };
     this.hide = function () {
-        this.display = !1;
+        this.display = false;
         this.list.hide();
         this.select.removeClass("close")
     };
     this.show = function () {
-        this.display = !0;
+        this.display = true;
         this.list.show();
         this.select.addClass("close")
     }
@@ -482,23 +482,24 @@ function nodeActive(a) {
 	var outgoing={},incoming={},mutual={};//SAH
     sigInst.iterEdges(function (b) {
         b.attr.lineWidth = !1;
-        b.hidden = !0;
+        b.attr.color = '#FF0000';
+        //b.hidden = !0;
 
         n={
             name: b.label,
-            colour: b.color
+            colour: '#FF0000'
         };
 
    	   if (a==b.source) outgoing[b.target]=n;		//SAH
 	   else if (a==b.target) incoming[b.source]=n;		//SAH
        if (a == b.source || a == b.target) sigInst.neighbors[a == b.target ? b.source : b.target] = n;
-       b.hidden = !1, b.attr.color = "rgba(0, 0, 0, 1)";
+       b.attr.color = '#FF0000';
     });
     var f = [];
     sigInst.iterNodes(function (a) {
         a.hidden = !0;
         a.attr.lineWidth = !1;
-        a.attr.color = a.color
+        a.attr.color = '#FF0000'
     });
 
     if (groupByDirection) {
@@ -522,12 +523,12 @@ function nodeActive(a) {
         var d = sigInst._core.graph.nodesIndex[g];
         d.hidden = !1;
         d.attr.lineWidth = !1;
-        d.attr.color = c[g].colour;
+        d.attr.color = '#FF0000';
         a != g && e.push({
             id: g,
             name: d.label,
             group: (c[g].name)? c[g].name:"",
-            colour: c[g].colour
+            colour: '#FF0000'
         })
     }
     e.sort(function (a, b) {
@@ -540,10 +541,10 @@ function nodeActive(a) {
     d = "";
 		for (g in e) {
 			c = e[g];
-			/*if (c.group != d) {
+			if (c.group != d) {
 				d = c.group;
-				f.push('<li class="cf" rel="' + c.color + '"><div class=""></div><div class="">' + d + "</div></li>");
-			}*/
+				f.push('<li class="cf" rel="' + '#FF0000' + '"><div class=""></div><div class="">' + d + "</div></li>");
+			}
 			f.push('<li class="membership"><a href="#' + c.name + '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + c.name + "</a></li>");
 		}
 		return f;
@@ -577,7 +578,7 @@ function nodeActive(a) {
 	}
 	//b is object of active node -- SAH
     b.hidden = !1;
-    b.attr.color = b.color;
+    b.attr.color = '#FF0000';
     b.attr.lineWidth = 6;
     b.attr.strokeStyle = "#000000";
     sigInst.draw(2, 2, 2, 2);
@@ -629,25 +630,101 @@ function nodeActive(a) {
     window.location.hash = b.label;
 }
 
+
+// ***********************************************************************************************
+//
+// var greyColor = '#F5F5F5';
+// sigInst.bind('overnodes',function(event){
+// var nodes = event.content;
+// var neighbors = {};
+// sigInst.iterEdges(function(e){
+// if(nodes.indexOf(e.source)<0 && nodes.indexOf(e.target)<0){
+//   if(!e.attr['grey']){
+//     e.attr['true_color'] = e.color;
+//     e.color = greyColor;
+//     e.attr['grey'] = 1;
+//   }
+// }else{
+//   e.color = e.attr['grey'] ? e.attr['true_color'] : e.color;
+//   e.attr['grey'] = 0;
+//
+//   neighbors[e.source] = 1;
+//   neighbors[e.target] = 1;
+// }
+// }).iterNodes(function(n){
+//   if(!neighbors[n.id]){
+//     if(!n.attr['grey']){
+//       n.attr['true_color'] = n.color;
+//       n.color = greyColor;
+//       n.attr['grey'] = 1;
+//     }
+//   }else{
+//     n.color = n.attr['grey'] ? n.attr['true_color'] : n.color;
+//     n.attr['grey'] = 0;
+//   }
+// }).draw(2,2,2);
+// }).bind('outnodes',function(){
+// sigInst.iterEdges(function(e){
+//   e.color = e.attr['grey'] ? e.attr['true_color'] : e.color;
+//   e.attr['grey'] = 0;
+// }).iterNodes(function(n){
+//   n.color = n.attr['grey'] ? n.attr['true_color'] : n.color;
+//   n.attr['grey'] = 0;
+// }).draw(2,2,2);
+// });
+
+// This is the function that hides or shows the nodes of a cluster.
 function showCluster(a) {
+    var greyColor = '#F5F5F5';
     var b = sigInst.clusters[a];
     if (b && 0 < b.length) {
-        showGroups(!1);
-        sigInst.detail = !0;
+        showGroups(false);
+        sigInst.detail = true;
         b.sort();
-        sigInst.iterEdges(function (a) {
-            a.hidden = !1;
-            a.attr.lineWidth = !1;
-            a.attr.color = !1
-        });
         sigInst.iterNodes(function (a) {
-            a.hidden = !0
+            a.hidden = false
+            if(!a.attr['grey']){
+              a.attr['true_color'] = a.color;
+              a.color = greyColor;
+              a.attr['grey'] = 1;
+            }
         });
         for (var f = [], e = [], c = 0, g = b.length; c < g; c++) {
             var d = sigInst._core.graph.nodesIndex[b[c]];
-            !0 == d.hidden && (e.push(b[c]), d.hidden = !1, d.attr.lineWidth = !1, d.attr.color = d.color, f.push('<li class="membership"><a href="#'+d.label+'" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + d.id + "'])\" onclick=\"nodeActive('" + d.id + '\')" onmouseout="sigInst.refresh()">' + d.label + "</a></li>"))
-        }
+            e.push(b[c]);
+            d.attr.lineWidth = false;
+            window.mycolor = d.attr["true_color"];
+            f.push('<li class="membership"><a href="#'+d.label+'" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + d.id + "'])\" onclick=\"nodeActive('" + d.id + '\')" onmouseout="sigInst.refresh()">' + d.label + "</a></li>");
+            //false == d.hidden && (e.push(b[c]), d.hidden = false, d.attr.lineWidth = false, d.color = d.attr["true_color"], f.push('<li class="membership"><a href="#'+d.label+'" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + d.id + "'])\" onclick=\"nodeActive('" + d.id + '\')" onmouseout="sigInst.refresh()">' + d.label + "</a></li>"))
+        };
         sigInst.clusters[a] = e;
+        sigInst.iterEdges(function (a) {
+            a.hidden = false;
+            a.attr.lineWidth = false;
+            a.attr.color = false
+            if(!a.attr['grey']){
+              a.attr['true_color'] = a.color;
+              a.color = greyColor;
+              a.attr['grey'] = 1;
+            }
+            if(a.attr['true_color'] == window.mycolor){
+              a.color = a.attr['true_color']
+            } else {
+              a.color = greyColor;
+            }
+        });
+        sigInst.iterNodes(function (a) {
+            if(!a.attr['grey']){
+              a.attr['true_color'] = a.color;
+              a.color = greyColor;
+              a.attr['grey'] = 1;
+            }
+            if(a.attr['true_color'] == window.mycolor){
+              a.color = a.attr['true_color']
+            } else {
+              a.color = greyColor;
+            }
+        });
         sigInst.draw(2, 2, 2, 2);
         $GP.info_name.html("<b>" + a + "</b>");
         $GP.info_data.hide();
@@ -656,7 +733,7 @@ function showCluster(a) {
         $GP.info.animate({width:'show'},350);
         $GP.search.clean();
 		$GP.cluster.hide();
-        return !0
+        return true
     }
-    return !1
+    return false
 }
