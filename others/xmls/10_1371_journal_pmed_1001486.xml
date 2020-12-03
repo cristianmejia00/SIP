@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="publisher-id">PLoS</journal-id>
+<journal-id journal-id-type="nlm-ta">PLoS Med</journal-id>
+<journal-id journal-id-type="pmc">plosmed</journal-id><journal-title-group>
+<journal-title>PLoS Medicine</journal-title></journal-title-group>
+<issn pub-type="epub">1549-1676</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PMEDICINE-D-13-00430</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pmed.1001486</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Policy Forum</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Medicine</subject><subj-group><subject>Infectious diseases</subject><subj-group><subject>Bacterial diseases</subject><subj-group><subject>Tuberculosis</subject><subj-group><subject>Extensively drug-resistant tuberculosis</subject><subject>Multi-drug-resistant tuberculosis</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>The Growing Problem of Multidrug-Resistant Tuberculosis in North Korea</article-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Seung</surname><given-names>Kwonjune J.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="aff" rid="aff3"><sup>3</sup></xref><xref ref-type="aff" rid="aff4"><sup>4</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Linton</surname><given-names>Stephen W.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Eugene Bell Foundation, Washington, D.C., United States of America</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>Partners In Health, Boston, Massachusetts, United States of America</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>Brigham and Women's Hospital, Division of Global Health Equity, Boston, Massachusetts, United States of America</addr-line></aff>
+<aff id="aff4"><label>4</label><addr-line>Harvard Medical School, Boston, Massachusetts, United States of America</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">kjseung@eugenebell.org</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Analyzed the data: KJS. Wrote the first draft of the manuscript: KJS SWL. Contributed to the writing of the manuscript: KJS SWL. <ext-link ext-link-type="uri" xlink:href="http://www.icmje.org/" xlink:type="simple">ICMJE</ext-link> criteria for authorship read and met: KJS SWL. Agree with manuscript results and conclusions: KJS SWL.</p></fn>
+<fn><p>The Policy Forum allows health policy makers around the world to discuss challenges and opportunities for improving health care in their societies.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><month>7</month><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>30</day><month>7</month><year>2013</year></pub-date>
+<volume>10</volume>
+<issue>7</issue>
+<elocation-id>e1001486</elocation-id><permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Seung and Linton</copyright-holder><license xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract abstract-type="toc"><sec>
+<title/>
+<p>Kwonjune Seung and Stephen Linton from the non-governmental organization EugeneBell discuss the worryingly high levels of multidrug-resistant tuberculosis they have observed in North Korea's tuberculosis sanatoria.</p>
+<p><italic>Please see later in the article for the Editors' Summary</italic></p>
+</sec></abstract>
+<funding-group><funding-statement>No specific funding was received for this study.</funding-statement></funding-group><counts><page-count count="4"/></counts></article-meta>
+</front>
+<body><boxed-text id="pmed-1001486-box001" position="float"><sec id="s1a">
+<title>Summary Points</title>
+<list list-type="bullet"><list-item>
+<p>In the absence of surveillance data, international aid to the North Korean national tuberculosis (TB) program has largely ignored the possibility that drug-resistant TB strains are widespread, as is the case in Russia and China.</p>
+</list-item><list-item>
+<p>EugeneBell, a non-governmental organization (NGO) that works with North Korean TB patients, believes that spread of multidrug-resistant (MDR) TB in North Korea is much more advanced than previously assumed, based on anecdotal reports from North Korean clinicians and data collected from TB sanatoria.</p>
+</list-item><list-item>
+<p>Until effective treatment can be made available to them, MDR TB patients will continue to be a source of transmission to families, neighbors, health providers, and other patients.</p>
+</list-item><list-item>
+<p>Rapid scale-up of MDR TB treatment is possible in North Korea, but only if the international community—including donors, NGOs and governments—takes the threat of MDR TB seriously.</p>
+</list-item></list>
+</sec></boxed-text><sec id="s2">
+<title>Tuberculosis in North Korea</title>
+<p>Tuberculosis (TB) has long been one of the most serious public health problems in North Korea (Democratic People's Republic of Korea). The estimated TB incidence of 345/100,000 population is higher than in some countries with generalized HIV/AIDS epidemics <xref ref-type="bibr" rid="pmed.1001486-World1">[1]</xref>. HIV is thought to be almost nonexistent in North Korea, but chronic malnutrition, an important risk factor for TB, has become a fact of life for much of the population since the 1990s <xref ref-type="bibr" rid="pmed.1001486-Food1">[2]</xref>. The North Korean health care system has been devastated by the economic problems of the past two decades, making it difficult to respond to poverty- and nutrition-related diseases such as TB <xref ref-type="bibr" rid="pmed.1001486-WHO1">[3]</xref>. In 1998, the Ministry of Public Health (MOPH) adopted DOTS (Directly Observed Treatment, Short-course), the World Health Organization (WHO)-recommended approach for TB control in resource-limited settings. The major components of DOTS—sputum smear microscopy for diagnosis, and standardized regimens of quality-assured drugs for treatment—had not been as strongly emphasized in North Korea previously. In 2003, North Korea began procurement of TB drugs from the Global Drug Facility (GDF), a WHO-led initiative that has supplied high-quality drugs to over 90 countries since its inception in 2001 <xref ref-type="bibr" rid="pmed.1001486-Matiru1">[4]</xref>. In 2010, the Global Fund to Fight AIDS, TB and Malaria (GFATM) began a five-year, US$41.1M project to continue and expand these initiatives <xref ref-type="bibr" rid="pmed.1001486-Tuberculosis1">[5]</xref>. UNICEF, the principal recipient, and WHO, the technical lead, are responsible for implementation of this project.</p>
+<p>Little of this international aid has included treatment of drug-resistant TB. For example, in 2011, North Korea reported 85,564 new cases of TB, the vast majority of whom would have received the GDF standard treatment kit for new patients (category I), a red/white cardboard box containing two months of isoniazid, rifampicin, ethambutol, and pyrazinamide, followed by four months of isoniazid and rifampicin. There were also 13,507 patients with a past history of TB treatment who would have received the GDF standard retreatment kit (category II): two months of streptomycin injections plus isoniazid, rifampicin, ethambutol, and pyrazinamide, followed by one month of isoniazid, rifampicin, ethambutol, and pyrazinamide, followed by five months of isoniazid, rifampicin, and ethambutol. These two regimens have been shown to be highly effective for drug-susceptible TB, but are significantly less effective for drug-resistant TB <xref ref-type="bibr" rid="pmed.1001486-Lew1">[6]</xref>.</p>
+<p>There has never been any clear scientific evidence that drug-resistant TB is a serious problem in North Korea. North Korea does not have any system for drug resistance surveillance, nor has it ever performed a national or subnational drug resistance survey <xref ref-type="bibr" rid="pmed.1001486-World2">[7]</xref>. The GFATM focus on treatment for drug-susceptible TB would make programmatic sense if the overall proportion of North Korean TB patients with drug resistance were low. In such settings, improving the diagnosis and treatment of drug-susceptible TB can prevent the creation of drug resistance. It is much more difficult to diagnose and treat drug-resistant TB, particularly multidrug-resistant (MDR) TB, defined as resistance to isoniazid and rifampicin, the two strongest TB drugs and the backbone of standard DOTS regimens. MDR TB requires 18–24 months of treatment with expensive and poorly tolerated second-line TB drugs.</p>
+<p>In the absence of drug resistance surveillance data, the successful implementation of DOTS has suggested that drug resistance should not be a problem in North Korea. According to WHO, the outcomes for new smear-positive patients receiving category I in 2010 were 86% cured, 4% completed, 3% died, 4% failed, 2% defaulted (1% not evaluated). Outcomes of retreatment patients (category II) were 76% cured, 8% completed, 4% died, 8% failed, 3% defaulted (2% not evaluated) <xref ref-type="bibr" rid="pmed.1001486-World1">[1]</xref>. North Korea is one of the few countries in the world that have attained the WHO target of 90% success (cured plus completed) for new patients, a monumental achievement given the challenges faced by the MOPH. WHO programmatic indicators, however, can exaggerate cure rates because they rely on the relatively insensitive tool of smear microscopy. A patient who is sputum smear-negative after completing a standard DOTS regimen is considered to be a cure, even if there is a small amount of viable bacteria in the sputum that would be detectable by a more sensitive test like culture. This is rarely an issue in settings where almost all TB is drug-susceptible, but in settings where drug-resistant TB is more common, such as Siberia, WHO indicators can overestimate the efficacy of standard DOTS regimens <xref ref-type="bibr" rid="pmed.1001486-Farmer1">[8]</xref>,<xref ref-type="bibr" rid="pmed.1001486-Migliori1">[9]</xref>.</p>
+<p>The experience of countries such as Russia, Azerbaijan, and Uzbekistan, which like North Korea experienced economic hardship after the collapse of the Soviet Union, suggests that drug-resistant TB may already be a serious problem in North Korea. In these countries, the breakdown of health systems and social services was followed rapidly by the spread of MDR strains. These countries continue to struggle with some of the highest rates of MDR TB in the world <xref ref-type="bibr" rid="pmed.1001486-World1">[1]</xref>.</p>
+</sec><sec id="s3">
+<title>EugeneBell's Experience in North Korea</title>
+<p>EugeneBell is a name shared by two non-governmental organizations (NGO), one American, the Eugene Bell Foundation, and one South Korean (Republic of Korea), EugeneBell Korea, which have supported North Korean TB sanatoria throughout the country for over a decade with medicines, equipment, and consumables <xref ref-type="bibr" rid="pmed.1001486-Eugene1">[10]</xref>. On the basis of our experience of working with North Korean TB patients, anecdotal reports from North Korean clinicians, and the original data that is presented here, we believe that the spread of MDR TB is much more advanced than previously assumed.</p>
+<p>North Korea has a network of TB sanatoria similar to those that were common in the United States and Europe in the pre-antibiotic era. Dozens of sanatoria exist throughout the country, generally in rural areas, each housing tens to hundreds of patients in cramped conditions. In the past, sanatoria may have admitted only those TB patients who needed injections or who were too sick to take care of themselves at home. But after the widespread implementation of DOTS, many North Korean sanatorium clinicians have reported to us that an increasing number of patients do not seem to be responding to treatment with standard DOTS regimens.</p>
+<p>In 2007, after extensive discussions between the MOPH and EugeneBell, six sanatoria in North/South Pyongan provinces and Pyongyang and Nampo cities were designated by the MOPH as MDR TB treatment centers. The combined patient census of these six sanatoria is approximately 800. As part of the new treatment program, we began to develop a system for testing patients for drug resistance. Sputum samples were collected during EugeneBell delegation visits scheduled at six-month intervals. Before each visit, North Korean clinicians pre-selected patients with a history of treatment failure with standard DOTS regimens. Most patients had previously received two or more courses of treatment with DOTS regimens, including category II. Sputum specimens were transported to the Korean Institute of Tuberculosis, a South Korean laboratory that is part of the supranational reference laboratory network that monitors drug-resistant TB globally <xref ref-type="bibr" rid="pmed.1001486-World1">[1]</xref>. Culture and susceptibility testing were performed on Löwenstein-Jensen media to first- and second-line drugs. Pyrazinamide susceptibility was determined using the pyrazinamidase test.</p>
+<p><xref ref-type="fig" rid="pmed-1001486-g001">Figure 1</xref> shows the results of drug susceptibility testing of all 245 culture-positive candidates for MDR TB treatment that were presented to EugeneBell during three visits spanning April 2010 to April 2011. Of these, 175 (67%) were men. The median age was 40 (range 32–46). Two-hundred and thirteen (87%) patients were diagnosed with MDR TB (resistance to isoniazid and rifampicin). Thirty-five (14.3%) were diagnosed with MDR plus resistance to a second-line injectable (kanamycin or capreomycin), and 21 (8.6%) were diagnosed with MDR plus resistance to ofloxacin. Six patients (2.4%) were diagnosed with extensively drug-resistant (XDR) TB (MDR plus resistance to a second-line injectable and ofloxacin). The most common MDR patterns are shown in <xref ref-type="table" rid="pmed-1001486-t001">Table 1</xref>.</p>
+<fig id="pmed-1001486-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pmed.1001486.g001</object-id><label>Figure 1</label><caption>
+<title>Drug resistance in North Korean sanatorium patients (<italic>n</italic> = 245).</title>
+<p>The TB Ag MPT64 Rapid kit (SD Bioline), an immunochromatographic test using mouse monoclonal antibodies to detect the MPT64 protein, was used on positive cultures for identification of Mycobacterium tuberculosis complex. Critical concentrations were as follows (mcg/ml): isoniazid 0.2, rifampicin 40.0, ethambutol 2.0, streptomycin 10.0, kanamycin 40.0, amikacin 40.0, capreomycin 40.0, ofloxacin 2.0, prothionamide 40.0, cycloserine 30.0, para-aminosalicylic acid (PAS) 1.0. Pyrazinamide susceptibility was determined using the pyrazinamidase test.</p>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pmed.1001486.g001" position="float" xlink:type="simple"/></fig><table-wrap id="pmed-1001486-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pmed.1001486.t001</object-id><label>Table 1</label><caption>
+<title>Common MDR patterns in North Korean sanatorium patients (<italic>n</italic> = 245).</title>
+</caption><alternatives><graphic id="pmed-1001486-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pmed.1001486.t001" xlink:type="simple"/>
+<table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Resistance pattern</td>
+<td align="left" rowspan="1" colspan="1">Percent (number)</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">MDR without second-line drug resistance</td>
+<td align="left" rowspan="1" colspan="1">62% (152)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Isoniazid and rifampicin</td>
+<td align="left" rowspan="1" colspan="1">12% (30)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Isoniazid, rifampicin, and ethambutol</td>
+<td align="left" rowspan="1" colspan="1">3% (8)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Isoniazid, rifampicin, and streptomycin</td>
+<td align="left" rowspan="1" colspan="1">21% (52)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Isoniazid, rifampicin, ethambutol, and streptomycin</td>
+<td align="left" rowspan="1" colspan="1">18% (43)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Isoniazid, rifampicin, ethambutol, streptomycin, and pyrazinamide</td>
+<td align="left" rowspan="1" colspan="1">4% (10)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">MDR with second-line drug resistance</td>
+<td align="left" rowspan="1" colspan="1">25% (61)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">MDR with second-line injectable resistance</td>
+<td align="left" rowspan="1" colspan="1">14% (35)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">MDR with ofloxacin resistance</td>
+<td align="left" rowspan="1" colspan="1">9% (21)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">XDR</td>
+<td align="left" rowspan="1" colspan="1">2% (6)</td>
+</tr>
+</tbody>
+</table>
+</alternatives></table-wrap></sec><sec id="s4">
+<title>How Much MDR TB Is There in North Korea?</title>
+<p>These resistance data are from a convenience sample of high-risk patients enrolling in a clinical treatment program, and cannot be assumed to be representative of the general TB population. But in the absence of national surveillance data, these data are disturbing. The patient data reported here likely represent a large pool of chronic MDR TB patients that has been growing for years due to the absence of effective treatment.</p>
+<p>Strains resistant to second-line TB drugs, including some XDR strains, were present in the patients tested by EugeneBell. Since all patients were tested prior to enrolment in the EugeneBell treatment program, this suggests that some patients had taken second-line TB drugs previously, or had been infected by someone who had. Without access to effective treatment within formal health systems, North Korean MDR TB patients, like MDR TB patients in other countries, will turn to informal systems to obtain second-line TB drugs. Such drugs will inevitably be inadequate in quantity or quality, and likely to result in even more highly resistant strains that can be transmitted to family and neighbors.</p>
+<p>Drug resistance surveillance studies are urgently needed to estimate the prevalence of MDR TB in the general TB patient population. WHO estimates there are approximately 3,500 MDR TB cases per year in DPRK, on par with relatively low MDR prevalence countries in the region like India (2.1% of new cases and 15% of retreatment cases). If North Korea's MDR rates were similar to China (5.7% of new cases and 26% of retreatment cases), there would be more than 8,000 MDR TB cases per year. In a worst case scenario, if North Korea's MDR rates were similar to Russia (20% of new cases and 46% of retreatment cases), there would be over 23,000 MDR TB cases per year <xref ref-type="bibr" rid="pmed.1001486-World1">[1]</xref>.</p>
+</sec><sec id="s5">
+<title>Rapid Scale-up of MDR-TB Treatment Is Urgently Needed in North Korea</title>
+<p>At the current time, the most urgent problem in North Korea is the lack of access to the second-line TB drugs needed to treat MDR TB. MDR TB treatment regimens are hundreds of times more expensive than the first-line DOTS regimens used to treat drug-susceptible TB. Many resource-limited countries are only able to procure second-line TB drugs through international funding mechanisms such as the GFATM. In North Korea, however, the GFATM workplan includes procurement of hundreds of thousands of GDF category I and II treatment kits, but only 500 MDR TB treatment courses during the first four years of the project <xref ref-type="bibr" rid="pmed.1001486-Korea1">[11]</xref>.</p>
+<p>The lack of laboratory capacity for diagnosis of MDR TB is equally worrisome. The GFATM project focuses mostly on strengthening the national smear microscopy network. North Korea still does not have a TB laboratory accredited to perform drug susceptibility testing, though an international initiative to create such a laboratory in Pyongyang has been underway since 2009 <xref ref-type="bibr" rid="pmed.1001486-Parry1">[12]</xref>,<xref ref-type="bibr" rid="pmed.1001486-Perry1">[13]</xref>. Ultimately, much more laboratory capacity will be needed to screen over 15,000 retreatment patients annually for MDR TB and to monitor the thousands of MDR TB patients that need treatment.</p>
+<p>Since second-line TB drugs have been largely unavailable outside the few MDR TB treatment sites supported by EugeneBell, most North Korean clinicians have no other option except to prescribe repeated courses of first-line TB drugs to patients suspected of having MDR TB. MDR TB patients who are treated empirically with the standard DOTS regimens may become transiently sputum smear-negative and deemed “cured” <xref ref-type="bibr" rid="pmed.1001486-Seung1">[14]</xref>. When they become smear-positive again, these patients are categorized as “relapses” according to national TB treatment guidelines and treated with the standard DOTS regimen for retreatment patients. Before being diagnosed with MDR TB by EugeneBell, most of the patients included in this report had already received multiple courses of treatment with standard DOTS regimens of first-line drugs that were mostly ineffective. This dangerous practice is likely to be a major factor in the creation of MDR strains in North Korea via the amplifier effect of short-course chemotherapy <xref ref-type="bibr" rid="pmed.1001486-Seung2">[15]</xref>,<xref ref-type="bibr" rid="pmed.1001486-Cox1">[16]</xref>.</p>
+<p>Given the urgent need for MDR TB treatment, EugeneBell has stepped into the aid vacuum and has provided support for the North Korean MDR TB treatment program, including second-line TB drugs, laboratory equipment and consumables, and clinical training for North Korean doctors and nurses, who have generally shown exceptional dedication and motivation to treat these most difficult of TB patients. Our budget is small compared to many of the international organizations already supporting the North Korean TB program, but it is almost completely funded by individuals and churches that are drawn to our objective of complete aid transparency. In this manner, EugeneBell acts as a channel for private citizens in North Korea, South Korea, and the US to cooperate and address a serious public health problem.</p>
+<p>We have uncovered evidence of a growing MDR TB epidemic, and have demonstrated that North Korean doctors and nurses are ready to treat MDR TB if given the tools to do so. National scale-up of MDR TB diagnosis and treatment, however, will require significantly more resources. The progress of this project has shown that MDR TB treatment scale-up can and should be a major component of North/South cooperation. A comprehensive response to MDR TB would include nutritional supplementation for TB patients, improving housing for sanatorium patients, increasing laboratory capacity to do culture and drug susceptibility testing, procurement of drugs for MDR/XDR TB, and building surgical capacity to do pulmonary resection. Rapid scale-up of MDR TB treatment is possible in North Korea, but only if the international community—including donors, NGOs and governments—takes the threat of MDR TB seriously.</p>
+</sec><sec id="s6">
+<title>Supporting Information</title>
+<supplementary-material id="pmed.1001486.s001" mimetype="application/vnd.openxmlformats-officedocument.wordprocessingml.document" xlink:href="info:doi/10.1371/journal.pmed.1001486.s001" position="float" xlink:type="simple"><label>Text S1</label><caption>
+<p><bold>Korean translation of the article by EugeneBell.</bold></p>
+<p>(DOCX)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We gratefully acknowledge the efforts of Chang Ki Kim and Hee Jin Kim at the Korean Institute of Tuberculosis for supporting the MDR TB project with culture and drug susceptibility testing.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pmed.1001486-World1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">World Health Organization (2012) Global tuberculosis control 2012 (WHO/HTM/TB/2012.6). Geneva: World Health Organization.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Food1"><label>2</label>
+<mixed-citation publication-type="other" xlink:type="simple">Food and Agriculture Organization/World Food Program (2011) Crop and food security assessment mission to the Democratic People's Republic of Korea, 25 November 2011. Available: <ext-link ext-link-type="uri" xlink:href="http://www.fao.org/docrep/014/al982e/al982e00.htm" xlink:type="simple">http://www.fao.org/docrep/014/al982e/al982e00.htm</ext-link>. Accessed 15 February 2013.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-WHO1"><label>3</label>
+<mixed-citation publication-type="other" xlink:type="simple">WHO Regional Office for South-east Asia (2009) WHO Country Cooperation Strategy: Democratic People's Republic of Korea: 2009–2013. Available: <ext-link ext-link-type="uri" xlink:href="http://www.who.int/countryfocus/cooperation_strategy/ccs_prk_en.pdf" xlink:type="simple">http://www.who.int/countryfocus/cooperation_strategy/ccs_prk_en.pdf</ext-link>. Accessed 15 Feb 2013.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Matiru1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Matiru</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Ryan</surname><given-names>T</given-names></name> (<year>2007</year>) <article-title>The Global Drug Facility: a unique, holistic and pioneering approach to drug procurement and management</article-title>. <source>Bull World Health Organ</source> <volume>85</volume>: <fpage>348</fpage>–<lpage>353</lpage>.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Tuberculosis1"><label>5</label>
+<mixed-citation publication-type="other" xlink:type="simple">Tuberculosis in DPR Korea. Available: <ext-link ext-link-type="uri" xlink:href="http://www.dprk.searo.who.int/EN/Section16_55.htm" xlink:type="simple">http://www.dprk.searo.who.int/EN/Section16_55.htm</ext-link>. Accessed 15 February 2013.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Lew1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Lew</surname><given-names>W</given-names></name>, <name name-style="western"><surname>Pai</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Oxlade</surname><given-names>O</given-names></name>, <name name-style="western"><surname>Martin</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Menzies</surname><given-names>D</given-names></name> (<year>2008</year>) <article-title>Initial drug resistance and tuberculosis treatment outcomes: systematic review and meta-analysis</article-title>. <source>Ann Intern Med</source> <volume>149</volume>: <fpage>123</fpage>–<lpage>134</lpage>.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-World2"><label>7</label>
+<mixed-citation publication-type="other" xlink:type="simple">World Health Organization (2010) Multidrug and extensively drug resistant tuberculosis (M/XDR-TB): 2010 global report on surveillance and response (WHO/HTM/TB/2010.3). Geneva: World Health Organization.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Farmer1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Farmer</surname><given-names>P</given-names></name> (<year>1999</year>) <article-title>Managerial successes, clinical failures</article-title>. <source>Int J Tuberc Lung Dis</source> <volume>3</volume>: <fpage>365</fpage>–<lpage>367</lpage>.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Migliori1"><label>9</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Migliori</surname><given-names>GB</given-names></name>, <name name-style="western"><surname>Espinal</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Danilova</surname><given-names>ID</given-names></name>, <name name-style="western"><surname>Punga</surname><given-names>VV</given-names></name>, <name name-style="western"><surname>Grzemska</surname><given-names>M</given-names></name>, <etal>et al</etal>. (<year>2002</year>) <article-title>Frequency of recurrence among MDR-TB cases ‘successfully’ treated with standardized short-course chemotherapy</article-title>. <source>Int J Tuberc Lung Dis</source> <volume>6</volume>: <fpage>858</fpage>–<lpage>864</lpage>.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Eugene1"><label>10</label>
+<mixed-citation publication-type="other" xlink:type="simple">Eugene Bell Foundation. Available: <ext-link ext-link-type="uri" xlink:href="http://www.eugenebell.org" xlink:type="simple">http://www.eugenebell.org</ext-link>. Accessed 15 February 2013.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Korea1"><label>11</label>
+<mixed-citation publication-type="other" xlink:type="simple">Korea (Democratic Peoples Republic): Strengthening Tuberculosis Control in DPR Korea. Available: <ext-link ext-link-type="uri" xlink:href="http://portfolio.theglobalfund.org/en/Grant/Index?grantNumber=PRK-810-G02-T" xlink:type="simple">http://portfolio.theglobalfund.org/en/Grant/Index?grantNumber=PRK-810-G02-T</ext-link>. Accessed 15 February 2013.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Parry1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Parry</surname><given-names>J</given-names></name> (<year>2010</year>) <article-title>North Korea's fight against tuberculosis gets a boost</article-title>. <source>BMJ</source> <volume>340</volume>: <fpage>c2223</fpage>.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Perry1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perry</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Linton</surname><given-names>H</given-names></name>, <name name-style="western"><surname>Schoolnik</surname><given-names>G</given-names></name> (<year>2011</year>) <article-title>Tuberculosis in North Korea</article-title>. <source>Science</source> <volume>331</volume>: <fpage>263</fpage>.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Seung1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Seung</surname><given-names>KJ</given-names></name> (<year>2010</year>) <article-title>Does my patient have multidrug-resistant tuberculosis?</article-title> <source>Clin Infect Dis</source> <volume>51</volume>: <fpage>379</fpage>–<lpage>80</lpage>.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Seung2"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Seung</surname><given-names>KJ</given-names></name>, <name name-style="western"><surname>Gelmanova</surname><given-names>IE</given-names></name>, <name name-style="western"><surname>Peremitin</surname><given-names>GG</given-names></name>, <name name-style="western"><surname>Golubchikova</surname><given-names>VT</given-names></name>, <name name-style="western"><surname>Pavlova</surname><given-names>VE</given-names></name>, <etal>et al</etal>. (<year>2004</year>) <article-title>The effect of initial drug resistance on treatment response and acquired drug resistance during standardized short-course chemotherapy for tuberculosis</article-title>. <source>Clin Infect Dis</source> <volume>39</volume>: <fpage>1321</fpage>–<lpage>1328</lpage>.</mixed-citation>
+</ref>
+<ref id="pmed.1001486-Cox1"><label>16</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Cox</surname><given-names>HS</given-names></name>, <name name-style="western"><surname>Niemann</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Ismailov</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Doshetov</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Orozco</surname><given-names>JD</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Risk of acquired drug resistance during short-course directly observed treatment of tuberculosis in an area with high levels of drug resistance</article-title>. <source>Clin Infect Dis</source> <volume>44</volume>: <fpage>1421</fpage>–<lpage>1427</lpage>.</mixed-citation>
+</ref>
+</ref-list><fn-group><fn fn-type="other"><p><bold>Provenance:</bold> Not commissioned; externally peer reviewed.</p></fn>
+</fn-group></back>
+</article>

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN" "http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd">
+<article article-type="research-article" dtd-version="1.1d3" xml:lang="en" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id>
+<journal-title-group>
+<journal-title>PLOS ONE</journal-title>
+</journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, CA USA</publisher-loc>
+</publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="doi">10.1371/journal.pone.0225028</article-id>
+<article-id pub-id-type="publisher-id">PONE-D-18-30534</article-id>
+<article-categories>
+<subj-group subj-group-type="heading">
+<subject>Research Article</subject>
+</subj-group>
+<subj-group subj-group-type="Discipline-v3">
+<subject>Engineering and technology</subject><subj-group><subject>Mechanical engineering</subject><subj-group><subject>Robotics</subject><subj-group><subject>Robots</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Engineering and technology</subject><subj-group><subject>Mechanical engineering</subject><subj-group><subject>Robotics</subject><subj-group><subject>Robotic behavior</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Engineering and technology</subject><subj-group><subject>Mechanical engineering</subject><subj-group><subject>Robotics</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Cognitive science</subject><subj-group><subject>Cognitive psychology</subject><subj-group><subject>Decision making</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Cognitive psychology</subject><subj-group><subject>Decision making</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Cognitive psychology</subject><subj-group><subject>Decision making</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Neuroscience</subject><subj-group><subject>Cognitive science</subject><subj-group><subject>Cognition</subject><subj-group><subject>Decision making</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Research and analysis methods</subject><subj-group><subject>Research design</subject><subj-group><subject>Survey research</subject><subj-group><subject>Questionnaires</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Social sciences</subject><subj-group><subject>Economics</subject><subj-group><subject>Finance</subject><subj-group><subject>Public finance</subject><subj-group><subject>Money supply and banking</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Biology and life sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Recreation</subject><subj-group><subject>Games</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3">
+<subject>Social sciences</subject><subj-group><subject>Psychology</subject><subj-group><subject>Behavior</subject><subj-group><subject>Recreation</subject><subj-group><subject>Games</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories>
+<title-group>
+<article-title>Investigating cooperation with robotic peers</article-title>
+<alt-title alt-title-type="running-head">Cooperation in HRI</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes" equal-contrib="yes" xlink:type="simple">
+<contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0002-7903-3491</contrib-id>
+<name name-style="western">
+<surname>Zanatto</surname>
+<given-names>Debora</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Data curation</role>
+<role content-type="http://credit.casrai.org/">Formal analysis</role>
+<role content-type="http://credit.casrai.org/">Investigation</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<role content-type="http://credit.casrai.org/">Writing – original draft</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="fn" rid="currentaff001"><sup>¤a</sup></xref>
+<xref ref-type="corresp" rid="cor001">*</xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Patacchiola</surname>
+<given-names>Massimiliano</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Software</role>
+<role content-type="http://credit.casrai.org/">Visualization</role>
+<xref ref-type="aff" rid="aff001"><sup>1</sup></xref>
+<xref ref-type="fn" rid="currentaff002"><sup>¤b</sup></xref>
+</contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple">
+<name name-style="western">
+<surname>Goslin</surname>
+<given-names>Jeremy</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Methodology</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<role content-type="http://credit.casrai.org/">Validation</role>
+<role content-type="http://credit.casrai.org/">Writing – review &amp; editing</role>
+<xref ref-type="aff" rid="aff002"><sup>2</sup></xref>
+</contrib>
+<contrib contrib-type="author" xlink:type="simple">
+<name name-style="western">
+<surname>Cangelosi</surname>
+<given-names>Angelo</given-names>
+</name>
+<role content-type="http://credit.casrai.org/">Conceptualization</role>
+<role content-type="http://credit.casrai.org/">Funding acquisition</role>
+<role content-type="http://credit.casrai.org/">Project administration</role>
+<role content-type="http://credit.casrai.org/">Supervision</role>
+<xref ref-type="aff" rid="aff003"><sup>3</sup></xref>
+</contrib>
+</contrib-group>
+<aff id="aff001"><label>1</label> <addr-line>School of Computing, Electronics, and Mathematics, University of Plymouth, Plymouth, United Kingdom</addr-line></aff>
+<aff id="aff002"><label>2</label> <addr-line>School of Psychology, University of Plymouth, Plymouth, United Kingdom</addr-line></aff>
+<aff id="aff003"><label>3</label> <addr-line>School of Computer Science, University of Manchester, Manchester, United Kingdom</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple">
+<name name-style="western">
+<surname>Yechiam</surname>
+<given-names>Eldad</given-names>
+</name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/>
+</contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>Technion Israel Institute of Technology, ISRAEL</addr-line></aff>
+<author-notes>
+<fn fn-type="conflict" id="coi001">
+<p>The authors have declared that no competing interests exist.</p>
+</fn>
+<fn fn-type="current-aff" id="currentaff001">
+<label>¤a</label>
+<p>Current address: Department of Computer Science, University of Bristol, Bristol, United Kingdom</p>
+</fn>
+<fn fn-type="current-aff" id="currentaff002">
+<label>¤b</label>
+<p>Current address: School of Informatics, University of Edinburgh, Edinburgh, United Kingdom</p>
+</fn>
+<corresp id="cor001">* E-mail: <email xlink:type="simple">debora.zanatto@bristol.ac.uk</email></corresp>
+</author-notes>
+<pub-date pub-type="epub">
+<day>20</day>
+<month>11</month>
+<year>2019</year>
+</pub-date>
+<pub-date pub-type="collection">
+<year>2019</year>
+</pub-date>
+<volume>14</volume>
+<issue>11</issue>
+<elocation-id>e0225028</elocation-id>
+<history>
+<date date-type="received">
+<day>22</day>
+<month>10</month>
+<year>2018</year>
+</date>
+<date date-type="accepted">
+<day>28</day>
+<month>10</month>
+<year>2019</year>
+</date>
+</history>
+<permissions>
+<copyright-year>2019</copyright-year>
+<copyright-holder>Zanatto et al</copyright-holder>
+<license xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">
+<license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" xlink:type="simple">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+</license>
+</permissions>
+<self-uri content-type="pdf" xlink:href="info:doi/10.1371/journal.pone.0225028"/>
+<abstract>
+<p>We explored how people establish cooperation with robotic peers, by giving participants the chance to choose whether to cooperate or not with a more/less selfish robot, as well as a more or less interactive, in a more or less critical environment. We measured the participants' tendency to cooperate with the robot as well as their perception of anthropomorphism, trust and credibility through questionnaires. We found that cooperation in Human-Robot Interaction (HRI) follows the same rule of Human-Human Interaction (HHI), participants rewarded cooperation with cooperation, and punished selfishness with selfishness. We also discovered two specific robotic profiles capable of increasing cooperation, related to the payoff. A mute and non-interactive robot is preferred with a high payoff, while participants preferred a more human-behaving robot in conditions of low payoff. Taken together, these results suggest that proper cooperation in HRI is possible but is related to the complexity of the task.</p>
+</abstract>
+<funding-group>
+<award-group id="award001">
+<funding-source>
+<institution>Air Force Office of Scientific Research</institution>
+</funding-source>
+<award-id>FA9550-15-1-0025</award-id>
+<principal-award-recipient>
+<name name-style="western">
+<surname>Cangelosi</surname>
+<given-names>Angelo</given-names>
+</name>
+</principal-award-recipient>
+</award-group>
+<funding-statement>This material is based upon work supported by the Air Force Office of Scientific Research, Air Force Materiel Command, USAF under Award No, FA9550-15-1-0025.</funding-statement>
+</funding-group>
+<counts>
+<fig-count count="4"/>
+<table-count count="2"/>
+<page-count count="17"/>
+</counts>
+<custom-meta-group>
+<custom-meta id="data-availability">
+<meta-name>Data Availability</meta-name>
+<meta-value>The data underlying our study, scripts and codes are available at <ext-link ext-link-type="uri" xlink:href="http://doi.org/10.17605/OSF.IO/THGRD" xlink:type="simple">doi.org/10.17605/OSF.IO/THGRD</ext-link>.</meta-value>
+</custom-meta>
+</custom-meta-group>
+</article-meta>
+</front>
+<body>
+<sec id="sec001" sec-type="intro">
+<title>Introduction</title>
+<p>Although cooperation is not unique to our species, human cooperation has the scale and scope far beyond other mammals and forms a central underpinning of our psychology, culture, and success as a species [<xref ref-type="bibr" rid="pone.0225028.ref001">1</xref>]. Most of our decisions are depending on social interactions and therefore are based on concomitant choices of others [<xref ref-type="bibr" rid="pone.0225028.ref002">2</xref>]. Consequently, we are constantly checking others behaviour, interpreting and producing or changing our response to it. When proposing a suggestion or a solution to a problem, for example, people look for others' approval, thus indicating that a final decision needs to be found together [<xref ref-type="bibr" rid="pone.0225028.ref003">3</xref>]. Oskamp [<xref ref-type="bibr" rid="pone.0225028.ref004">4</xref>] proposed that there can be no positive social relationship or outcome from cooperation unless both parties adopt a cooperative attitude. Therefore, to cooperate effectively it is necessary to arrive at an understanding of the others' behaviour such that equal and fair allocation of effort and resources lead to a joint solution that is beneficial to both parties. Cooperation is conditional upon the expectation of reciprocation [<xref ref-type="bibr" rid="pone.0225028.ref005">5</xref>]. That is, cooperation is enhanced only when there are the understanding and the willingness to establish a common ground, engendering a high level of trust in the partner.</p>
+<p>Of interest to this study is the extension of this cooperative relationship beyond the HHI. Over the last decades, robotic agents have become sophisticated to the extent that anthropomorphism could lead us to accept them as our peers. Research in this area has focused upon the design factors, resemblance and socio-cognitive skills that enhance social relations with robots [<xref ref-type="bibr" rid="pone.0225028.ref006">6</xref>–<xref ref-type="bibr" rid="pone.0225028.ref010">10</xref>]. With the widening usage of robots, their role has moved from that of a complex automated tool, to include situations where they can operate as a teammate able to assist humans in the completion of joint tasks [<xref ref-type="bibr" rid="pone.0225028.ref011">11</xref>]. However, in the previous studies, the role of the robot was typically subordinate or complementary, limited to assisting or complementing human teammates in their task. In this study, we examined interactions with a robot peer, a machine entity that had the same role, task, and decision-making ability as their human compatriot. By establishing procedural equality between humans and robots we aimed to be able to recreate a cooperative relationship typically experienced in human-human studies of cooperation. This has important implications for studies of HRI as a robotic peer may have different motivations, preferences or intentions to their human partner. Thus, when a robot has the same freedom of action as a human peer, these factors could affect the outcome of the interaction such that the robot might not always be disposed to cooperate in a manner desirable to the human partner.</p>
+<p>Within previous literature these types of cooperative interactions have been exhaustively examined, most prominently using the experimental paradigm of behavioural game theory. In game-theoretic social dilemmas, one player's strategy can be considered cooperative or competitive to the extent they affect collective rather than selfish interests [<xref ref-type="bibr" rid="pone.0225028.ref012">12</xref>]. Within this domain, the relative coherence of strategies adopted by cooperative partners can provide a useful measure of conflict resolution or avoidance. Matched strategies should lead to similar behaviours, telegraphing a willingness to cooperate. Once partners establish a set of mutual beliefs regarding the current state of the task, the respective roles and the capabilities and responsibilities of each partner, then these behaviours tend to be maintained over time [<xref ref-type="bibr" rid="pone.0225028.ref013">13</xref>]. Conversely, if partners are focussed upon maximising their rewards then their adopted strategies would have reduced coherence. Partners are more likely to adopt a shifting pattern of active and reactive strategies as they seek dominance over an adaptive opponent. In most established scenarios the adoption of a fixed mutual non-cooperative strategy is less generous than that of a cooperative strategy [<xref ref-type="bibr" rid="pone.0225028.ref014">14</xref>]. Cooperative strategies can be encouraged through the adoption of control mechanisms that punish non-coherent strategies or behaviours, such that cooperation is more profitable than non-cooperation [<xref ref-type="bibr" rid="pone.0225028.ref015">15</xref>], with partners shown to use personally costly punishment mechanisms to increase future cooperation [<xref ref-type="bibr" rid="pone.0225028.ref016">16</xref>]. A recent study by Wu and colleagues [<xref ref-type="bibr" rid="pone.0225028.ref017">17</xref>] also suggests that these types of cooperative interactions may also extend to human-robot partnerships, with cooperative behaviour in a trust game found to be very similar when players interacted with another human or a robot.</p>
+<p>In this study, we examined cooperation in human-robot partnerships, with the aim of understanding the perception and reaction to robots that might adopt an independent, potentially non-cooperative, strategy to that of the human partners. Although the exhibition of non-cooperative behaviour might be perceived as acceptable, albeit regrettable, in human partners, this type of behaviour typically falls outside of the envelope of accepted norms for robots. As such, a key component of the study was to examine whether our perceptions of non-cooperative robots would be modulated by how "human" the robots were in their general behaviour.</p>
+<p>It has been established that people prefer to collaborate with a robot that is socially competent, physically more human-like, as well as capable of performing verbal and non-verbal behaviours [<xref ref-type="bibr" rid="pone.0225028.ref018">18</xref>]. In particular gaze cueing, hand and arm gestures are primary candidates for extending the communicative capabilities of social robots, tending to result in a more positive and trustworthy evaluation of the robot [<xref ref-type="bibr" rid="pone.0225028.ref019">19</xref>, <xref ref-type="bibr" rid="pone.0225028.ref020">20</xref>]. These cues encourage anthropomorphic projection onto robots that increase the belief that they harbour their own independent intentions. Thus, if the robot exhibits human-like interactive features a lack of cooperation in the robot may be perceived as an intentional act on the part of the robot. Conversely, the same behaviour in a less human-like robot could be ascribed to a programmed behaviour, with the perception of a non-interactive machine fixed in a predetermined behaviour.</p>
+<p>Participants in this study were engaged in a cooperative investment game with a robotic confederate. Both the robot confederate and the participants were provided with a virtual sum of money for each round of the game and had to independently decide how much to risk in an "investment" with a robot "banker". Any money they did not invest was safe, but any sum invested in the robot banker could be returned to them with an additional profit. To encourage a collaborative strategy between the partners the robot banker would penalise any investments as a function of the difference in the invested amounts decided upon by the human and robot partners.</p>
+<p>Within the experiment, the robotic confederate could be programmed to be cooperative and would alter its investment strategy to approach that of the human. Conversely, a non-cooperative robot confederate would not alter its investment in relation to decisions made by the participants, adopting a completely independent strategy. In the latter case, the participants would have to be willing to adopt a similar investment strategy to the robot confederate so as not to be, one or both, penalised by the robot banker.</p>
+<p>Through an examination of investment decisions and questionnaire responses provided by participants across these experiment factors, we aim to explore our perception and cooperation with robotic peers. Given our experiment scenario and procedure, we would expect that participants would follow similar social conventions in HRC as they would in a Human-Human Cooperative (HHC) situation. That is, with participants expected to reciprocate cooperative behaviour demonstrated by the robotic confederate, i.e. participants changing their investment decision to more closely conform to that of the robot confederate if the robot confederate behaves likewise.</p>
+<p>The willingness of participants to change their decisions to conform to the strategy of the robot confederate was a key-dependent measure in this study, one that is predicted to be modified by the anthropomorphic status projected onto the robot. An additional experiment factor explored this potential interaction. Half of our participants interacted with a robotic confederate that engaged in anthropomorphic behaviour, engaging in gaze behaviour and movement simulating joint-attention and talking to the participants. The remaining participants interacted with a robot confederate that was both static and mute. We hypothesised that the likelihood of cooperative behaviour would be increased if the robot confederate also behaves in an anthropomorphic manner, moving and talking than if it was silent and immobile. However, based upon the results of a previous study [<xref ref-type="bibr" rid="pone.0225028.ref021">21</xref>], we might expect that participants would be more cooperative with a human-like robot confederate when the robot banker was being mean but, conversely, more cooperative with a less human-like robot confederate when the robot banker was generous. In that previous research investments made by participants in a human-like robot were higher than those in a less human-like robot when its return was mean, and vice versa when the robot was generous when returning investments. It was suggested that this was due to the participants' attribution of a deterministic fixed behaviour to a less human-like robot, with more human-like robots attributed with a more variable, potentially empathic behaviour. Thus, they would make greater investments in the less human-like robot when it was generous, trusting that it would be unlikely to change that behaviour. Conversely, when the robot was mean they invested more in the human-like robot, perhaps hoping that it would change its mind and show empathy for the participant being unfairly cheated out of their investment.</p>
+<p>In this study, we can examine whether this differential behaviour is also evident when cooperating with a robot confederate, itself a third party to that generous or mean behaviour. Considering that in the previous study participants invested in a physical mean/generous robot, this was introduced as a physical robot banker. This would also offer more coherence to the experimental setting in which all parties were present in the scenario. Furthermore, the presence of a robot banker would add the robot confederate the chance of producing more interactive actions on the anthropomorphic condition. Nevertheless, since the focus of this study was the dyadic interaction between participants and the robot confederate, no other manipulations of the robot banker features and behaviours have been included. That is, the robot banker was solely staying immobile and mute within every condition of the experiment.</p>
+</sec>
+<sec id="sec002" sec-type="materials|methods">
+<title>Materials and methods</title>
+<sec id="sec003">
+<title>Participants</title>
+<p>There were 96 participants (70 female and 26 male; mean age = 20.02 years, SD = 2.25 years) in the study, all of whom were naïve as to the purpose of the investigation and gave informed written consent of their willingness to participate. All participants were native British English speakers, they were right-handed, and reported normal hearing and no language or neurological impairments. Familiarity or any previous experience with robots was the main exclusion criteria, which was assessed during the recruitment phase. The study was approved by the South West—Central Bristol Research Ethics Committee. The individual in this manuscript has given written informed consent (as outlined in PLOS consent form) to publish these case details.</p>
+</sec>
+<sec id="sec004">
+<title>Procedure</title>
+<sec id="sec005">
+<title>Investment game</title>
+<p>In the experiment setting the participants and a NAO robot confederate sat facing each other over their game interface screens, as shown in <xref ref-type="fig" rid="pone.0225028.g001">Fig 1</xref>.</p>
+<fig id="pone.0225028.g001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0225028.g001</object-id>
+<label>Fig 1</label>
+<caption>
+<title>Experimental setting.</title>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.g001" xlink:type="simple"/>
+</fig>
+<p>In the corner of the room, the NAO robot banker was seated, also with its own game interface screen. Participants were told that the goal of the game was to earn as much money as possible. At the start of each round of the game, both the participants and robot confederate were given a notional sum of 10 Experimental Currency Units (ECU). The participants then had to decide how much of that sum to risk in an investment with the robot banker, making a decision to invest between 0 and 10 ECUs (e.g. participant invests 3 ECU). The participants were also aware that, concurrent with their own investment choice, the robot confederate was also making its own investment decision. This initial investment choice of the robot confederate was based on the participants' initial choice. Specifically, the robot confederate was instructed to randomly subtract or add a number between 3 and 4 to the participants' choice. Likewise, when making their initial investment decision, the participants were not aware of how much the robot confederate would invest.</p>
+<p>After both parties had made their investment decisions (e.g. participant: 3, robot: 6) the participants were shown the robot confederate initial investment choice on the screen. The robot confederate then was able to modify that initial investment choice (e.g. robot: 6 to 5 ECU investment). After that decision, the participants were then shown the final investment choice of the robot confederate. The participants were then given the chance to modify their own investment decision (e.g. participant: 3 to 4 ECUs investment). When that decision had been made, the final investment amounts for the participants and robot confederate were summed, then tripled and sent to the robot banker (e.g. banker receives 3*(4 + 5) = 27 ECU). The robot banker would then follow a fixed script and return a percentage of that sum to the investors (e.g. 30% of 27 = 8.1 ECU, so 4.05 ECU to each player). However, this returned investment from the robot banker could also be modified downward, dependent upon the similarities of the final investment decisions of the participants and robot confederate. This modifier was calculated as the absolute difference between the participants and the robot confederate final investment decision (e.g. abs(4–5) = 1). This modifier was then subtracted from the robot banker returned investment (e.g. 8.1–1 = 7.1 ECU) before that sum was returned to both the participants and the robot confederate (3.55 ECU to each player).</p>
+<p>At the end of each round, the participants' display would show how much both the participants and the robot confederate had made from that round, the robot banker punishment and the cumulative total of each of their bank of ECUs over the played rounds. In each block of the game, the participants would play 20 rounds, although they were not aware when the game would terminate. Participants would each play two blocks of investment rounds, with the experiment counterbalanced in a 2 (banker: generous or mean) by 2 (confederate behaviour: anthropomorphic or mute) between subject and a 2 (confederate strategy: collaborative and fixed) within-subject design.</p>
+<p>For the banker condition, two scripts dictated the return of investments. In the generous condition, it was scripted to return 50% to 80% of the invested amount at each round to both players, while in the mean condition it was scripted to return 0% to 30% of the invested amount.</p>
+<p>The confederate strategy described the likelihood that the robot confederate would change its initial investment decision to agree with that of the initial choice of the participants. For the calculation of the robot confederate final investments, two specific equations have been used. In the collaborative condition, the robot confederate would select a final investment decision close or equal to the initial decision of the participants. This has been achieved by calculating the robot final investment based on the participants' initial choice, to which a coefficient varying from 0.10 to 0.30 was applied. Specifically, the equation was expressed as follow:</p>
+<p>Collaborative strategy
+<disp-formula id="pone.0225028.e001">
+<alternatives>
+<graphic id="pone.0225028.e001g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0225028.e001" xlink:type="simple"/>
+<mml:math display="block" id="M1">
+<mml:mi>R</mml:mi><mml:mn>2</mml:mn><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mo>(</mml:mo><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>*</mml:mo><mml:mi>r</mml:mi><mml:mi>c</mml:mi><mml:mn>2</mml:mn><mml:mo>)</mml:mo><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mspace width="0.25em"/><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>&lt;</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mo>(</mml:mo><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>*</mml:mo><mml:mi>r</mml:mi><mml:mi>c</mml:mi><mml:mn>2</mml:mn><mml:mo>)</mml:mo><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mspace width="0.25em"/><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>≥</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow>
+</mml:math>
+</alternatives>
+</disp-formula>
+where R1(2) is robot confederate first(final) investment, P1 is participant’s first investment and rc2 is robot confederate coefficient (between 0.1 and 0.3).</p>
+<p>For example, if the participants initially invested 3 ECU and the robot confederate 6 ECU, the robot confederate final investment could be R2 = 3 + (3*0.2), thus 3.6 ECU. Thin final investment was rounded to an integer, so the robot confederate final investment would be 4 ECU.</p>
+<p>In the fixed condition, the robot confederate would make a second choice close to that of its initial one. This has been achieved by calculating the robot confederate final investment on the basis its initial choice, to which a coefficient varying between 0 and 1 was applied. Specifically, the equation was expressed as follow:</p>
+<p>Fixed strategy
+<disp-formula id="pone.0225028.e002">
+<alternatives>
+<graphic id="pone.0225028.e002g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0225028.e002" xlink:type="simple"/>
+<mml:math display="block" id="M2">
+<mml:mi>R</mml:mi><mml:mn>2</mml:mn><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>R</mml:mi><mml:mn>1</mml:mn><mml:mo>+</mml:mo><mml:mi>r</mml:mi><mml:mi>c</mml:mi><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mspace width="0.25em"/><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>&lt;</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mi>R</mml:mi><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>r</mml:mi><mml:mi>c</mml:mi><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mspace width="0.25em"/><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>≥</mml:mo><mml:mn>6</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow>
+</mml:math>
+</alternatives>
+</disp-formula>
+where R1(2) is robot confederate first(final) investment and rc1 is robot confederate coefficient (between 0 and 1).</p>
+<p>For example, if the participant initially invested 3 ECU and the robot confederate 6 ECU, the robot confederate final investment could be R2 = 6 + 0, thus 6 ECU. This would give the impression of the robot confederate playing an individualistic rather than a collaborative strategy. For both conditions, the coefficients were equally distributed. Specifically, an xml file was created, in which the coefficients were listed. For each trial, a specific value was reported. For each condition, two different xml lists, with a different order of presentation, have been created and used.</p>
+<p>In the final component of the design, the robot confederate would behave in an anthropomorphic manner or would be immobile and mute. In the former condition, the robot confederate would look at the screen and point to its choice at the beginning of the round, then look at the participants while it waited for their decision. After the participants made the initial decision, the robot confederate would provide a spoken summary of the choices, then turned its gaze to the screen for the second part of the round, pointed at the screen, then moved its attention to the participants and declared its final choice. After the participants made their final choice, the robot confederate would declare "let's see what the banker decides" while turning its head toward the robot banker. After the robot banker returned the investments, the robot confederate would look back at the screen, then turn back to the participants and summarise the payoff. A detailed timeline of the anthropomorphic condition is reported in <xref ref-type="supplementary-material" rid="pone.0225028.s001">S1 Fig</xref>. In the mute behaviour, the robot confederate always stared at the display and never spoke, with all information and interactions within the game represented on the game interface screen of the participants. In both conditions, the behaviour of the robot banker was always mute and immobile.</p>
+<p>Participants played both blocks, with two identical NAO mates, one preferring a collaborative strategy and one preferring the fixed one. The order which the participants faced the two robot confederates was counterbalanced. At the end of each game blocks, participants were asked to complete a set of questionnaires about the robot confederates. The total amount earned by the participants at the end of each game was converted to British Pounds, at a rate of 30 ECU = £0.10, and the sum of what they earned in the two games was paid to them at the end of the experiment.</p>
+</sec>
+<sec id="sec006">
+<title>Questionnaires</title>
+<p>Four questionnaires were used as secondary measures to the main game task. Three short scales measured likeability, trust, and credibility. The likeability questionnaire, based on [<xref ref-type="bibr" rid="pone.0225028.ref022">22</xref>], was composed of 10 items looking at factors like friendliness, approachability, levels of knowledge, similarity to oneself, and agreeableness. The trust scale was an adaptation of the Receptivity/Trust subscale the Relational Communication Questionnaire and of the selection of trust items in the International Personality Item Pool (IPIP) [<xref ref-type="bibr" rid="pone.0225028.ref023">23</xref>]. This was composed of six items measuring factors like sincerity, honesty and trust. Likeability and trust questionnaires were structured as Likert scales with a range of values between 1 and 7. The credibility scale was based on [<xref ref-type="bibr" rid="pone.0225028.ref024">24</xref>] Source Credibility Scale. Composed of 12 items, the credibility scaled measured a range of factors related to the perception of intelligence, selfishness, expertise, and competence. This was structured as a semantic differential scale with a range of values between 1 and 7.</p>
+<p>In addition, we used the 24 items of [<xref ref-type="bibr" rid="pone.0225028.ref025">25</xref>] questionnaire to measure a range of HRI factors (anthropomorphism, animacy, likeability, perceived intelligence and perceived safety). This was structured as a semantic differential scale with a range of values between 1 and 5.</p>
+<p>Participants filled in the questionnaires about the robot confederate after the first investment game block, and again after the second investment game block. Finally, participants were debriefed, paid the show-up fee plus what they had earned in the game.</p>
+</sec>
+</sec>
+</sec>
+<sec id="sec007" sec-type="results">
+<title>Results</title>
+<sec id="sec008">
+<title>Cooperation index</title>
+<p>In this study, cooperation has been defined as participants' willingness to reduce the distance between their choice and the robot confederate investment. This has been measured via <italic>cooperation index</italic>, which has been calculated by comparing the participants' first and second investment decisions to the robot confederate final decision and by applying a binary categorical as follow:
+<disp-formula id="pone.0225028.e003">
+<alternatives>
+<graphic id="pone.0225028.e003g" mimetype="image" position="anchor" xlink:href="info:doi/10.1371/journal.pone.0225028.e003" xlink:type="simple"/>
+<mml:math display="block" id="M3">
+<mml:mi>C</mml:mi><mml:mi>o</mml:mi><mml:mi>o</mml:mi><mml:mi>p</mml:mi><mml:mi>e</mml:mi><mml:mi>r</mml:mi><mml:mi>a</mml:mi><mml:mi>t</mml:mi><mml:mi>i</mml:mi><mml:mi>o</mml:mi><mml:mi>n</mml:mi><mml:mspace width="0.25em"/><mml:mi>I</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mi>e</mml:mi><mml:mi>x</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo>{</mml:mo><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mo>&lt;</mml:mo><mml:mo>(</mml:mo><mml:mrow><mml:mi>P</mml:mi><mml:mn>2</mml:mn><mml:mo>−</mml:mo><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mo>(</mml:mo><mml:mrow><mml:mi>P</mml:mi><mml:mn>2</mml:mn><mml:mo>−</mml:mo><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mspace width="0.25em"/><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mspace width="0.25em"/><mml:mo>(</mml:mo><mml:mrow><mml:mi>R</mml:mi><mml:mn>2</mml:mn><mml:mo>=</mml:mo><mml:mi>P</mml:mi><mml:mn>1</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mo>(</mml:mo><mml:mrow><mml:mi>P</mml:mi><mml:mn>2</mml:mn><mml:mo>−</mml:mo><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mspace width="0.25em"/><mml:mi>a</mml:mi><mml:mi>n</mml:mi><mml:mi>d</mml:mi><mml:mspace width="0.25em"/><mml:mo>(</mml:mo><mml:mrow><mml:mi>R</mml:mi><mml:mn>2</mml:mn><mml:mo>≠</mml:mo><mml:mi>P</mml:mi><mml:mn>1</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:mrow></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mrow><mml:mi>i</mml:mi><mml:mi>f</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mi>P</mml:mi><mml:mn>1</mml:mn><mml:mo>−</mml:mo><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mo>&gt;</mml:mo><mml:mo>(</mml:mo><mml:mrow><mml:mi>P</mml:mi><mml:mn>2</mml:mn><mml:mo>−</mml:mo><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:mrow><mml:mo>)</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow>
+</mml:math>
+</alternatives>
+</disp-formula>
+Every trial in which the participants changed their investment and moved closer to the robot confederate decision have been categorized as 1. On the opposite, every trial in which participants chose a more distant amount, have been categorized as 0. All the trials in which the participants did not change their investment decision have been further inspected. As the collaborative condition offered the possibility for the robot confederate to invest a final amount equal to the participants' initial choice, it would be in the participants' interests to choose the same value. For this reason, the robot confederate final investment has been compared to the participants' initial choice. If the two values were equal, the round would be categorised as 1. If the two values were different, the round would be categorised as 0.</p>
+<p>Data screening has been performed, to remove all the misleading trials from the analysis. This has been accomplished by screening both initial and final robot confederate investment decisions. As the robot confederate initial choice was calculated on the basis of the participants' initial decision, it would be possible that the initial distance between the two investments was lower than 3 or 4 numbers (e.g. the participants invested less than 3 o more than 7). For example, if a participant initially chose to invest 2, the robot confederate could randomly invest 5–6 ECU or 0 ECU, as no lower numbers could be chosen. For this reason, every trial in which the distance between the two parties was lower than 3 numbers has been removed from the sample.</p>
+<p>Screenings of the robot confederate final investment decision have been performed based on the strategy condition. In the collaborative condition, every trial in which the robot confederate final decision did not variate from its first choice, has been removed. For example, if the participant initially invested 10 ECU and the robot confederate 7 ECU, the robot confederate final investment would vary between 7 and 9, depending on the coefficient used for the trial. If the robot confederate selected the number 7, its final choice would be identical to its first investment decision, thus giving the impression of a non-cooperative attitude.</p>
+<p>On the opposite, for the fixed strategy, every trial in which the robot confederate final choice moved closer to the participants' initial decision has been removed. For example, if the participant and robot confederate initially invested respectively 3 ECU and participant 0 ECU, the robot confederate final investment would vary between 0 and 1. If the robot confederate selected the number 1, its final choice would be slightly closer to the participant's initial choice, thus giving the impression of a cooperative attitude. Data screenings resulted in removing the 17% of the total amount of trials.</p>
+<p>Finally, to assess whether participants' investment choice reflected a potential payoff maximisation behaviour, simulations with all different possible outcomes under the different banker and strategy sub-conditions have been performed, compared to the experimental data and included in <xref ref-type="supplementary-material" rid="pone.0225028.s002">S1 Text</xref>. Moreover, further assessments on the consistency of the dependent variable have been performed by comparing our categorisation with the participants' investment and can be found in <xref ref-type="supplementary-material" rid="pone.0225028.s003">S2 Text</xref>.</p>
+<p>A logistic mixed-effects model was fitted to the data using backwards stepwise selection. We used the glmer function of the “lmerTest" package [<xref ref-type="bibr" rid="pone.0225028.ref026">26</xref>] with the R statistical software, with cooperation index as the dependent variable, banker (generous/mean), behaviour (anthropomorphic/mute), strategy (collaborative/fixed) and game turn (the 20 rounds of the game) as independent variables and participants id as the random factor. Starting from a full model, all interactions and main effects have been tested, with each non-significant effect excluded from the final model by using the packages “car” and”stats”[<xref ref-type="bibr" rid="pone.0225028.ref027">27</xref>]. Odds ratios and confidence intervals for the final model are reported in <xref ref-type="table" rid="pone.0225028.t001">Table 1</xref>.</p>
+<table-wrap id="pone.0225028.t001" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0225028.t001</object-id>
+<label>Table 1</label> <caption><title>Odds ratios and confidence intervals for the final model.</title></caption>
+<alternatives>
+<graphic id="pone.0225028.t001g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.t001" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center">Odds Ratio</th>
+<th align="center">95% C.I.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><italic>Intercept</italic></td>
+<td align="center">0.56</td>
+<td align="center">0.45 – 0.70</td>
+</tr>
+<tr>
+<td align="left"><italic>Strategy-Collaborative</italic></td>
+<td align="center">1.38</td>
+<td align="center">1.03–1.85</td>
+</tr>
+<tr>
+<td align="left"><italic>Behaviour-Anthropomorphic</italic></td>
+<td align="center">1.25</td>
+<td align="center">1.02 – 1.53</td>
+</tr>
+<tr>
+<td align="left"><italic>Banker-Generous</italic></td>
+<td align="center">1.64</td>
+<td align="center">1.20–2.24</td>
+</tr>
+<tr>
+<td align="left"><italic>Game turn</italic></td>
+<td align="center">1.03</td>
+<td align="center">1.01–1.04</td>
+</tr>
+<tr>
+<td align="left"><italic>Strategy-Collaborative</italic>:<italic>Behaviour-Anthropomorphic</italic></td>
+<td align="center">1.31</td>
+<td align="center">1.02 – 1.68</td>
+</tr>
+<tr>
+<td align="left"><italic>Strategy-Collaborative</italic>:<italic>Banker-Generous</italic></td>
+<td align="center">0.80</td>
+<td align="center">0.53–1.21</td>
+</tr>
+<tr>
+<td align="left"><italic>Strategy-Collaborative</italic>:<italic>Game Turn</italic></td>
+<td align="center">0.96</td>
+<td align="center">0.94–0.98</td>
+</tr>
+<tr>
+<td align="left"><italic>Behaviour-Anthropomorphic</italic>:<italic>Banker-Generous</italic></td>
+<td align="center">0.71</td>
+<td align="center">0.53–0.95</td>
+</tr>
+<tr>
+<td align="left"><italic>Banker-Generous</italic>:<italic>Game turn</italic></td>
+<td align="center">0.98</td>
+<td align="center">0.95–1.00</td>
+</tr>
+<tr>
+<td align="left"><italic>Strategy-Collaborative</italic>:<italic>Behaviour-Anthropomorphic</italic>:<italic>Banker-Generous</italic></td>
+<td align="center">0.64</td>
+<td align="center">0.45–0.92</td>
+</tr>
+<tr>
+<td align="left"><italic>Strategy-Collaborative</italic>:<italic>Banker-Generous</italic>:<italic>Game turn</italic></td>
+<td align="center">1.05</td>
+<td align="center">1.02–1.08</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>A significant main effect of strategy has been found (X<sup>2</sup><sub>(1)</sub> = 5.12; p = .023, <italic>w</italic> = 0.23); cooperation increased when the robot confederate followed a collaborative strategy (mean = 0.48) than a fixed one (mean = 0.44).</p>
+<p>Game turn, banker and behaviour did not affect the model. However, a significant interaction between banker and behaviour has been found (X<sup>2</sup><sub>(1)</sub> = 22.14; p &lt; .001, <italic>w</italic> = 0.48). For the generous banker (<xref ref-type="fig" rid="pone.0225028.g002">Fig 2</xref>), cooperation was higher with a mute confederate (mean = 0.52) than its anthropomorphic version (mean = 0.43; p = .007). On the opposite, for the mean banker (<xref ref-type="fig" rid="pone.0225028.g002">Fig 2</xref>), cooperation was greater with an anthropomorphic confederate (mean = 0.51) than a mute one (mean = 0.38; p &lt; .001).</p>
+<fig id="pone.0225028.g002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0225028.g002</object-id>
+<label>Fig 2</label>
+<caption>
+<title>Two-way interaction between banker and behaviour.</title>
+<p>Mean and SE of the Cooperation Index for the anthropomorphic and mute behaviours in both banker (generous and mean) conditions.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.g002" xlink:type="simple"/>
+</fig>
+<p>The three-way interaction between banker, strategy and behaviour was also found to be significant (X<sup>2</sup><sub>(1)</sub> = 5.77; p = .016, <italic>w</italic> = 0.25). As can be seen from <xref ref-type="fig" rid="pone.0225028.g003">Fig 3</xref>, for the generous banker, cooperation was greater with a mute behaviour than the anthropomorphic one only with the collaborative confederate (mute mean = 0.56, anthropomorphic mean = 0.44, p = .045). No differences have been found for the fixed strategy (p &gt; .050). On the opposite, for the mean banker cooperation was greater with an anthropomorphic behaviour than the mute one only with the collaborative confederate (anthropomorphic mean = 0.55, mute mean = 0.36, p &lt; .001), while no differences have been found for the fixed strategy (p &gt; .050).</p>
+<fig id="pone.0225028.g003" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0225028.g003</object-id>
+<label>Fig 3</label>
+<caption>
+<title>Three-way interaction between strategy and banker.</title>
+<p>Mean and SE of the Cooperation Index for the collaborative and fixed strategy in both banker (generous and mean) and behaviour (anthropomorphic/mute) conditions.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.g003" xlink:type="simple"/>
+</fig>
+<p>Finally, the three-way interaction between strategy, banker and game turn was significant (X<sup>2</sup><sub>(1)</sub> = 9.35; p = .002, <italic>w</italic> = 0.31). Post hoc analyses for the generous banker, revealed only a main effect of strategy (X<sup>2</sup><sub>(1)</sub> = 4.50; p = .034, <italic>w</italic> = 0.31), with higher cooperation for the collaborative strategy. Post hoc analyses for the mean banker, revealed a significant two-way interaction between strategy and game turn (X<sup>2</sup><sub>(1)</sub> = 10.59; p = .001, <italic>w</italic> = 0.47). The fixed strategy showed lower cooperation than the collaborative strategy during the first rounds of the game.</p>
+</sec>
+<sec id="sec009">
+<title>Questionnaires results</title>
+<p>Cronbach's alpha is reported in <xref ref-type="supplementary-material" rid="pone.0225028.s004">S1 Table</xref>. For all the scales, a linear mixed-effects model was fitted to the data, with scale as the dependent variable, banker (generous/mean), strategy (collaborative/fixed) and behaviour (anthropomorphic/mute) as independent variables and participants id as the random factor. Post-hoc comparisons, where needed, were assessed using t-tests.</p>
+<p>As shown in <xref ref-type="table" rid="pone.0225028.t002">Table 2</xref>, behaviour affected Likeability, Trust, Credibility and Animacy scales, with higher ratings for the anthropomorphic robot confederate. Strategy affected Credibility, Animacy and Intelligence scales, showing higher ratings for the collaborative robot confederate. The banker had no influences on the questionnaires. Mean and standard deviation for each sub-condition are reported in <xref ref-type="supplementary-material" rid="pone.0225028.s005">S2 Table</xref>.</p>
+<table-wrap id="pone.0225028.t002" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0225028.t002</object-id>
+<label>Table 2</label> <caption><title>Main effects for each scale.</title></caption>
+<alternatives>
+<graphic id="pone.0225028.t002g" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.t002" xlink:type="simple"/>
+<table>
+<colgroup>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+<col align="left" valign="middle"/>
+</colgroup>
+<thead>
+<tr>
+<th align="left"/>
+<th align="center">Banker</th>
+<th align="center">Behaviour</th>
+<th align="center">Strategy</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><italic>Likeability</italic></td>
+<td align="center">n.s.</td>
+<td align="center">n.s.</td>
+<td align="center">n.s.</td>
+</tr>
+<tr>
+<td align="left"><italic>Trust</italic></td>
+<td align="center">n.s.</td>
+<td align="center">X<sup>2</sup><sub>(1)</sub> = 17.83, p &lt; .001, <italic>w</italic> = 0.43</td>
+<td align="center">n.s.</td>
+</tr>
+<tr>
+<td align="left"><italic>Credibility</italic></td>
+<td align="center">n.s.</td>
+<td align="center">X<sup>2</sup><sub>(1)</sub> = 9.09, p = .002, <italic>w</italic> = 0.31</td>
+<td align="center">X<sup>2</sup><sub>(1)</sub> = 4.21, p = .040, <italic>w</italic> = 0.21</td>
+</tr>
+<tr style="border-bottom:thick;border-top:thick">
+<td align="left"><italic>Godspeed Questionnaires</italic></td>
+<td align="center"/>
+<td align="center"/>
+<td align="center"/>
+</tr>
+<tr>
+<td align="left"><italic>Anthropomorphism</italic></td>
+<td align="center">n.s.</td>
+<td align="center">n.s.</td>
+<td align="center">n.s.</td>
+</tr>
+<tr>
+<td align="left"><italic>Animacy</italic></td>
+<td align="center">n.s.</td>
+<td align="center">X<sup>2</sup><sub>(1)</sub> = 13.04, p &lt; .001, <italic>w</italic> = 0.37</td>
+<td align="center">X<sup>2</sup><sub>(1)</sub> = 3.95, p = .046, <italic>w</italic> = 0.20</td>
+</tr>
+<tr>
+<td align="left"><italic>Likeability</italic></td>
+<td align="center">n.s.</td>
+<td align="center">X<sup>2</sup><sub>(1)</sub> = 22.93, p &lt; .001, <italic>w</italic> = 0.49</td>
+<td align="center">n.s.</td>
+</tr>
+<tr>
+<td align="left"><italic>Intelligence</italic></td>
+<td align="center">n.s.</td>
+<td align="center">n.s.</td>
+<td align="center">X<sup>2</sup><sub>(1)</sub> = 4.11, p = .042, <italic>w</italic> = 0.21</td>
+</tr>
+<tr>
+<td align="left"><italic>Safety</italic></td>
+<td align="center">n.s.</td>
+<td align="center">n.s.</td>
+<td align="center">n.s.</td>
+</tr>
+</tbody>
+</table>
+</alternatives>
+</table-wrap>
+<p>The interaction between behaviour and strategy was significant for Likeability, Credibility, Animacy (X<sup>2</sup><sub>(1)</sub> = 8.59; p = .003, <italic>w</italic> = 0.30; X<sup>2</sup><sub>(1)</sub> = 11.43; p &lt; .001, <italic>w</italic> = 0.34; X<sup>2</sup><sub>(1)</sub> = 7.19; p = .007, <italic>w</italic> = 0.27). For all three scales (<xref ref-type="fig" rid="pone.0225028.g004">Fig 4</xref>), the fixed strategy in the anthropomorphic behaviour was rated higher than in the mute one (ps &lt; .050). For credibility, a collaborative strategy was preferred to a fixed one in the mute behaviour condition (p = .028). No other significant interactions have been found (ps &gt; .05).</p>
+<fig id="pone.0225028.g004" position="float">
+<object-id pub-id-type="doi">10.1371/journal.pone.0225028.g004</object-id>
+<label>Fig 4</label>
+<caption>
+<title>Two-way interaction between behaviour and strategy.</title>
+<p>Mean and SE of the for Likeability, Credibility and Animacy questionnaires ratings for the collaborative and fixed strategy in the behaviour (anthropomorphic/mute) conditions are reported.</p>
+</caption>
+<graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.g004" xlink:type="simple"/>
+</fig>
+</sec>
+</sec>
+<sec id="sec010" sec-type="conclusions">
+<title>Discussion</title>
+<p>This study aimed to explore HRC in partnerships where the robot operates as a peer, with the same role, task, and decision-making ability as their human compatriot. This was conducted by pairing participants with a robot confederate in an economic investment game in which both parties were free to adopt their independent strategies. The caveat to the independence of the decisions in this partnership was that the "banker", the robot that returned investments to the partners, would punish partners proportionally to the divergence between their strategies.</p>
+<p>Within each round of the investment game, both the participants and robot confederate made an initial investment decision simultaneously, after which each was provided with an opportunity to review and potentially change their decision in light of the decision made by their partner. This review process was conducted serially, with the robotic confederate acting first. Thus, the participants had knowledge of their robotic confederate original and revised decision before making their own revised investment decision for that round. The robot confederate in the collaborative condition was programmed to behave cooperatively such that, in the review phase, it would change its original investment decision to one closer to that of the participants. In the fixed condition, the robot confederate would not take any account of the participants' choice when making its final investment decision. In this procedure, the participants were recorded as having made a cooperative decision if their revised investment was more similar to the robot confederate final investment choice than their original investment decision. That is, they had made a modification of their strategy to cooperate with the choice of their confederate.</p>
+<p>Experimental results showed that the strategical attitude of the robot confederate affected the participants' willingness to cooperate. We found that participants were more cooperative when the robotic confederate was more collaborative, choosing a second monetary amount similar to its human partner, than when it was selfish and maintained its decision. This result is consistent with the literature about cooperation in game theory [<xref ref-type="bibr" rid="pone.0225028.ref012">12</xref>–<xref ref-type="bibr" rid="pone.0225028.ref016">16</xref>]. Moreover, the result is in line with our hypothesis concerning the extension of human-human cooperative dynamics to HRI environments, as already suggested by [<xref ref-type="bibr" rid="pone.0225028.ref017">17</xref>]. Like in human-human interaction, participants rewarded cooperation with cooperation and punished selfishness with selfishness.</p>
+<p>Results also showed that the type of banker interacted with the behaviour of the robot confederate. In a between-participant factor, robotic confederates could be programmed to display a human-like behaviour, engaging in joint attention with the participants and using spoken language to communicate their interactions. In the mute condition, the robot confederate was static and did not speak, with its decisions solely communicated by the game control screen. This experiment factor was introduced to examine whether the perceived intentionality of the robotic partner would influence cooperation. This was under the premise that decisions made by an anthropomorphic robot confederate would be more likely to be ascribed to its own individual intentions, rather than a pre-programmed strategy imposed by a third party. When being exposed to a generous banker, a greater level of anthropomorphism reduced participants' willingness to cooperate. However, when facing a selfish and fixed confederate, anthropomorphism increased their tendency to cooperate. This result is in line with previous literature, stating that the type of payoff can have a role on our need of anthropomorphism [<xref ref-type="bibr" rid="pone.0225028.ref021">21</xref>]. As the generous condition meets participants' expectations (e.g. improving their condition), they might prefer a robot confederate that also meets these expectations, thus behaving like a machine. On the opposite, the condition of low payoff (mean banker), does not meet the requirements for the machine-like stereotype. As the robot banker behaves in an unexpected manner, participants find easier to rely on a more anthropomorphic confederate.</p>
+<p>We also found that these two factors interacted significantly with the type of strategy. In this three-way interaction, we found that a collaborative robotic partner would increase participants' cooperation over its non-cooperative variant in two specific situations. The first of these was when the robot banker was generous and the robot confederate was non-anthropomorphic, the second when the robot banker was mean, and the robot confederate was anthropomorphic. This pattern of results has similarities to the previous study [<xref ref-type="bibr" rid="pone.0225028.ref021">21</xref>] confirming and extending the evidence that human-like features and behaviours in robotic agents are preferred and encourage greater cooperation when the social environment becomes more hostile. A banker that returns low payoff does not meet human's stereotypical expectations about robots. As such a selfish attitude might be more appropriate for a human environment, cooperation with a more anthropomorphic robot confederate might be facilitated. An alternative explanation might come from an 'altruistic minimizing-loss' attitude. As shown in the simulation reported in <xref ref-type="supplementary-material" rid="pone.0225028.s002">S1 Text</xref>, for the mean condition, participants' best strategy would be reducing their investment to zero or investing slightly more than zero whereas the robot was choosing a similar amount. Here, participants might be willing to help the robot confederate by cooperating and reducing the robot confederate potential loss. This type of situation could be benefiting from the anthropomorphic features of the robot confederate. Hence, it could be easier for the participants to sacrifice part of their money for an agent more similar to them. On the opposite, a mute robot confederate could be perceived as a pre-programmed machine, thus reducing the chances that participants would emphasise with its losses.</p>
+<p>In the generous condition, participants preferred to cooperate with a machine-type of confederate. In this condition, the anthropomorphic features of the robot confederate could have been an unnecessary complement. This type of scenario was more consistent with the classical vision of HRI, in which the robot is supposed to perform according to our needs. Since both the banker and the robot confederate were performing as expected (returning high payoff and getting closer to the participants' investment choice, respectively), the robot confederate was also expected to behave in a robot-congruent way, hence any anthropomorphic features were useless. Here, a mute robot confederate could be perceived as more similar to the banker and therefore better embed the role of the highly competent player. This interpretation is in line with previous literature about imperfect robots [<xref ref-type="bibr" rid="pone.0225028.ref028">28</xref>–<xref ref-type="bibr" rid="pone.0225028.ref032">32</xref>], stating that predictable and well-functioning robots are not always the best candidate for a human-like type of interaction. Nevertheless, an alternative explanation is also possible for the generous condition. Overall, the best strategy with high payoff would be investing the maximum amount of money. When willing to cooperate with the robot confederate, however, participants faced the option of reducing their investment to move closer to the confederate choice. As shown in <xref ref-type="supplementary-material" rid="pone.0225028.s003">S2 Text</xref>, participants invested significantly more when not willing to cooperate with the robot confederate in the generous condition. It is therefore plausible that participants tried to increase their investment in an attempt to signal the robot confederate what the correct strategy should be to maximise the return from the banker. This, in turn, would lead to a reduction of cooperation. As a mute robot confederate could also be perceived as a pre-programmed entity, it would be disadvantageous for the participants not cooperating, whereas the robot confederate would never respond to the participants' suggestions. On the opposite, an anthropomorphic robot confederate could be perceived as more intentional, hence participants could feel more prone to indicate to the robot confederate the right strategy for the following rounds, ending, in this way, in reducing cooperation.</p>
+<p>These results are also supported by the perceptions of the robot confederate collected in the questionnaires data. Notably, overall participants preferred the anthropomorphic and collaborative robot, but interestingly, the mute robot received the lowest scores (and lower cooperation) when associated with a selfish strategy. It can be argued that a selfish strategy could benefit from a more interactive behaviour, which is capable of maintaining a sufficient level of motivation for cooperating with the robot, whereas it would be worthless in front of a static and selfish machine.</p>
+<p>This experiment demonstrated that the previous results on anthropomorphism [<xref ref-type="bibr" rid="pone.0225028.ref021">21</xref>] can be extended to a triadic interaction and that cooperation and trust in an agent can also derive from other parties. In the previous study, one robot was both performing anthropomorphic/mute behaviours and deciding the payoff. In the present study instead, this scenario has been split and two agents have been used, demonstrating that similar results can be obtained. However, future research should investigate also the role of an interactive robot banker. Stemming from the present results, it is possible that an interactive robot banker could raise further consensus and cooperation in the condition of low payoff. Moreover, further investigations on the effect of an anthropomorphic/mute robot confederate on cooperation are needed. As different potential explanations for this selective effect on participants' willingness to cooperate can be proposed, future research should further focus on evaluating how participants' strategy (and cooperation) could be affected by more or less anthropomorphic robot confederate.</p>
+</sec>
+<sec id="sec011" sec-type="conclusions">
+<title>Conclusion</title>
+<p>In this study, we examined cooperation in human-robot partnerships where the robot was established as a peer of the human partner, with the same role and decision-making abilities as their human compatriots. One of the main aims of the study was to understand our perception and reaction to robots that are capable of adopting an independent strategy that is not subordinate to our own. In this situation are we more cooperative with robots that behave in a human-like manner, and so might be expected to have their own intentions, or with more machine-like robots whose lack of cooperation could be ascribed to fixed programming? What we found was both, depending on the cooperative environment our participants found themselves in. When the cooperative environment was benign, with the robotic banker returning more money than invested, players reciprocated the cooperation of robot confederate more often when it behaved in a machine-like manner. Conversely, when the environment was hostile, with the robot banker returning a net loss to investments, the reciprocation of cooperation was increased when the robot confederate was more human-like. This would appear to suggest that we may prefer our robots to exhibit machine-like attributes, such as constancy and reliability, while our relationship is beneficial. However, when we are in a more hostile environment, we could potentially prefer to seek the cooperation of human-like robots, seeking out social attributes to improve the cohesion between the cooperative partnership.</p>
+</sec>
+<sec id="sec012">
+<title>Supporting information</title>
+<supplementary-material id="pone.0225028.s001" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.s001" xlink:type="simple">
+<label>S1 Fig</label>
+<caption>
+<title>Experimental timeline.</title>
+<p>Detailed description of the game phases during the experiment for the anthropomorphic robot confederate.</p>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0225028.s002" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.s002" xlink:type="simple">
+<label>S1 Text</label>
+<caption>
+<title>Simulation of participants' investment.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0225028.s003" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.s003" xlink:type="simple">
+<label>S2 Text</label>
+<caption>
+<title>Preliminary analyses of participants' investment.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0225028.s004" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.s004" xlink:type="simple">
+<label>S1 Table</label>
+<caption>
+<title>Cronbach’s alpha for each scale.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0225028.s005" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.s005" xlink:type="simple">
+<label>S2 Table</label>
+<caption>
+<title>List of mean and standard deviation values for all the scales in each sub-condition of banker, behaviour and strategy.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+<supplementary-material id="pone.0225028.s006" mimetype="application/pdf" position="float" xlink:href="info:doi/10.1371/journal.pone.0225028.s006" xlink:type="simple">
+<label>S1 File</label>
+<caption>
+<title>Copy of the adapted questionnaires used in the study.</title>
+<p>(PDF)</p>
+</caption>
+</supplementary-material>
+</sec>
+</body>
+<back>
+<ref-list>
+<title>References</title>
+<ref id="pone.0225028.ref001"><label>1</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Boyd</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Richerson</surname> <given-names>PJ</given-names></name>. <article-title>Culture and the evolution of human cooperation</article-title>. <source>Philosophical Transactions of the Royal Society of London B: Biological Sciences</source>. <year>2009</year>;<volume>364</volume>(<issue>1533</issue>):<fpage>3281</fpage>–<lpage>3288</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rstb.2009.0134" xlink:type="simple">10.1098/rstb.2009.0134</ext-link></comment> <object-id pub-id-type="pmid">19805434</object-id></mixed-citation></ref>
+<ref id="pone.0225028.ref002"><label>2</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sanfey</surname> <given-names>AG</given-names></name>. <article-title>Social decision-making: insights from game theory and neuroscience</article-title>. <source>Science</source>. <year>2007</year>;<volume>318</volume>(<issue>5850</issue>):<fpage>598</fpage>–<lpage>602</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1126/science.1142996" xlink:type="simple">10.1126/science.1142996</ext-link></comment> <object-id pub-id-type="pmid">17962552</object-id></mixed-citation></ref>
+<ref id="pone.0225028.ref003"><label>3</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sebanz</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Bekkering</surname> <given-names>H</given-names></name>, <name name-style="western"><surname>Knoblich</surname> <given-names>G</given-names></name>. <article-title>Joint action: bodies and minds moving together.</article-title> <source>Trends in cognitive sciences</source>. <year>2006</year>;<volume>10</volume>(<issue>2</issue>):<fpage>70</fpage>–<lpage>76</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.tics.2005.12.009" xlink:type="simple">10.1016/j.tics.2005.12.009</ext-link></comment> <object-id pub-id-type="pmid">16406326</object-id></mixed-citation></ref>
+<ref id="pone.0225028.ref004"><label>4</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Oskamp</surname> <given-names>S</given-names></name>. <article-title>Effects of programmed strategies on cooperation in the Prisoner's Dilemma and other mixed-motive games</article-title>. <source>Journal of Conflict Resolution</source>. <year>1971</year>;<volume>15</volume>(<issue>2</issue>):<fpage>225</fpage>–<lpage>259</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref005"><label>5</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Perugini</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gallucci</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Presaghi</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Ercolani</surname> <given-names>AP</given-names></name>. <article-title>The personal norm of reciprocity</article-title>. <source>European Journal of Personality</source>. <year>2003</year>;<volume>17</volume>(<issue>4</issue>):<fpage>251</fpage>–<lpage>283</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref006"><label>6</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Duffy</surname> <given-names>BR</given-names></name>. <article-title>Anthropomorphism and the social robot</article-title>. <source>Robotics and Autonomous Systems</source>. <year>2003</year>;<volume>42</volume>(<issue>3–4</issue>):<fpage>177</fpage>–<lpage>190</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref007"><label>7</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fong</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Nourbakhsh</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Dautenhahn</surname> <given-names>K</given-names></name>. <article-title>A survey of socially interactive robots</article-title>. <source>Robotics and autonomous systems</source>. <year>2003</year>;<volume>42</volume>(<issue>3–4</issue>):<fpage>143</fpage>–<lpage>166</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref008"><label>8</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Walters</surname> <given-names>ML</given-names></name>, <name name-style="western"><surname>Syrdal</surname> <given-names>DS</given-names></name>, <name name-style="western"><surname>Dautenhahn</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Te Boekhorst</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Koay</surname> <given-names>KL</given-names></name>. <article-title>Avoiding the uncanny valley: robot appearance, personality and consistency of behavior in an attention-seeking home scenario for a robot companion</article-title>. <source>Autonomous Robots.</source> <year>2008</year>;<volume>24</volume>(<issue>2</issue>):<fpage>159</fpage>–<lpage>178</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref009"><label>9</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gaudiello</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Zibetti</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Lefort</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Chetouani</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Ivaldi</surname> <given-names>S</given-names></name>. <article-title>Trust as indicator of robot functional and social acceptance. An experimental study on user conformation to iCub answers</article-title>. <source>Computers in Human Behavior</source>. <year>2016</year>;<volume>61</volume>:<fpage>633</fpage>–<lpage>655</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref010"><label>10</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Eyssel</surname> <given-names>F</given-names></name>. <article-title>An experimental psychological perspective on social robotics</article-title>. <source>Robotics and Autonomous Systems</source>. <year>2017</year>;<volume>87</volume>:<fpage>363</fpage>–<lpage>371</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref011"><label>11</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Ma</surname> <given-names>LM</given-names></name>, <name name-style="western"><surname>Fong</surname> <given-names>T</given-names></name>, <name name-style="western"><surname>Micire</surname> <given-names>MJ</given-names></name>, <name name-style="western"><surname>Kim</surname> <given-names>YK</given-names></name>, <name name-style="western"><surname>Feigh</surname> <given-names>K</given-names></name>. <chapter-title>Human-Robot Teaming: Concepts and Components for Design</chapter-title>. In: <source>Field and Service Robotics</source>. <publisher-name>Springer</publisher-name>; <year>2018</year>. p. <fpage>649</fpage>–<lpage>663</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref012"><label>12</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Deutsch</surname> <given-names>M</given-names></name>. <article-title>Trust and suspicion</article-title>. <source>Journal of conflict resolution</source>. <year>1958</year>;<volume>2</volume>(<issue>4</issue>):<fpage>265</fpage>–<lpage>279</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref013"><label>13</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Pilisuk</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Skolnick</surname> <given-names>P</given-names></name>, <name name-style="western"><surname>Overstreet</surname> <given-names>E</given-names></name>. <article-title>Predicting cooperation from the two sexes in a conflict simulation</article-title>. <source>Journal of personality and social psychology</source>. <year>1968</year>;<volume>10</volume>(<issue>1</issue>):<fpage>35</fpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1037/h0026310" xlink:type="simple">10.1037/h0026310</ext-link></comment> <object-id pub-id-type="pmid">5682522</object-id></mixed-citation></ref>
+<ref id="pone.0225028.ref014"><label>14</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Steidle</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Hanke</surname> <given-names>EV</given-names></name>, <name name-style="western"><surname>Werth</surname> <given-names>L</given-names></name>. <article-title>In the dark we cooperate: The situated nature of procedural embodiment</article-title>. <source>Social Cognition</source>. <year>2013</year>;<volume>31</volume>(<issue>2</issue>):<fpage>275</fpage>–<lpage>300</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref015"><label>15</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>G•achter</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Herrmann</surname> <given-names>B</given-names></name>. <article-title>Reciprocity, culture and human cooperation: previous insights and a new cross-cultural experiment.</article-title> <source>Philosophical Transactions of the Royal Society of London B: Biological Sciences</source>. <year>2009</year>;<volume>364</volume>(<issue>1518</issue>):<fpage>791</fpage>–<lpage>806</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1098/rstb.2008.0275" xlink:type="simple">10.1098/rstb.2008.0275</ext-link></comment> <object-id pub-id-type="pmid">19073476</object-id></mixed-citation></ref>
+<ref id="pone.0225028.ref016"><label>16</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Fehr E</surname> <given-names>G</given-names></name><article-title>•achter S. Altruistic punishment in humans</article-title>. <source>Nature</source>. <year>2002</year>;<volume>415</volume>:<fpage>137 EP</fpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref017"><label>17</label><mixed-citation publication-type="other" xlink:type="simple">Wu J, Paeng E, Linder K, Valdesolo P, Boerkoel JC. Trust and Cooperation in Human-Robot Decision Making. In: 2016 AAAI Fall Symposium Series; 2016. p. 110–116.</mixed-citation></ref>
+<ref id="pone.0225028.ref018"><label>18</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Fink</surname> <given-names>J</given-names></name>. <chapter-title>Anthropomorphism and human likeness in the design of robots and human-robot interaction</chapter-title>. In: <source>International Conference on Social Robotics</source>. <publisher-name>Springer</publisher-name>; <year>2012</year>. p. <fpage>199</fpage>–<lpage>208</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref019"><label>19</label><mixed-citation publication-type="other" xlink:type="simple">Mutlu B, Shiwa T, Kanda T, Ishiguro H, Hagita N. Footing in human-robot conversations: how robots might shape participant roles using gaze cues. In: Proceedings of the 4th ACM/IEEE international conference on Human robot interaction. ACM; 2009. p. 61–68.</mixed-citation></ref>
+<ref id="pone.0225028.ref020"><label>20</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Staudte</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Crocker</surname> <given-names>MW</given-names></name>. <article-title>Investigating joint attention mechanisms through spoken human-robot interaction</article-title>. <source>Cognition</source>. <year>2011</year>;<volume>120</volume>(<issue>2</issue>):<fpage>268</fpage>–<lpage>291</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.cognition.2011.05.005" xlink:type="simple">10.1016/j.cognition.2011.05.005</ext-link></comment> <object-id pub-id-type="pmid">21665198</object-id></mixed-citation></ref>
+<ref id="pone.0225028.ref021"><label>21</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Torre</surname> <given-names>I</given-names></name>, <name name-style="western"><surname>Goslin</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>White</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Zanatto</surname> <given-names>D</given-names></name>. <chapter-title>Trust in artificial voices: A congruency effect of first impressions and behavioural experience</chapter-title>. In: <source>Proceedings of the Technology, Mind, and Society</source>. <publisher-name>ACM</publisher-name>; <year>2018</year>. p. <fpage>40</fpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref022"><label>22</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Reysen</surname> <given-names>S</given-names></name>. <article-title>Construction of a new scale: The Reysen likability scale</article-title>. <source>Social Behavior and Personality: an international journal</source>. <year>2005</year>;<volume>33</volume>(<issue>2</issue>):<fpage>201</fpage>–<lpage>208</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref023"><label>23</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Goldberg</surname> <given-names>LR</given-names></name>, <name name-style="western"><surname>Johnson</surname> <given-names>JA</given-names></name>, <name name-style="western"><surname>Eber</surname> <given-names>HW</given-names></name>, <name name-style="western"><surname>Hogan</surname> <given-names>R</given-names></name>, <name name-style="western"><surname>Ashton</surname> <given-names>MC</given-names></name>, <name name-style="western"><surname>Cloninger</surname> <given-names>CR</given-names></name>, <etal>et al</etal>. <article-title>The international personality item pool and the future of public-domain personality measures</article-title>. <source>Journal of Research in personality</source>. <year>2006</year>;<volume>40</volume>(<issue>1</issue>):<fpage>84</fpage>–<lpage>96</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref024"><label>24</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McCroskey</surname> <given-names>JC</given-names></name>, <name name-style="western"><surname>Young</surname> <given-names>TJ</given-names></name>. <article-title>Ethos and credibility: The construct and its measurement after three decades</article-title>. <source>Communication Studies</source>. <year>1981</year>;<volume>32</volume>(<issue>1</issue>):<fpage>24</fpage>–<lpage>34</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref025"><label>25</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bartneck</surname> <given-names>C</given-names></name>, <name name-style="western"><surname>Kulic</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Croft</surname> <given-names>E</given-names></name>, <name name-style="western"><surname>Zoghbi</surname> <given-names>S</given-names></name>. <article-title>Measurement Instruments for the Anthropomorphism, Animacy, Likeability, Perceived Intelligence, and Perceived Safety of Robots</article-title>. <source>International Journal of Social Robotics</source>. <year>2008</year>;<volume>1</volume>(<issue>1</issue>):<fpage>71</fpage>–<lpage>81</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1007/s12369-008-0001-3" xlink:type="simple">10.1007/s12369-008-0001-3</ext-link></comment></mixed-citation></ref>
+<ref id="pone.0225028.ref026"><label>26</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kuznetsova</surname> <given-names>A</given-names></name>, <name name-style="western"><surname>Brockhoff</surname> <given-names>PB</given-names></name>, <name name-style="western"><surname>Christensen</surname> <given-names>RH</given-names></name>. <article-title>lmerTest package: tests in linear mixed effects models</article-title>. <source>Journal of Statistical Software</source>. <year>2017</year>;<volume>82</volume>(<issue>13</issue>).</mixed-citation></ref>
+<ref id="pone.0225028.ref027"><label>27</label><mixed-citation publication-type="book" xlink:type="simple"><name name-style="western"><surname>Fox</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Weisberg</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Adler</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Bates</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Baud-Bovy</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Ellison</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Firth</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Friendly</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Gorjanc</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Graves</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Heiberger</surname> <given-names>R</given-names></name>. <chapter-title>Package ‘car’</chapter-title>. <publisher-loc>Vienna</publisher-loc>: <publisher-name>R Foundation for Statistical Computing</publisher-name>. <year>2012</year> <month>Oct</month> <day>4</day>.</mixed-citation></ref>
+<ref id="pone.0225028.ref028"><label>28</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Salem</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Eyssel</surname> <given-names>F</given-names></name>, <name name-style="western"><surname>Rohlfing</surname> <given-names>K</given-names></name>, <name name-style="western"><surname>Kopp</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Joublin</surname> <given-names>F</given-names></name>. <article-title>To err is human (-like): Effects of robot gesture on perceived anthropomorphism and likability</article-title>. <source>International Journal of Social Robotics</source>. <year>2013</year>;<volume>5</volume>(<issue>3</issue>):<fpage>313</fpage>–<lpage>323</lpage>.</mixed-citation></ref>
+<ref id="pone.0225028.ref029"><label>29</label><mixed-citation publication-type="other" xlink:type="simple">Short E, Hart J, Vu M, Scassellati B. No fair!! an interaction with a cheating robot. In2010 5th ACM/IEEE International Conference on Human-Robot Interaction (HRI) 2010 Mar 2 (pp. 219–226). IEEE.</mixed-citation></ref>
+<ref id="pone.0225028.ref030"><label>30</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Ullman</surname> <given-names>D</given-names></name>, <name name-style="western"><surname>Leite</surname> <given-names>L</given-names></name>, <name name-style="western"><surname>Phillips</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Kim-Cohen</surname> <given-names>J</given-names></name>, <name name-style="western"><surname>Scassellati</surname> <given-names>B</given-names></name>. <article-title>Smart human, smarter robot: How cheating affects perceptions of social agency</article-title>. In: <source>Proceedings of the Cognitive Science Society</source>. vol. <volume>36</volume>; <year>2014</year>.</mixed-citation></ref>
+<ref id="pone.0225028.ref031"><label>31</label><mixed-citation publication-type="other" xlink:type="simple">Ragni M, Rudenko A, Kuhnert B, Arras KO. Errare humanum est: Erroneous robots in human-robot interaction. In: Robot and Human Interactive Communication (RO-MAN), 2016 25th IEEE International Symposium on. IEEE; 2016. p. 501–506.</mixed-citation></ref>
+<ref id="pone.0225028.ref032"><label>32</label><mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Mirnig</surname> <given-names>N</given-names></name>, <name name-style="western"><surname>Stollnberger</surname> <given-names>G</given-names></name>, <name name-style="western"><surname>Miksch</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Stadler</surname> <given-names>S</given-names></name>, <name name-style="western"><surname>Giuliani</surname> <given-names>M</given-names></name>, <name name-style="western"><surname>Tscheligi</surname> <given-names>M</given-names></name>. <article-title>To err is robot: How humans assess and act toward an erroneous social robot.</article-title> <source>Frontiers in Robotics and AI</source>. <year>2017</year>;<volume>4</volume>:<fpage>21</fpage>.R Core Team (2016). R: A language and environment for statistical computing.</mixed-citation></ref>
+</ref-list>
+</back>
+</article>

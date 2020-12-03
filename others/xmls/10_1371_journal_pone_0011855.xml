@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="EN">
+<front>
+<journal-meta><journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><!--===== Grouping journal title elements =====--><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta>
+<article-meta><article-id pub-id-type="publisher-id">10-PONE-RA-16760R1</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0011855</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Genetics and Genomics</subject><subject>Genetics and Genomics/Bioinformatics</subject><subject>Genetics and Genomics/Medical Genetics</subject><subject>Genetics and Genomics/Population Genetics</subject></subj-group></article-categories><title-group><article-title>Gene Flow between the Korean Peninsula and Its Neighboring Countries</article-title><alt-title alt-title-type="running-head">Study of Gene Flow</alt-title></title-group><contrib-group>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Jung</surname><given-names>Jongsun</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="aff" rid="aff2"><sup>2</sup></xref><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" equal-contrib="yes" xlink:type="simple"><name name-style="western"><surname>Kang</surname><given-names>Hoyoung</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Cho</surname><given-names>Yoon Shin</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Oh</surname><given-names>Ji Hee</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Ryu</surname><given-names>Min Hyung</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Chung</surname><given-names>Hye Won</given-names></name><xref ref-type="aff" rid="aff6"><sup>6</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Seo</surname><given-names>Jeong-Sun</given-names></name><xref ref-type="aff" rid="aff7"><sup>7</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Lee</surname><given-names>Jong-Eun</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Oh</surname><given-names>Bermseok</given-names></name><xref ref-type="aff" rid="aff8"><sup>8</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Bhak</surname><given-names>Jong</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Kim</surname><given-names>Hyung-Lae</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group><aff id="aff1"><label>1</label><addr-line>Syntekabio Inc., Seoul, Korea</addr-line>       </aff><aff id="aff2"><label>2</label><addr-line>DNA link Inc., Seoul, Korea</addr-line>       </aff><aff id="aff3"><label>3</label><addr-line>Korean Bioinformation Center, KRIBB, Daejeon, Korea</addr-line>       </aff><aff id="aff4"><label>4</label><addr-line>University of Science and Technology, Daejeon, Korea</addr-line>       </aff><aff id="aff5"><label>5</label><addr-line>Division of Structural and Functional Genomics, Center for Genome Science, Korea National Institute of Health, Seoul, Korea</addr-line>       </aff><aff id="aff6"><label>6</label><addr-line>Department of Obstetrics and Gynecology, College of Medicine, Ewha Womans University, Seoul, Korea</addr-line>       </aff><aff id="aff7"><label>7</label><addr-line>Department of Biochemistry and Molecular Biology, Seoul National University of Medicine, Seoul, Korea</addr-line>       </aff><aff id="aff8"><label>8</label><addr-line>Department of Biomedical Engineering, Kyung Hee University College of Medicine, Seoul, Korea</addr-line>       </aff><contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Hawks</surname><given-names>John</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/></contrib>
+</contrib-group><aff id="edit1">University of Wisconsin, United States of America</aff><author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">hyung@ewha.ac.kr</email></corresp>
+<fn fn-type="con"><p>Conceived and designed the experiments: JJ HLK. Performed the experiments: YSC JHO MHR. Analyzed the data: JJ HK. Contributed reagents/materials/analysis tools: HWC JSS JEL BO JB. Wrote the paper: JJ HK.</p></fn>
+<fn fn-type="conflict"><p>Jongsun Jung was an employee of DNA link Inc., where Jong-Eun Lee was one of the funders for Jongsun Jung. Now, Jongsun Jung belongs to Syntekabio Inc. This does not alter the authors' adherence to all the PLoS ONE policies on sharing data and materials.</p></fn></author-notes><pub-date pub-type="collection"><year>2010</year></pub-date><pub-date pub-type="epub"><day>29</day><month>7</month><year>2010</year></pub-date><volume>5</volume><issue>7</issue><elocation-id>e11855</elocation-id><history>
+<date date-type="received"><day>3</day><month>3</month><year>2010</year></date>
+<date date-type="accepted"><day>5</day><month>7</month><year>2010</year></date>
+</history><!--===== Grouping copyright info into permissions =====--><permissions><copyright-year>2010</copyright-year><copyright-holder>Jung et al</copyright-holder><license><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions><abstract>
+<p>SNP markers provide the primary data for population structure analysis. In this study, we employed whole-genome autosomal SNPs as a marker set (54,836 SNP markers) and tested their possible effects on genetic ancestry using 320 subjects covering 24 regional groups including Northern ( = 16) and Southern ( = 3) Asians, Amerindians ( = 1), and four HapMap populations (YRI, CEU, JPT, and CHB). Additionally, we evaluated the effectiveness and robustness of 50K autosomal SNPs with various clustering methods, along with their dependencies on recombination hotspots (RH), linkage disequilibrium (LD), missing calls and regional specific markers. The RH- and LD-free multi-dimensional scaling (MDS) method showed a broad picture of human migration from Africa to North-East Asia on our genome map, supporting results from previous haploid DNA studies. Of the Asian groups, the East Asian group showed greater differentiation than the Northern and Southern Asian groups with respect to Fst statistics. By extension, the analysis of monomorphic markers implied that nine out of ten historical regions in South Korea, and Tokyo in Japan, showed signs of genetic drift caused by the later settlement of East Asia (South Korea, Japan and China), while Gyeongju in South East Korea showed signs of the earliest settlement in East Asia. In the genome map, the gene flow to the Korean Peninsula from its neighboring countries indicated that some genetic signals from Northern populations such as the Siberians and Mongolians still remain in the South East and West regions, while few signals remain from the early Southern lineages.</p>
+</abstract><funding-group><funding-statement>Syntekabio Inc. and DNA link Inc. were funders due to employment of Jongsun Jung of this study. The funders therefore played a role in study design, analysis, and preparation of the manuscript.</funding-statement></funding-group><counts><page-count count="8"/></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>The X and Y chromosomes and mitochondrial DNA (mtDNA) recombine to a much lesser extent than do autosomes <xref ref-type="bibr" rid="pone.0011855-Ross1">[1]</xref>. This limited, or non-existent, recombination in haploid SNPs (single nucleotide polymorphisms) has been used to trace the evolutionary lineages of individuals and populations showing either maternal or paternal transmission. However, obstacles encountered with the use of lesser (or non-) recombining SNPs, such as genetic drift, low polymorphic nature, natural selection, and the small size of these non-recombining DNAs, limit the scope of genetic studies. Recently, an advanced technology, termed whole genome sampling analysis, has enabled the genotyping of nearly one megabyte of diploid autosomal SNPs at a time <xref ref-type="bibr" rid="pone.0011855-Kennedy1">[2]</xref>. These autosomal SNPs are a reservoir for human evolutionary history, nearly 100 times larger than that of lesser (non-) recombining SNPs, and include the entire range from highly conserved to highly polymorphic SNPs. However, when individuals and populations of different races and regions are compared using the whole genome approach, a large proportion of the redundant and recombining regions exacerbate the difficulties encountered in exploring evolutionary relationships, common traits and disease susceptibilities between populations.</p>
+<p>The origin of Amerindians, based on Y chromosome and mtDNA studies, revealed that they migrated from Siberia to Alaska <xref ref-type="bibr" rid="pone.0011855-Lell1">[3]</xref>. Recently, over 600 autosomal short tandem repeat (STR) markers were used to delineate the migration routes of most of the Amerindians <xref ref-type="bibr" rid="pone.0011855-Wang1">[4]</xref>, while analysis of molecular variance, inferred from metric distances between DNA haplotypes of human mitochondrial DNA, was used for migration studies of Southern and Northern Europe <xref ref-type="bibr" rid="pone.0011855-Excoffier1">[5]</xref>. Some diabetes-related rare markers were also found in Amerindian and Finnish families <xref ref-type="bibr" rid="pone.0011855-Watanabe1">[6]</xref>. Y chromosomal DNA haplogroups disclosed the dual origins of the Korean population <xref ref-type="bibr" rid="pone.0011855-Jin1">[7]</xref>, while the origins of East Asians have been studied using certain autosomal loci <xref ref-type="bibr" rid="pone.0011855-Kim1">[8]</xref>. Investigation into male demography in East Asia using Y chromosome haplogroups in a simulation analysis provided information on the settlement times of Northern and Southern populations <xref ref-type="bibr" rid="pone.0011855-Xue1">[9]</xref>. Recently, genome-wide analysis of haplotypes in Asia was reported that more than 90% of East Asian haplotypes could be found in either Southeast Asian or Central-South Asian populations and showed clinal structure with haplotype diversity decreasing from south to north <xref ref-type="bibr" rid="pone.0011855-The1">[10]</xref>.</p>
+<p>Given a symmetric distance (or a covariance) matrix between individuals, the dimension-reduction methodologies, such as multidimensional scaling (MDS) and principal components analysis (PCA), can display individual interacting patterns effectively by means of two, or more, major eigenvector components <xref ref-type="bibr" rid="pone.0011855-Patterson1">[11]</xref>. One of the relationship matrices for the comparison of individual whole genomes is based on identity-by-state (IBS) distances that show an opposite relationship to allele-sharing distances (ASD) <xref ref-type="bibr" rid="pone.0011855-Mountain1">[12]</xref> when applied to a neighbor-joining (NJ)-based phylogenetic tree <xref ref-type="bibr" rid="pone.0011855-Tamura1">[13]</xref>. Compared to the dimension-reduction methodologies described above, the Markov Chain Monte Carlo (MCMC)-based STRUCTURE program is also one of the most popular methods for understanding genetic structures and admixtures <xref ref-type="bibr" rid="pone.0011855-Pritchard1">[14]</xref>. Recently, Salmela et al. <xref ref-type="bibr" rid="pone.0011855-Salmela1">[15]</xref> showed that 250K genome-wide autosomal SNPs could provide powerful resources for the study of population structure and differentiation in Northern Europe, including Northern Germany, Great Britain, Finland and Sweden.</p>
+<p>Geographically, the Korean Peninsula is a strategic location in East Asia surrounded by China, Japan and Russia. Therefore, the objectives of our gene flow analyses in Northern, Eastern and Southern Asia were to determine the extent of the gene flow from these neighboring countries and the levels of genetic signals that have remained in the Korean Peninsula, using subjects collected from the ten most historical regions in South Korea. In addition, samples from Mongolia, Jinlin in China and Amerindian populations, representing Northern people; Cambodians and Vietnamese, representing Southern people; and Chinese and Japanese were used to measure their influences on the gene flow. For this study, we propose three different gene flow models based on historical events, geographical location and anthropology; Model I: SW (South West) Korea, which includes the JJ, NJ and GJ regions (<xref ref-type="fig" rid="pone-0011855-g001">Fig. 1</xref>) has some lineages in common with the BaekJae Empire (BC18-AD660) through a migration event by the Northern people of the Goguryeo Empire which ruled most of Northern Manchuria and Korean peninsula (BC37-AD568), and are also closely related to Mongolians. They ruled most of the Eastern part of China and most of the South Western part of the Korean Peninsula. Model II: SE (South East) Korea, which includes the GU, US and GR populations (<xref ref-type="fig" rid="pone-0011855-g001">Fig. 1</xref>), is the region where the Northern people from Siberia (based on their grave patterns and ancient cultural traditions) and the loyal Southern families were settled in the Shilla(BC57-AD918) and Kaya(AD42-532) Empires, respectively. Model III: MW (Middle West) Korea, which includes the YC, JC, CA and PC populations (<xref ref-type="fig" rid="pone-0011855-g001">Fig. 1</xref>), is the human melting pot of the Korean Peninsula where Western Chinese, including those from the SanDung Peninsula, crossed the Yellow Sea between China and Korea, living and trading in both regions. In addition, it is known that historically the Northern and Southern Koreans often clashed with each other in this region. The geographical locations of the models used in this study are shown in <xref ref-type="fig" rid="pone-0011855-g001">Fig. 1</xref> and <xref ref-type="table" rid="pone-0011855-t001">Table 1</xref>.</p>
+<fig id="pone-0011855-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0011855.g001</object-id><label>Figure 1</label><caption>
+<title>Map of Asia (A) and the Korean Peninsula (B).</title>
+<p>Historically and geographically, the Korean Peninsula can be subdivided into two regions, the West and East, based on the continuous ridge-line of mountains from Janggun Peak of Mt. Baekdu on the Northern border of the Korean Peninsula down to Mt. Jiri near its Southern end. The Western part of South Korea is further subdivided into Middle and South regions. The abbreviations for populations, their geographical regions and sample sizes are summarized in <xref ref-type="table" rid="pone-0011855-t001">Table 1</xref>.</p>
+</caption><graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.g001" xlink:type="simple"/></fig><table-wrap id="pone-0011855-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0011855.t001</object-id><label>Table 1</label><caption>
+<title>Geographic origins and sizes of the samples.</title>
+</caption><!--===== Grouping alternate versions of objects =====--><alternatives><graphic id="pone-0011855-t001-1" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.t001" xlink:type="simple"/><table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" colspan="1" rowspan="1">Sample nationality (or Ethnicity)</td>
+<td align="left" colspan="1" rowspan="1">Sample name regions (abbreviations)</td>
+<td align="left" colspan="1" rowspan="1">Sample size ( = 320)</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="1" rowspan="1">South East (SE)Korean</td>
+<td align="left" colspan="1" rowspan="1">Gyeongju(GU)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1"/>
+<td align="left" colspan="1" rowspan="1">Goryeong(GR)</td>
+<td align="left" colspan="1" rowspan="1">15</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1"/>
+<td align="left" colspan="1" rowspan="1">Ulsan (US)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Middle West (MW)Korean</td>
+<td align="left" colspan="1" rowspan="1">Jecheon (JC)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1"/>
+<td align="left" colspan="1" rowspan="1">Yeoncheon (YC)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1"/>
+<td align="left" colspan="1" rowspan="1">Cheonan (CA)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1"/>
+<td align="left" colspan="1" rowspan="1">Pyeongchang (PC)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">South West (SW)Korean</td>
+<td align="left" colspan="1" rowspan="1">Gimje (GJ)</td>
+<td align="left" colspan="1" rowspan="1">15</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1"/>
+<td align="left" colspan="1" rowspan="1">Naju (NJ)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1"/>
+<td align="left" colspan="1" rowspan="1">Jeju (JJ)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">South Korean</td>
+<td align="left" colspan="1" rowspan="1">Vietnamese-Korean (VK)</td>
+<td align="left" colspan="1" rowspan="1">8</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Japanese</td>
+<td align="left" colspan="1" rowspan="1">Kobe(KB)</td>
+<td align="left" colspan="1" rowspan="1">4</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Korean-Japanese</td>
+<td align="left" colspan="1" rowspan="1">Kobe(KJ)</td>
+<td align="left" colspan="1" rowspan="1">6</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Japanese</td>
+<td align="left" colspan="1" rowspan="1"><sup>1</sup>HapMap(JPT)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Chinese</td>
+<td align="left" colspan="1" rowspan="1">Jilin (JL)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Chinese</td>
+<td align="left" colspan="1" rowspan="1"><sup>1</sup>HapMap (CHB);</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Vietnam</td>
+<td align="left" colspan="1" rowspan="1">Kinh (VN)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Cambodia</td>
+<td align="left" colspan="1" rowspan="1">Khmer (CB)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Mongolia</td>
+<td align="left" colspan="1" rowspan="1">Khalkha (MH)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">American Indian</td>
+<td align="left" colspan="1" rowspan="1"><sup>2</sup>Amerind (AI)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">America</td>
+<td align="left" colspan="1" rowspan="1"><sup>1</sup>HapMap (CEU)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">Nigeria</td>
+<td align="left" colspan="1" rowspan="1"><sup>1</sup>HapMap (YRI)</td>
+<td align="left" colspan="1" rowspan="1">16</td>
+</tr>
+</tbody>
+</table></alternatives><table-wrap-foot><fn id="nt101"><label/><p>*Samples with N&lt;16 were not used for the statistical analysis purpose. The genotype data (<sup>1</sup>HapMap and <sup>2</sup>Amerind: 80 samples) were collected from HapMap and Affymetrix Inc., respectively, and the rest (240 samples) were genotyped in this study.</p></fn></table-wrap-foot></table-wrap>
+<p>Marker selection is the most important step in data handling. Because sex chromosomes and mtDNA recombine to a much lesser extent than do autosomes during meiosis, they do not record gene flow event on themselves. Only when complete enumeration or meaningful sampling survey was used, considerable inferences can be deducted. On the other hand, because autosomes accumulate the record of the gene flow event by way of the recombination, the markers on autosomes can be a better object than the ones on sex chromosomes and mtDNA; however, it is also necessary to deal with the effects of recombination hotspots (RH) and linkage disequilibrium (LD). Therefore, in this study, we have evaluated several variables including RH, LD and genotype call rates using known clustering methods such as IBS-based Multi-Dimensional Scaling (MDS), Principal Components Analysis (PCA), the ASD-based Neighbor Joining (NJ) method, and STRUCTURE using 320 subjects from Amerindian populations, from four populations from the HapMap Project (Yoruba, Caucasian, Japanese, and Chinese), and from Vietnamese, Cambodians, North-Eastern Chinese, Mongolians, and Koreans to reconstruct a human migration route that had been partly analyzed using mtDNA and the X and Y chromosomes.</p>
+</sec><sec id="s2">
+<title>Results</title>
+<sec id="s2a">
+<title>Genome map of human migration</title>
+<p>The genome map was drawn using MDS with an RH-free dataset (Supporting <xref ref-type="supplementary-material" rid="pone.0011855.s001">Methods and Discussion S1</xref>). The genome map in <xref ref-type="fig" rid="pone-0011855-g002">Fig. 2A</xref> showed that the Yoruban, Caucasian, and Amerindian populations lined up first, and then Northern and Southern Asian populations were merged in East Asia in <xref ref-type="fig" rid="pone-0011855-g002">Fig. 2B</xref>. In the extended genome map for Northern and Southern Asia, the merged pattern became clearer than that of the whole populations where the MH (Mongolian) population lined up to JPT (Tokyo) and JJ (JeJu) populations, while the CB (Cambodian) population lined up to the VN (Vietnamese), VK (Vietnamese-Korean), CHB (Peking), and JL (Jilin) populations.</p>
+<fig id="pone-0011855-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0011855.g002</object-id><label>Figure 2</label><caption>
+<title>Genome Map of World (A) and Asia (B).</title>
+</caption><graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.g002" xlink:type="simple"/></fig>
+<p>In our analysis of genetics structure by STRUCTURE program <xref ref-type="bibr" rid="pone.0011855-Rosenberg1">[16]</xref>, four populations displayed perfect population membership probabilities, the Africans, Caucasians, Amerindians, and Northern Asians, and three populations displayed partial membership, the Mongolians, Vietnamese, and Cambodians (<xref ref-type="fig" rid="pone-0011855-g003">Fig. 3</xref>). Substantial admixture patterns between populations were also observed for Mongolians and Caucasians, and Amerindians with East Asians and Caucasians.</p>
+<fig id="pone-0011855-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0011855.g003</object-id><label>Figure 3</label><caption>
+<title>Genetic Structure.</title>
+<p>A)World, B)Asia, C)Korea, Japan and China. Note that the plot with a recombination hotspot (RH) of K = 5 on the left is shown to compare with the same plot without the RH effect on the right where the purple bands were spread over all Asian populations.</p>
+</caption><graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.g003" xlink:type="simple"/></fig></sec><sec id="s2b">
+<title>Gene flow between the Korean Peninsula and neighboring countries</title>
+<p>Genome map and an NJ tree <xref ref-type="bibr" rid="pone.0011855-Tamura2">[18]</xref>, <xref ref-type="bibr" rid="pone.0011855-Bowcock1">[19]</xref> for Korea-China-Japan are shown in <xref ref-type="fig" rid="pone-0011855-g004">Fig. 4</xref>, where the genome map is a further extension of the World and Asian map (<xref ref-type="fig" rid="pone-0011855-g002">Fig. 2</xref>). In the figure, dots representing the Chinese are located at the bottom and those for Japanese are at the top, while some outliers in SE Korea and Kobe in Japan are shown on the right hand side. Of the ten historical regions in South Korea, some in SW Korea overlap with those of Japan, while most of the MW Korean regions are located at the center of the genome map. Similarly, in the NJ tree, nodes for SW Korea are close to those in Japan, MW Korea is close to China, and SE Korea is located at the right hand side of the tree.</p>
+<fig id="pone-0011855-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0011855.g004</object-id><label>Figure 4</label><caption>
+<title>MDS and NJ Tree of Korean, Chinese and Japanese.</title>
+<p>A)MDS(multi-dimensional scaling) <xref ref-type="bibr" rid="pone.0011855-Press1">[17]</xref>, B)NJ Tree. In the NJ tree, samples for Japan, Kobe-Japan, SW Korea, SE Korea, MW Korea, China, Jinlin, and Korean-Japanese are blue, cyan, green, purple, black, brown and dark green, respectively.</p>
+</caption><graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.g004" xlink:type="simple"/></fig>
+<p>The gene flow events of the three selected models for SW, MW and SE Korea can be assessed using the genome map. The populations in Model I (SW Korea) are closer to Mongolians than are the other two regions in the genome map (<xref ref-type="fig" rid="pone-0011855-g002">Fig. 2B</xref>). Historically, some of the loyal families and their subjects in the Goguryeo Empire moved to this region and formed the BaekJae Empire in BC18-22. This region also showed connections with populations in Tokyo (JPT), as illustrated in <xref ref-type="fig" rid="pone-0011855-g004">Fig. 4</xref>. Certain outliers in Model II (SE Korea) display some similarity to the people of Kobe, a port city near Osaka, indicating that there may have been links between the two regions. In addition, considering that the SE Korea region has some connections with Siberian lineages, with respect to grave patterns and culture, it is possible that the outliers in the GU and Kobe (KB) populations could be of Siberian lineage. On the other hand, the GR and US populations showed average signals in the Korean Peninsula. Historically, the Kaya Empire, with its southern lineages, was formed in the GR region and then the Shilla and Kaya Empires became united around AD532. Very recently, the US region became one of the rapidly developing regions, and people from other provinces moved to this region. This might explain why it shows an average signal in South Korea. Model III (MW Korea): the Middle West area formed a melting pot in the Korean Peninsula because populations moving from South to North, North to South, and from Eastern China, including the SanDung peninsula, to the Middle West in Korea all came together in this region. In the genome map, the signals for MW Korea are also close to those for Peking (CHB) in China. The overall result for the Korea-Japan-China genome map indicates that some signals for Mongolia and Siberia remain in SW Korea and SE Korea, respectively, while MW Korea displays an average signal for South Korea.</p>
+</sec><sec id="s2c">
+<title>Genetic drift in the Korean Peninsula</title>
+<p>Fst statistics assume that alleles arrive in the population via migration rather than mutation. Therefore, the mean Fst of two populations displays the differentiation caused by a migration event. <xref ref-type="table" rid="pone-0011855-t002">Table 2</xref> indicates that the population showing the highest level of differentiation in the world (in our dataset) was the Amerindian group, while, in Asia, the East Asian group revealed the highest level of differentiation compared to Northern and Southern Asians, whereas there was no difference among East Asians, including Koreans, Japanese and Chinese. In addition, Salmela et al. <xref ref-type="bibr" rid="pone.0011855-Salmela1">[15]</xref> suggested that Eastern Finns also showed signs of genetic drift by analyzing the relationships between monomorphic markers. Using the same measurements for East Asian groups (Korea, Japan and China), nine out of ten historical regions in South Korea showed similar signs of genetic drift that might be due to the later settlement of East Asia. Of the nine historical regions, Gimje (GJ) showed the highest genetic drift. On the other hand, Gyeongju (GU) in South East Korea and Jinlin (JL) in North-Eastern China displayed the lowest drift, suggesting that the populations in the GU and JL regions could be earlier settlers of the Korean Peninsula (<xref ref-type="supplementary-material" rid="pone.0011855.s002">Table S1</xref> in supporting information).</p>
+<table-wrap id="pone-0011855-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0011855.t002</object-id><label>Table 2</label><caption>
+<title>Mean Fst distribution of World, Asia and East Asia.</title>
+</caption><!--===== Grouping alternate versions of objects =====--><alternatives><graphic id="pone-0011855-t002-2" mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.t002" xlink:type="simple"/><table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" colspan="2" rowspan="1">World mean Fst</td>
+<td align="left" colspan="2" rowspan="1">Asia mean Fst</td>
+<td align="left" colspan="2" rowspan="1">East Asia mean Fst</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" colspan="1" rowspan="1">AI</td>
+<td align="left" colspan="1" rowspan="1">0.2954</td>
+<td align="left" colspan="1" rowspan="1">East Asia</td>
+<td align="left" colspan="1" rowspan="1">0.0850</td>
+<td align="left" colspan="1" rowspan="1">KOR</td>
+<td align="left" colspan="1" rowspan="1">0.0100</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">YRI</td>
+<td align="left" colspan="1" rowspan="1">0.1995</td>
+<td align="left" colspan="1" rowspan="1">South Asia</td>
+<td align="left" colspan="1" rowspan="1">0.0635</td>
+<td align="left" colspan="1" rowspan="1">CHB</td>
+<td align="left" colspan="1" rowspan="1">0.0099</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">East Asia</td>
+<td align="left" colspan="1" rowspan="1">0.1601</td>
+<td align="left" colspan="1" rowspan="1">North Asia</td>
+<td align="left" colspan="1" rowspan="1">0.0118</td>
+<td align="left" colspan="1" rowspan="1">JPT</td>
+<td align="left" colspan="1" rowspan="1">0.0100</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">CEU</td>
+<td align="left" colspan="1" rowspan="1">0.1180</td>
+<td align="left" colspan="1" rowspan="1">-</td>
+<td align="left" colspan="1" rowspan="1">-</td>
+<td align="left" colspan="1" rowspan="1">-</td>
+<td align="left" colspan="1" rowspan="1">-</td>
+</tr>
+<tr>
+<td align="left" colspan="1" rowspan="1">South Asia</td>
+<td align="left" colspan="1" rowspan="1">0.0188</td>
+<td align="left" colspan="1" rowspan="1">-</td>
+<td align="left" colspan="1" rowspan="1">-</td>
+<td align="left" colspan="1" rowspan="1">-</td>
+<td align="left" colspan="1" rowspan="1">-</td>
+</tr>
+</tbody>
+</table></alternatives><table-wrap-foot><fn id="nt102"><label/><p>East Asia: Korea, Japan, China. South Asia: Cambodia, Vietnam. Northern Asia: Mongolia. Three mean Fst(s) by STRUCTURE was computed in World, Asia, and East Asia, respectively.</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="s3">
+<title>Discussion</title>
+<p>Current populations in the Korean Peninsula were formed through interactions between populations from Southern and Northern Asia. Therefore, the goal of this study was to determine whether there are still genetic signals remaining in the Korean Peninsula using autosomal genome-wide SNPs, which are 100 times more frequent than those in lesser recombining DNA, such as mtDNA, X and Y chromosomes. Interestingly, some of the historical regions and the regionally separated island, Jeju (JJ) and Gyeongju (GU) in Korea still harbor some old signals from Northern populations, while few signals remain from Southern populations.</p>
+<p>In this study, we reconstructed the genome map using data from 320 individuals in 24 groups after correcting and re-evaluating all bias parameters (Supporting <xref ref-type="supplementary-material" rid="pone.0011855.s001">Methods and Discussion S1</xref>, <xref ref-type="supplementary-material" rid="pone.0011855.s003">Fig. S1</xref>, <xref ref-type="supplementary-material" rid="pone.0011855.s004">S2</xref>, <xref ref-type="supplementary-material" rid="pone.0011855.s005">S3</xref> and <xref ref-type="supplementary-material" rid="pone.0011855.s006">S4</xref>). Interestingly, the genome map was similar to the physical map of Europe and Asia, a relationship that was reported previously in a correlation experiment between physical distances and genetic variations by Mountain and Cavalli-Sforza <xref ref-type="bibr" rid="pone.0011855-Mountain1">[12]</xref>. In addition, genetic structure analysis using the STRUCTURE method revealed the existence of five major populations, African, Caucasian, Amerindian, North-East Asian, and Southern Asian. Therefore, in between, there were significant admixtures such as Mongolian with Caucasian, Vietnamese (or Cambodian) with unknown Southern original settlers, and Amerindians with both North-East Asians and Caucasians (<xref ref-type="fig" rid="pone-0011855-g002">Fig. 2</xref>). Thus, the genome map could be used to estimate the relative evolution times between populations and genome interactions (or gene flows) (<xref ref-type="fig" rid="pone-0011855-g004">Fig. 4</xref>) such as Korean-Vietnamese, between Vietnam and Korea; Korean-Japanese, between Korea and Japan; Mongolian between Amerindians and North-East Asians; Chinese between Koreans and Vietnamese; and Vietnamese between Cambodians and Chinese. In particular, through both the genome map and STRUCTURE results, the evolutionary relationship between Koreans, Japanese, and Chinese has become clearer since it can be seen that the North-East Chinese (JL) and the Peking Chinese (CHB) are relatively closely related, and the Japanese (JPT) and Korea-JeJu (JJ) are also fairly close (<xref ref-type="fig" rid="pone-0011855-g002">Fig. 2</xref>).</p>
+<p>In this study, we didn't include North Korean samples because of political reasons. However, historical migration event of BaekJae from Goguryeo Empire (BC37-AD568) in Northern Korea imply that Northern lineages remain in South Korea. Nevertheless, considering the fact that recent migration events between provinces in North Korea are much less than those in South Korea, the gene flow study of North Korean may provide additional clues in the future study.</p>
+</sec><sec id="s4" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s4a">
+<title>Ethics Statement</title>
+<p>DNA samples of Southern and Northern Asian groups for SNP genotyping were obtained from the Biobank of the National Genome Research Institute (BNGRI), and from the Northern East Asian Nation Functional Genome Project. The samples used for this study all provided written informed consent.</p>
+</sec><sec id="s4b">
+<title>Recombination hotspots</title>
+<p>HapMap Phase II <xref ref-type="bibr" rid="pone.0011855-The2">[21]</xref> provides highly dense SNPs compared to most of the 50K Affymatrix chip SNPs used in this study. Therefore, given a marker position in the 50K Affymatrix genotype data, all lower and upper 2.5K SNPs around each of the 50K SNP markers were extracted from HapMap and named the 5K_HapMap dataset. Using the 5K_HapMap dataset, the pairwise R<sup>2</sup> coefficients and their means in each of the four populations, CHB, JPT, CEU, and YRI, were calculated at each marker position using the EM algorithm <xref ref-type="bibr" rid="pone.0011855-Terwilliger1">[22]</xref>. Therefore, each of the 50K SNP markers has four different mean R<sup>2</sup> coefficients, and if at least one of the four populations (CHB, JPT, CEU, and YRI) had an R<sup>2</sup> value less than 0.7, the marker position was considered as a possible recombination hotspot (RH). Overall, 5K of 54K SNPs were assigned as recombination hotspots. The extraction of 5K spanning SNPs from HapMap and exhaustive pairwise LD (linkage disequilibrium) calculations for the selected 5K_HapMap dataset were performed on an IBM supercomputer (Model JS20) and a cluster computer (DualPowerPC970) with 100 nodes, and took four working days with most of the nodes.</p>
+</sec><sec id="s4c">
+<title>Generation of different GCR sample sets</title>
+<p>The average genotype call rate (GCR) of the current data is 98.7% and named as “data0”. To generate several sample sets having a series of different successful call rates, no call genotypes were inserted randomly in each sample:<disp-formula><graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.e001" xlink:type="simple"/><label>(1)</label></disp-formula>where i is a sample index, Ngt, Nng, and Nig are the numbers of genotypes, natural no call genotypes, and randomly inserted no call genotypes, respectively, and the sum of Ngt, Nng, and Nig is the total number of SNPs used in this study. In this way, three extra genotype datasets, data1, data2, and data3, were generated as different call rate datasets, GCR (95%), GCR (90%), and GCR (85%), respectively. The marker call rate cutoff of data0 was set to 95% and those of data1, data2 and data3 were set to 80%.</p>
+</sec><sec id="s4d">
+<title>Regional specific markers</title>
+<p>The selection of regional specific markers (RSM) was performed using variance analysis. The variance (var<sub>i</sub>) for RSM can be computed as:<disp-formula><graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.e002" xlink:type="simple"/><label>(2)</label></disp-formula><disp-formula><graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.e003" xlink:type="simple"/><label>(3)</label></disp-formula><disp-formula><graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.e004" xlink:type="simple"/><label>(4)</label></disp-formula>where i is a population, n11, n12, and n22 are the number of genotypes in a population, N11, N12 and N22 are the number of genotypes in the whole populations, and p is the allele frequency. The allele frequency in a population and the mean allele frequency for all populations are shown in equation (3). At each marker position, the variances of allele frequency in each population were computed using equations (2) to (4), and then one or more variances that are relatively different from the rest of the populations could be calculated using the z-scores of the variances:<disp-formula><graphic mimetype="image" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.e005" xlink:type="simple"/><label>(5)</label></disp-formula>where μ and σ are the mean and standard deviation of the variances over all populations at each marker position, respectively. Among the z-scores at a marker position, the marker with at least one population (z-scores &gt;4.0 or &lt;−4.0) was selected. Here, the z-score with 4.0&gt; or &lt;−4.0 indicates that the marker variance of a specific population is significantly greater, or smaller, than the variance mean. Of the selected markers, the first one of two, or more, consecutive markers in 500K, or less distance, was selected and used. In a visual inspection, most of the markers selected with LD (linkage disequilibrium) blocks were located within 200K SNP intervals or less. Therefore, these RSMs are considered as LD-free marker datasets.</p>
+</sec><sec id="s4e">
+<title>Subjects and Genotyping</title>
+<p>A total of 320 subjects from 24 regional groups were analyzed in this study. They include Yoruba (YRI), European (CEU), Japanese (JPT), Chinese (CHB), Amerindians (AI), and several population groups from Southern and Northern Asia comprising Chinese from the Jilin area (JL), Vietnamese (VN), Cambodians (CB), Mongolians (MH), and Koreans from ten cities in South Korea (<xref ref-type="table" rid="pone-0011855-t001">Table 1</xref>).</p>
+<p>Autosomal SNP genotyping data for the YRI, CEU, JPT, and CHB regional groups were obtained from the International HapMap database (<ext-link ext-link-type="uri" xlink:href="http://www.hapmap.org" xlink:type="simple">www.hapmap.org</ext-link>) and Amerindian data (AI) were obtained from Affymetrix. Of these, the genotype call rates were sorted, and the best 16 samples from each population of 45 unrelated samples for the JPT and CHB groups (or 60 for the YRI and CEU groups) were selected for this study. For the Southern and Northern Asian groups, genotyping was performed with the Affymetrix GeneChip Mapping 50K_Xba array that comprises 58,960 SNPs, according to the manufacturer's protocol (Affymetrix, Santa Clara, CA, USA). The BRLMM algorithm (Bayesian Robust Linear Model with Mahalanobis distance classifier) <xref ref-type="bibr" rid="pone.0011855-Affymetrix1">[23]</xref>, <xref ref-type="bibr" rid="pone.0011855-Rabbee1">[24]</xref> was applied to genotype calling for one batch of all samples after initial genotyping with the Dynamic Model algorithm <xref ref-type="bibr" rid="pone.0011855-Di1">[25]</xref>. For the selection of samples in our study, several sample folds with their ages and residential histories were collected to determine whether they were native residents.</p>
+</sec></sec><sec id="s5">
+<title>Supporting Information</title>
+<supplementary-material id="pone.0011855.s001" mimetype="application/msword" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.s001" xlink:type="simple"><label>Supporting Methods and Discussion S1</label><caption>
+<p>(0.07 MB DOC)</p>
+</caption></supplementary-material><supplementary-material id="pone.0011855.s002" mimetype="application/x-excel" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.s002" xlink:type="simple"><label>Table S1</label><caption>
+<p>Fst, IBS, and Monomorphic marker.</p>
+<p>(0.07 MB XLS)</p>
+</caption></supplementary-material><supplementary-material id="pone.0011855.s003" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.s003" xlink:type="simple"><label>Figure S1</label><caption>
+<p>MDS without recombination hotspot (RH) filtering. MDS plots with SNPs after QC, QC+500KB spacing between SNPs, and using only regional specific markers (RSM) are shown in columns. Different genotype call rates (98% to 85%) are shown in rows.</p>
+<p>(0.06 MB TIF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0011855.s004" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.s004" xlink:type="simple"><label>Figure S2</label><caption>
+<p>MDS with recombination hotspot (RH) filtering.</p>
+<p>(0.06 MB TIF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0011855.s005" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.s005" xlink:type="simple"><label>Figure S3</label><caption>
+<p>PCA without recombination hotspot (RH) filtering. MDS plots with SNPs after QC, QC+500KB spacing between SNPs, and only regional specific markers (RSM) are shown in columns. Different genotype call rates (98% to 85%) are shown in rows.</p>
+<p>(0.06 MB TIF)</p>
+</caption></supplementary-material><supplementary-material id="pone.0011855.s006" mimetype="image/tiff" position="float" xlink:href="info:doi/10.1371/journal.pone.0011855.s006" xlink:type="simple"><label>Figure S4</label><caption>
+<p>MDS with recombination hotspot (RH) filtering.</p>
+<p>(0.06 MB TIF)</p>
+</caption></supplementary-material></sec></body>
+<back>
+<ack>
+<p>We would like to express our gratitude to Affymetrix Inc. for the Amerind chip data and to Sangho Oh for the Regional maps.</p>
+</ack>
+<ref-list>
+<title>References</title>
+<ref id="pone.0011855-Ross1"><label>1</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Ross</surname><given-names>MT</given-names></name>
+<name name-style="western"><surname>Grafham</surname><given-names>DV</given-names></name>
+<name name-style="western"><surname>Coffey</surname><given-names>AJ</given-names></name>
+<name name-style="western"><surname>Scherer</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>McLay</surname><given-names>K</given-names></name>
+<etal/></person-group>             <year>2005</year>             <article-title>The DNA sequence of the human X chromosome.</article-title>             <source>Nature</source>             <volume>434</volume>             <fpage>325</fpage>             <lpage>37</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Kennedy1"><label>2</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Kennedy</surname><given-names>GC</given-names></name>
+<name name-style="western"><surname>Matsuzaki</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Dong</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>WM</given-names></name>
+<name name-style="western"><surname>Huang</surname><given-names>J</given-names></name>
+<etal/></person-group>             <year>2003</year>             <article-title>Large-scale genotyping of complex DNA.</article-title>             <source>Nat Biotechnol</source>             <volume>21</volume>             <fpage>1233</fpage>             <lpage>7</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Lell1"><label>3</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Lell</surname><given-names>JT</given-names></name>
+<name name-style="western"><surname>Sukernik</surname><given-names>RI</given-names></name>
+<name name-style="western"><surname>Starikovskaya</surname><given-names>YB</given-names></name>
+<name name-style="western"><surname>Su</surname><given-names>B</given-names></name>
+<name name-style="western"><surname>Jin</surname><given-names>L</given-names></name>
+<etal/></person-group>             <year>2002</year>             <article-title>The dual origin and Siberian affinities of Native American Y chromosomes.</article-title>             <source>Am J Hum Genet</source>             <volume>70</volume>             <fpage>1377</fpage>             <lpage>80</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Wang1"><label>4</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Wang</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Lewis</surname><given-names>CM</given-names></name>
+<name name-style="western"><surname>Jakobsson</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Ramachandran</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Ray</surname><given-names>N</given-names></name>
+<etal/></person-group>             <year>2007</year>             <article-title>Genetic Variation and Population Structure in Native Americans.</article-title>             <source>PLoS Genet</source>             <volume>3</volume>             <fpage>e185</fpage>          </element-citation></ref>
+<ref id="pone.0011855-Excoffier1"><label>5</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Excoffier</surname><given-names>L</given-names></name>
+<name name-style="western"><surname>Smouse</surname><given-names>PE</given-names></name>
+<name name-style="western"><surname>Quattro</surname><given-names>JM</given-names></name>
+</person-group>             <year>1992</year>             <article-title>Analysis of molecular variance inferred from metric distances among DNA haplotypes: application to human mitochondrial DNA restriction data.</article-title>             <source>Genetics</source>             <volume>131</volume>             <fpage>479</fpage>             <lpage>91</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Watanabe1"><label>6</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Watanabe</surname><given-names>RM</given-names></name>
+<name name-style="western"><surname>Valle</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Hauser</surname><given-names>ER</given-names></name>
+<name name-style="western"><surname>Ghosh</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Eriksson</surname><given-names>J</given-names></name>
+<etal/></person-group>             <year>1999</year>             <article-title>Familiality of quantitative metabolic traits in Finnish families with non-insulin-dependent diabetes mellitus.</article-title>             <source>Hum Hered</source>             <volume>49</volume>             <fpage>159</fpage>             <lpage>68</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Jin1"><label>7</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Jin</surname><given-names>HJ</given-names></name>
+<name name-style="western"><surname>Kwak</surname><given-names>KD</given-names></name>
+<name name-style="western"><surname>Hammer</surname><given-names>MF</given-names></name>
+<name name-style="western"><surname>Nakahori</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Shinka</surname><given-names>T</given-names></name>
+<etal/></person-group>             <year>2003</year>             <article-title>Y-chromosomal DNA haplogroups and their implications for the dual origins of the Koreans.</article-title>             <source>Hum Genet</source>             <volume>114</volume>             <fpage>27</fpage>             <lpage>35</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Kim1"><label>8</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Kim</surname><given-names>JJ</given-names></name>
+<name name-style="western"><surname>Verdu</surname><given-names>P</given-names></name>
+<name name-style="western"><surname>Pakstis</surname><given-names>AJ</given-names></name>
+<name name-style="western"><surname>Speed</surname><given-names>WC</given-names></name>
+<name name-style="western"><surname>Kidd</surname><given-names>JR</given-names></name>
+<etal/></person-group>             <year>2005</year>             <article-title>Use of autosomal loci for clustering individuals and populations of East Asian origin.</article-title>             <source>Hum Genet</source>             <volume>117</volume>             <fpage>511</fpage>             <lpage>9</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Xue1"><label>9</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Xue</surname><given-names>Y</given-names></name>
+<name name-style="western"><surname>Zerjal</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Bao</surname><given-names>W</given-names></name>
+<name name-style="western"><surname>Zhu</surname><given-names>S</given-names></name>
+<name name-style="western"><surname>Shu</surname><given-names>Q</given-names></name>
+<etal/></person-group>             <year>2006</year>             <article-title>Male demography in East Asia: a north-south contrast in human population expansion times.</article-title>             <source>Genetics</source>             <volume>172</volume>             <fpage>2431</fpage>             <lpage>9</lpage>          </element-citation></ref>
+<ref id="pone.0011855-The1"><label>10</label><element-citation publication-type="journal" xlink:type="simple">             <collab xlink:type="simple">The HUGO Pan-Asian SNP Consortium</collab>             <year>2009</year>             <article-title>Mapping Human Genetic Diversity in Asia.</article-title>             <source>Science</source>             <volume>326</volume>             <fpage>1541</fpage>             <lpage>5</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Patterson1"><label>11</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Patterson</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Price</surname><given-names>AL</given-names></name>
+<name name-style="western"><surname>Reich</surname><given-names>D</given-names></name>
+</person-group>             <year>2006</year>             <article-title>Population structure and eigenanalysis.</article-title>             <source>PLoS Genet</source>             <volume>2</volume>             <fpage>e190</fpage>          </element-citation></ref>
+<ref id="pone.0011855-Mountain1"><label>12</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Mountain</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Cavalli-Sforza</surname><given-names>L</given-names></name>
+</person-group>             <year>1997</year>             <article-title>Multilocus genotypes, a tree of individuals, and human evolutionary history.</article-title>             <source>Am J Hum Genet</source>             <volume>61</volume>             <fpage>705</fpage>             <lpage>718</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Tamura1"><label>13</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Tamura</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Nei</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Kumar</surname><given-names>S</given-names></name>
+</person-group>             <year>2004</year>             <article-title>Prospects for inferring very large phylogenies by using the neighbor-joining method.</article-title>             <source>Proc Natl Acad Sci USA</source>             <volume>101</volume>             <fpage>11030</fpage>             <lpage>11035</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Pritchard1"><label>14</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Pritchard</surname><given-names>JK</given-names></name>
+<name name-style="western"><surname>Stephens</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Donnelly</surname><given-names>P</given-names></name>
+</person-group>             <year>2000</year>             <article-title>Inference of population structure using multilocus genotype data.</article-title>             <source>Genetics</source>             <volume>155</volume>             <fpage>945</fpage>             <lpage>959</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Salmela1"><label>15</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Salmela</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Lappalainen</surname><given-names>T</given-names></name>
+<name name-style="western"><surname>Fransson</surname><given-names>I</given-names></name>
+<name name-style="western"><surname>Andersen</surname><given-names>PM</given-names></name>
+<name name-style="western"><surname>Dahlman-Wright</surname><given-names>K</given-names></name>
+<etal/></person-group>             <year>2008</year>             <article-title>Genome-wide analysis of single nucleotide polymorphisms uncovers population structure in Northern Europe.</article-title>             <source>PLoS One</source>             <volume>3</volume>             <fpage>e3519</fpage>          </element-citation></ref>
+<ref id="pone.0011855-Rosenberg1"><label>16</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Rosenberg</surname><given-names>NA</given-names></name>
+</person-group>             <year>2005</year>             <article-title>DISTRUCT: a program for the graphical display of population structure.</article-title>             <source>Mol Ecol Notes</source>             <volume>4</volume>             <fpage>137</fpage>             <lpage>138</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Press1"><label>17</label><element-citation publication-type="other" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Press</surname><given-names>WH</given-names></name>
+<name name-style="western"><surname>Flannery</surname><given-names>BP</given-names></name>
+<name name-style="western"><surname>Teukolsky</surname><given-names>SA</given-names></name>
+<name name-style="western"><surname>Vetterling</surname><given-names>WT</given-names></name>
+</person-group>             <year>2007</year>             <source>Numerical Recipes in C: the art of scientific computing</source>             <publisher-name>Cambridge University Press</publisher-name>          </element-citation></ref>
+<ref id="pone.0011855-Tamura2"><label>18</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Tamura</surname><given-names>K</given-names></name>
+<name name-style="western"><surname>Dudley</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Nei</surname><given-names>M</given-names></name>
+<name name-style="western"><surname>Kumar</surname><given-names>S</given-names></name>
+</person-group>             <year>2007</year>             <article-title>MEGA4: Molecular Evolutionary Genetics Analysis (MEGA) software version 4.0.</article-title>             <source>Mol Biol Evol</source>             <volume>24</volume>             <fpage>1596</fpage>             <lpage>9</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Bowcock1"><label>19</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Bowcock</surname><given-names>AM</given-names></name>
+<name name-style="western"><surname>Ruiz-Linares</surname><given-names>A</given-names></name>
+<name name-style="western"><surname>Tomfohrde</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Minch</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Kidd</surname><given-names>JR</given-names></name>
+<etal/></person-group>             <year>1994</year>             <article-title>High resolution of human evolutionary trees with polymorphic microsatellites.</article-title>             <source>Nature</source>             <volume>368</volume>             <fpage>455</fpage>             <lpage>457</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Bingham1"><label>20</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Bingham</surname><given-names>J</given-names></name>
+<name name-style="western"><surname>Sudarsanam</surname><given-names>S</given-names></name>
+</person-group>             <year>2000</year>             <article-title>Visualizing large hierarchical clusters in hyperbolic space.</article-title>             <source>Bioinformatics</source>             <volume>16</volume>             <fpage>660</fpage>             <lpage>661</lpage>          </element-citation></ref>
+<ref id="pone.0011855-The2"><label>21</label><element-citation publication-type="journal" xlink:type="simple">             <collab xlink:type="simple">The International HapMap Consortium</collab>             <year>2005</year>             <article-title>A haplotype map of the human genome.</article-title>             <source>Nature</source>             <volume>437</volume>             <fpage>1299</fpage>             <lpage>1320</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Terwilliger1"><label>22</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Terwilliger</surname><given-names>JD</given-names></name>
+<name name-style="western"><surname>Ott</surname><given-names>J</given-names></name>
+</person-group>             <year>1993</year>             <article-title>A novel polylocus method for linkage analysis using the lod-score or affected sib-pair method.</article-title>             <source>Genet Epidemiol</source>             <volume>10</volume>             <fpage>477</fpage>             <lpage>82</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Affymetrix1"><label>23</label><element-citation publication-type="other" xlink:type="simple">             <comment>Affymetrix in Technical Report, 2006</comment>          </element-citation></ref>
+<ref id="pone.0011855-Rabbee1"><label>24</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Rabbee</surname><given-names>N</given-names></name>
+<name name-style="western"><surname>Speed</surname><given-names>TA</given-names></name>
+</person-group>             <year>2006</year>             <article-title>A genotype calling algorithm for Affymetrix SNP arrays.</article-title>             <source>Bioinformatics</source>             <volume>22</volume>             <fpage>7</fpage>             <lpage>12</lpage>          </element-citation></ref>
+<ref id="pone.0011855-Di1"><label>25</label><element-citation publication-type="journal" xlink:type="simple">             <person-group person-group-type="author">
+<name name-style="western"><surname>Di</surname><given-names>X</given-names></name>
+<name name-style="western"><surname>Matsuzaki</surname><given-names>H</given-names></name>
+<name name-style="western"><surname>Webster</surname><given-names>TA</given-names></name>
+<name name-style="western"><surname>Hubbell</surname><given-names>E</given-names></name>
+<name name-style="western"><surname>Liu</surname><given-names>G</given-names></name>
+<etal/></person-group>             <year>2005</year>             <article-title>Dynamic model based algorithms for screening and genotyping over 100 K SNPs on oligonucleotide microarrays.</article-title>             <source>Bioinformatics</source>             <volume>21</volume>             <fpage>1958</fpage>             <lpage>1963</lpage>          </element-citation></ref>
+</ref-list>
+
+</back>
+</article>

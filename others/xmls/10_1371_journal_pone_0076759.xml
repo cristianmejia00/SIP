@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Publishing DTD v3.0 20080202//EN" "http://dtd.nlm.nih.gov/publishing/3.0/journalpublishing3.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article" dtd-version="3.0" xml:lang="en">
+<front>
+<journal-meta>
+<journal-id journal-id-type="nlm-ta">PLoS ONE</journal-id>
+<journal-id journal-id-type="publisher-id">plos</journal-id>
+<journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group>
+<journal-title>PLoS ONE</journal-title></journal-title-group>
+<issn pub-type="epub">1932-6203</issn>
+<publisher>
+<publisher-name>Public Library of Science</publisher-name>
+<publisher-loc>San Francisco, USA</publisher-loc></publisher>
+</journal-meta>
+<article-meta>
+<article-id pub-id-type="publisher-id">PONE-D-13-14415</article-id>
+<article-id pub-id-type="doi">10.1371/journal.pone.0076759</article-id>
+<article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories>
+<title-group>
+<article-title>The Association between Ambient Air Pollution and Daily Mortality in Beijing after the 2008 Olympics: A Time Series Study</article-title>
+<alt-title alt-title-type="running-head">Air Pollution and Mortality</alt-title>
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Yang</surname><given-names>Yang</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Runkui</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Li</surname><given-names>Wenjing</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Wang</surname><given-names>Meng</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Cao</surname><given-names>Yang</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Wu</surname><given-names>Zhenglai</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib>
+<contrib contrib-type="author" xlink:type="simple"><name name-style="western"><surname>Xu</surname><given-names>Qun</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib>
+</contrib-group>
+<aff id="aff1"><label>1</label><addr-line>Department of Epidemiology and Biostatistics, Institute of Basic Medicine Sciences Chinese Academy of Medical Sciences &amp; School of Basic Medicine Peking Union Medical College, Beijing, China</addr-line></aff>
+<aff id="aff2"><label>2</label><addr-line>College of Resources and Environment, University of Chinese Academy of Sciences, Beijing, China</addr-line></aff>
+<aff id="aff3"><label>3</label><addr-line>Unit of Biostatistics, Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden</addr-line></aff>
+<contrib-group>
+<contrib contrib-type="editor" xlink:type="simple"><name name-style="western"><surname>Cameron</surname><given-names>D. William</given-names></name>
+<role>Editor</role>
+<xref ref-type="aff" rid="edit1"/></contrib>
+</contrib-group>
+<aff id="edit1"><addr-line>University of Ottawa, Canada</addr-line></aff>
+<author-notes>
+<corresp id="cor1">* E-mail: <email xlink:type="simple">qunxu@ibms.pumc.edu.cn</email></corresp>
+<fn fn-type="conflict"><p>The authors have declared that no competing interests exist.</p></fn>
+<fn fn-type="con"><p>Conceived and designed the experiments: YY QX YC. Performed the experiments: YY RL. Analyzed the data: YY WL MW. Contributed reagents/materials/analysis tools: RL. Wrote the paper: YY. Revised the manuscript: YC ZW QX.</p></fn>
+</author-notes>
+<pub-date pub-type="collection"><year>2013</year></pub-date>
+<pub-date pub-type="epub"><day>18</day><month>10</month><year>2013</year></pub-date>
+<volume>8</volume>
+<issue>10</issue>
+<elocation-id>e76759</elocation-id>
+<history>
+<date date-type="received"><day>7</day><month>4</month><year>2013</year></date>
+<date date-type="accepted"><day>28</day><month>8</month><year>2013</year></date>
+</history>
+<permissions>
+<copyright-year>2013</copyright-year>
+<copyright-holder>Yang et al</copyright-holder><license xlink:type="simple"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p></license></permissions>
+<abstract>
+<p>In recent decades, ambient air pollution has been an important public health issue in Beijing, but little is known about air pollution and health effects after the 2008 Beijing Olympics. We conduct a time-series analysis to evaluate associations between daily mortality (nonaccidental, cardiovascular and respiratory mortality) and the major air pollutants (carbon monoxide, nitrogen dioxide and particulate matter less than 10 µm in aerodynamic diameter) in Beijing during the two years (2009∼2010) after the 2008 Beijing Olympics. We used generalized additive model to analyze relationship between daily mortality and air pollution. In single air pollutant model with two-day moving average concentrations of the air pollutants, increase in their interquartile range (IQR) associated with percent increase in nonaccidental mortality, 2.55 percent [95% confidence interval (CI): 1.99, 3.11] for CO, 2.54 percent (95% CI: 2.00, 3.08) for NO<sub>2</sub> and 1.80 percent (95% CI: 1.21, 2.40) for PM<sub>10</sub>, respectively; increases in the IQR of air pollutant concentrations associated with percent increase in cardiovascular mortality, 2.88 percent (95% CI: 2.10,3.65) for CO, 2.63 percent (95% CI: 1.87, 3.39) for NO<sub>2</sub> and 1.72 percent (95% CI: 0.88, 2.55) for PM<sub>10</sub>, respectively; and increase in IQR of air pollutant concentrations associated with respiratory mortality, 2.39 percent (95% CI: 0.68, 4.09) for CO, 1.79 percent (95% CI: 0.11, 3.47) for NO<sub>2</sub> and 2.07 percent (95% CI: 0.21, 3.92) for PM<sub>10</sub>, respectively. We used the principal component analysis to avoid collinearity of varied air pollutants. In addition, the association stratified by sex and age was also examined. Ambient air pollution remained a significant contributor to nonaccidental and cardiopulmonary mortalities in Beijing during 2009∼2010.</p>
+</abstract>
+<funding-group><funding-statement>This study was funded by Gong-Yi Program of China Ministry of Environmental Protection (200909016, 201209046, 201309045). URL:<ext-link ext-link-type="uri" xlink:href="http://kjs.mep.gov.cn/gyxhykyzx/" xlink:type="simple">http://kjs.mep.gov.cn/gyxhykyzx/</ext-link>The funders had no role in study design, data collection and analysis, decision to publish, or preperation of the manuscript.</funding-statement></funding-group><counts><page-count count="7"/></counts></article-meta>
+</front>
+<body><sec id="s1">
+<title>Introduction</title>
+<p>Numerous studies have linked ambient air pollution to various adverse health outcomes. Most studies were conducted in developed countries and only a small number of studies have been conducted in developing countries of Asia <xref ref-type="bibr" rid="pone.0076759-Health1">[1]</xref>. Large cities in China have been experiencing substantial socio-economic developments in the past three decades and often accompanied by substantial environmental pollution. Beijing, capital city of China, has had serious ambient air pollution over decades. In addition to coal combustion, rapid increase in motor vehicles has made emissions from motor vehicles another major source of air pollution <xref ref-type="bibr" rid="pone.0076759-Chen1">[2]</xref>, which has brought significant public health issues in recent years. Although several studies have examined the health consequences of air pollution in Beijing <xref ref-type="bibr" rid="pone.0076759-Xu1">[3]</xref>–<xref ref-type="bibr" rid="pone.0076759-Zhang1">[7]</xref>, most of them were conducted before the 2008 and little is known about air pollution and health outcomes after the 2008 Beijing Olympics.</p>
+<p>In the present study, we conducted a time-series analysis to evaluate the associations between the major air pollutants, including carbon monoxide (CO), nitrogen dioxide (NO<sub>2</sub>) and particulate matter &lt;10 µm in aerodynamic diameter (PM<sub>10</sub>), and daily mortality (nonaccidental death, cardiovascular disease and respiratory disease) in Beijing from January 1, 2009 to December 31, 2010.</p>
+</sec><sec id="s2" sec-type="materials|methods">
+<title>Materials and Methods</title>
+<sec id="s2a">
+<title>Study Area</title>
+<p>Beijing consists of 6 urban districts, 8 suburban districts and 2 rural counties, with a total area of 16,807.8 km<sup>2</sup> and a population of 20.2 million by the end of 2011. Our study area included all these districts. But, most of previous studies in Beijing only focused on the urban areas.</p>
+</sec><sec id="s2b">
+<title>Data</title>
+<p>Daily mortality data from January 1, 2009 to December 31, 2010 were obtained from the Chinese Center for Disease Control and Prevention (China CDC). Causes of death were coded according to the International Classification of Diseases, 10th Revision (ICD-10). The analyses were on mortalities from non-accidental causes (ICD-10:A00–R99), cardiovascular diseases (ICD-10:I00–I99), and respiratory diseases (ICD-10: J00–J98).</p>
+<p>Daily air pollution data for CO, NO<sub>2</sub> and PM<sub>10</sub> in Beijing during the same period, were obtained from the Beijing Municipal Environmental Protection Bureau. Average daily ambient air concentrations for each pollutant were calculated based on the data from 11 of 12 available fixed-site monitoring stations in Beijing (Huairou, Dingling, Changping, Shunyi, Haidian, Aotizhongxin, Shijingshan, Xicheng, Dongcheng, Nongzhanguan, Xuanwu, Chongwen), excluding Dingling where is used as a site for background. These stations were included in the China National Quality Control for Air Monitoring Network (<xref ref-type="fig" rid="pone-0076759-g001">Figure 1</xref>), where are located away from major roads and industrial sources emissions in line with monitoring requirements.</p>
+<fig id="pone-0076759-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0076759.g001</object-id><label>Figure 1</label><caption>
+<title>Locations of twelve monitoring stations in Beijing.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0076759.g001" position="float" xlink:type="simple"/></fig>
+<p>To allow adjustment for the effect of weather conditions on mortality, we obtained data of mean daily temperature, relative humidity data and barometric pressure from the Beijing Meteorological Bureau.</p>
+</sec><sec id="s2c">
+<title>Statistical Methods</title>
+<p>Daily number of deaths, air pollution and weather variables are linked by date and therefore can be analyzed with a time-series design <xref ref-type="bibr" rid="pone.0076759-Zeger1">[8]</xref>. We used a generalized additive model (GAM) with natural splines (NS) to analyze relationship of air pollutants, daily mortality and other covariates.</p>
+<p>We first constructed the basic models for various mortality outcomes excluding the air pollution variables, incorporating the NS functions of time and weather conditions, which can accommodate nonlinear and monotonic relationships of mortality with time and weather variables, offering a flexible modeling tool <xref ref-type="bibr" rid="pone.0076759-Hastie1">[9]</xref>. We used different numbers of degrees of freedom (df) per year (4 df/year, 8 df/year and 12 df/year) for the time trend as sensitivity analysis. As for weather conditions, 3 df was used for temperature, relative humidity and barometric pressure <xref ref-type="bibr" rid="pone.0076759-Samet1">[10]</xref>, <xref ref-type="bibr" rid="pone.0076759-Dominici1">[11]</xref>. Day of the week was included as a dummy variable in the basic models.</p>
+<p>Then, ambient air pollutant variables were introduced into the models and their effects on nonaccidental, cardiovascular and respiratory mortalities were examined. Briefly, we fit the following log-linear generalized additive models to obtain the estimated pollution log-relative rate <italic>β</italic> in Beijing:<disp-formula id="pone.0076759.e001"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0076759.e001" xlink:type="simple"/><label>(1)</label></disp-formula></p>
+<p>Here <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e002" xlink:type="simple"/></inline-formula> represented the expected number of deaths at day t, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e003" xlink:type="simple"/></inline-formula> represented the log-relative rate of mortality associated with a unit increase in air pollutants, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e004" xlink:type="simple"/></inline-formula> was the pollutants concentrations at day t, <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e005" xlink:type="simple"/></inline-formula> was the predictor variables other than air pollutants (i.e., time, mean daily temperature, daily relative humidity and barometric pressure ), <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e006" xlink:type="simple"/></inline-formula> was smooth function of these variables, and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e007" xlink:type="simple"/></inline-formula> was the dummy variable for day of the week.</p>
+<p>As single-day lag models may underestimate the cumulative effect of air pollution on mortality <xref ref-type="bibr" rid="pone.0076759-Braga1">[12]</xref>, <xref ref-type="bibr" rid="pone.0076759-Bell1">[13]</xref>, 2-day moving averages of current-day and previous-day concentrations of air pollutants (lag01) were used in our main analysis with current-day (lag 0 day) temperature, relative humidity and barometric pressure. For sensitivity analysis, we examined the effects of air pollutants with lag structures, including single-day lag (from lag 0 to lag 4) and multi-day lag [from lag0–1 day (average) to lag0–4 days (average)].</p>
+<p>We also introduced “Principal Component” into the study and we established the model of multiple ambient air pollutants’ health effects in order to exclude the impacts of collinearity between different air pollutants in the multiple air pollutants model <xref ref-type="bibr" rid="pone.0076759-Zhao1">[14]</xref>. Information of original air pollutants were substituted by composite latent variables (principal components) in the GAM. Meanwhile, we transformed the regression coefficient <italic>β</italic> of the principal components into the regression coefficient <italic>b</italic> of the original air pollutants. Then, relative risks and their confidence intervals (CIs) were estimated to quantify the influence of each ambient air pollutant on daily mortality in multivariate model.</p>
+<p>Finally, we conducted stratified analyses by sex (male and female) and age (45–64 years and ≥65 years) to examine potential effect modification. The 95% CI was calculated to test the statistical significance of differences between effect estimates for strata of a potential effect modifier:<disp-formula id="pone.0076759.e008"><graphic position="anchor" xlink:href="info:doi/10.1371/journal.pone.0076759.e008" xlink:type="simple"/><label>(2)</label></disp-formula></p>
+<p>Where <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e009" xlink:type="simple"/></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e010" xlink:type="simple"/></inline-formula> were the estimates for the two categories, and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e011" xlink:type="simple"/></inline-formula> and <inline-formula><inline-graphic xlink:href="info:doi/10.1371/journal.pone.0076759.e012" xlink:type="simple"/></inline-formula> were standard errors <xref ref-type="bibr" rid="pone.0076759-Zeka1">[15]</xref>.</p>
+<p>In order to compare our results with those in other studies, the percentage increase of daily mortality associated with IQR increase in ambient air pollutant concentrations was converted into percentage increase of daily mortality associated with 10 µg/m<sup>3</sup> increase for ambient air NO<sub>2</sub> and PM<sub>10</sub>, and 1 mg/m<sup>3</sup> increase for ambient air CO, respectively.</p>
+<p>All analyses were conducted with R2.15.1 using the MGCV package <xref ref-type="bibr" rid="pone.0076759-R1">[16]</xref>. The results were presented as percentage change in daily mortality per IQR increase of the three air pollutants.</p>
+</sec></sec><sec id="s3">
+<title>Results</title>
+<p>A total of 152,714 deaths were recorded in Beijing between January 1, 2009 and December 31, 2010, 0.83% in those aged 0–4 years old, 5.17% in those aged 5–44 years, 19.81% in those aged 45–64 years and 74.19% in those aged 65 years or older, respectively. Overall, there were 200.4 nonaccidental deaths per day in average, including 101 from cardiovascular diseases, which accounted for 60.6% of the total of nonaccidental deaths, and 20.6 from respiratory diseases, respectively (<xref ref-type="table" rid="pone-0076759-t001">Table 1</xref>). During our study period, the mean daily average concentrations of CO, NO<sub>2</sub> and PM<sub>10</sub> were 1.54 mg/m<sup>3</sup>, 55.02 µg/m<sup>3</sup> and 121.04 µg/m<sup>3</sup>, respectively (<xref ref-type="table" rid="pone-0076759-t001">Table 1</xref>). The mean daily temperature, relative humidity and barometric pressure were 13.0°C, 51% and 1012 hPa.</p>
+<table-wrap id="pone-0076759-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0076759.t001</object-id><label>Table 1</label><caption>
+<title>Summary statistics of daily death numbers, air pollution concentrations and weather conditions in Beijing, China (2009∼2010).</title>
+</caption><alternatives><graphic id="pone-0076759-t001-1" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0076759.t001" xlink:type="simple"/>
+<table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td colspan="2" align="left" rowspan="1">Mean ± SD</td>
+<td align="left" rowspan="1" colspan="1">Min<xref ref-type="table-fn" rid="nt102">*</xref></td>
+<td align="left" rowspan="1" colspan="1">P(25)<xref ref-type="table-fn" rid="nt103">**</xref></td>
+<td align="left" rowspan="1" colspan="1">P(50)<xref ref-type="table-fn" rid="nt103">**</xref></td>
+<td align="left" rowspan="1" colspan="1">P(75)<xref ref-type="table-fn" rid="nt103">**</xref></td>
+<td align="left" rowspan="1" colspan="1">Max<xref ref-type="table-fn" rid="nt104">***</xref></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Daily deathcounts</td>
+<td colspan="2" align="left" rowspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Nonaccidental</td>
+<td colspan="2" align="left" rowspan="1">200.4±28.7</td>
+<td align="left" rowspan="1" colspan="1">135</td>
+<td align="left" rowspan="1" colspan="1">180</td>
+<td align="left" rowspan="1" colspan="1">198</td>
+<td align="left" rowspan="1" colspan="1">221</td>
+<td align="left" rowspan="1" colspan="1">282</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Cardiovascular</td>
+<td colspan="2" align="left" rowspan="1">101.0±19.8</td>
+<td align="left" rowspan="1" colspan="1">39</td>
+<td align="left" rowspan="1" colspan="1">86</td>
+<td align="left" rowspan="1" colspan="1">99</td>
+<td align="left" rowspan="1" colspan="1">115</td>
+<td align="left" rowspan="1" colspan="1">80</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Respiratory</td>
+<td colspan="2" align="left" rowspan="1">20.6±6.0</td>
+<td align="left" rowspan="1" colspan="1">7</td>
+<td align="left" rowspan="1" colspan="1">16</td>
+<td align="left" rowspan="1" colspan="1">20</td>
+<td align="left" rowspan="1" colspan="1">24</td>
+<td align="left" rowspan="1" colspan="1">47</td>
+</tr>
+<tr>
+<td colspan="3" align="left" rowspan="1">Air pollutants concentrations<xref ref-type="table-fn" rid="nt101">a</xref></td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">CO (mg/m<sup>3</sup>)</td>
+<td align="left" rowspan="1" colspan="1">1.54±1.01</td>
+<td align="left" rowspan="1" colspan="1">0.27</td>
+<td align="left" rowspan="1" colspan="1">0.87</td>
+<td align="left" rowspan="1" colspan="1">1.24</td>
+<td align="left" rowspan="1" colspan="1">1.84</td>
+<td align="left" rowspan="1" colspan="1">7.79</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">NO<sub>2</sub> (µg/m<sup>3</sup>)</td>
+<td align="left" rowspan="1" colspan="1">55.02±24.04</td>
+<td align="left" rowspan="1" colspan="1">9.90</td>
+<td align="left" rowspan="1" colspan="1">39.27</td>
+<td align="left" rowspan="1" colspan="1">50.41</td>
+<td align="left" rowspan="1" colspan="1">64.36</td>
+<td align="left" rowspan="1" colspan="1">180.67</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">PM<sub>10</sub> (µg/m<sup>3</sup>)</td>
+<td align="left" rowspan="1" colspan="1">121.04±75.30</td>
+<td align="left" rowspan="1" colspan="1">4.91</td>
+<td align="left" rowspan="1" colspan="1">69.00</td>
+<td align="left" rowspan="1" colspan="1">107.00</td>
+<td align="left" rowspan="1" colspan="1">149.00</td>
+<td align="left" rowspan="1" colspan="1">651.18</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Weather</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Temperature(°C)</td>
+<td align="left" rowspan="1" colspan="1">13.0±11.7</td>
+<td align="left" rowspan="1" colspan="1">−12.5</td>
+<td align="left" rowspan="1" colspan="1">1.7</td>
+<td align="left" rowspan="1" colspan="1">14.7</td>
+<td align="left" rowspan="1" colspan="1">24.3</td>
+<td align="left" rowspan="1" colspan="1">34.5</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Humidity (%)</td>
+<td align="left" rowspan="1" colspan="1">51.0±19.2</td>
+<td align="left" rowspan="1" colspan="1">13</td>
+<td align="left" rowspan="1" colspan="1">35</td>
+<td align="left" rowspan="1" colspan="1">52</td>
+<td align="left" rowspan="1" colspan="1">67</td>
+<td align="left" rowspan="1" colspan="1">92</td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Barometricpressure (hPa)</td>
+<td align="left" rowspan="1" colspan="1">1012±9.8</td>
+<td align="left" rowspan="1" colspan="1">989.7</td>
+<td align="left" rowspan="1" colspan="1">1004.4</td>
+<td align="left" rowspan="1" colspan="1">1011.2</td>
+<td align="left" rowspan="1" colspan="1">1019.2</td>
+<td align="left" rowspan="1" colspan="1">1037.1</td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt101"><label>a</label><p>Twenty-four-hour average for CO, NO<sub>2</sub> and PM<sub>10</sub>.</p></fn><fn id="nt102"><label>*</label><p>minimum.</p></fn><fn id="nt103"><label>**</label><p>the 25<sup>th</sup>, 50<sup>th</sup> (median) and 75<sup>th</sup> percentile, respectively.</p></fn><fn id="nt104"><label>***</label><p>maximum.</p></fn></table-wrap-foot></table-wrap>
+<p>Spearman correlation coefficients between air pollutant concentrations and weather conditions are listed in <xref ref-type="table" rid="pone-0076759-t002">Table 2</xref>, showing close correlation between ambient air CO, NO<sub>2</sub> and PM<sub>10</sub> concentrations and weather conditions (all p&lt;0.05), with the highest of ambient air CO and NO<sub>2</sub> concentrations primarily from traffic sources. Ambient air pollutant concentrations significantly inversely correlated with temperature and positively with relative humidity, but weakly correlated with barometric pressure.</p>
+<table-wrap id="pone-0076759-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0076759.t002</object-id><label>Table 2</label><caption>
+<title>Spearman correlation coefficients between daily air pollutant concentrations and weather conditions in Beijing (2009∼2010).</title>
+</caption><alternatives><graphic id="pone-0076759-t002-2" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0076759.t002" xlink:type="simple"/>
+<table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">NO<sub>2</sub></td>
+<td align="left" rowspan="1" colspan="1">PM<sub>10</sub></td>
+<td align="left" rowspan="1" colspan="1">Temperature</td>
+<td align="left" rowspan="1" colspan="1">Humidity</td>
+<td align="left" rowspan="1" colspan="1">Barometricpressure</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">CO</td>
+<td align="left" rowspan="1" colspan="1">0.86<xref ref-type="table-fn" rid="nt105">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.58<xref ref-type="table-fn" rid="nt105">*</xref></td>
+<td align="left" rowspan="1" colspan="1">−0.33<xref ref-type="table-fn" rid="nt105">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.35<xref ref-type="table-fn" rid="nt105">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.10<xref ref-type="table-fn" rid="nt105">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">NO<sub>2</sub></td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">0.55<xref ref-type="table-fn" rid="nt105">*</xref></td>
+<td align="left" rowspan="1" colspan="1">−0.23<xref ref-type="table-fn" rid="nt105">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.27<xref ref-type="table-fn" rid="nt105">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.05<xref ref-type="table-fn" rid="nt105">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PM<sub>10</sub></td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">−0.02</td>
+<td align="left" rowspan="1" colspan="1">0.22<xref ref-type="table-fn" rid="nt105">*</xref></td>
+<td align="left" rowspan="1" colspan="1">−0.19<xref ref-type="table-fn" rid="nt105">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Temperature</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">0.33<xref ref-type="table-fn" rid="nt105">*</xref></td>
+<td align="left" rowspan="1" colspan="1">−0.83<xref ref-type="table-fn" rid="nt105">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Humidity</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">−0.31<xref ref-type="table-fn" rid="nt105">*</xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt105"><label>*</label><p><italic>P</italic>&lt;0.05.</p></fn></table-wrap-foot></table-wrap>
+<p>Estimated effects of ambient air CO, NO<sub>2</sub> and PM<sub>10</sub> on nonaccidental, cardiovascular and respiratory mortalities were all statistically significant in single pollutant model (<xref ref-type="table" rid="pone-0076759-t003">Table 3</xref>). The effects decreased but remained significant after adjusting collinearity by principal component analysis (<xref ref-type="table" rid="pone-0076759-t003">Table 3</xref>).The sensitivity analysis indicated that the increasing of the degrees of freedom led to a decrease in the effect estimates (results not shown).</p>
+<table-wrap id="pone-0076759-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0076759.t003</object-id><label>Table 3</label><caption>
+<title>Percent increase of daily mortality associated with an IQR increase of CO, NO<sub>2</sub> and PM<sub>10</sub> with single model and principal component analysis in Beijing (mean and 95% CI), using 8 df/year.<xref ref-type="table-fn" rid="nt106">a</xref></title>
+</caption><alternatives><graphic id="pone-0076759-t003-3" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0076759.t003" xlink:type="simple"/>
+<table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1">Nonaccidental mortality</td>
+<td align="left" rowspan="1" colspan="1">Cardiovascular mortality</td>
+<td align="left" rowspan="1" colspan="1">Respiratory mortality</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left" rowspan="1" colspan="1">Single model</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CO</td>
+<td align="left" rowspan="1" colspan="1">2.55 (1.99, 3.11)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.88 (2.10, 3.65)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.39 (0.68, 4.09)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">NO<sub>2</sub></td>
+<td align="left" rowspan="1" colspan="1">2.54 (2.00, 3.08)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.63 (1.87, 3.39)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.79 (0.11, 3.47)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PM<sub>10</sub></td>
+<td align="left" rowspan="1" colspan="1">1.80 (1.21, 2.40)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.72 (0.88, 2.55)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.07 (0.21, 3.92)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+</tr>
+<tr>
+<td colspan="4" align="left" rowspan="1">After-adjusting collinearity by principal component analysis</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">CO</td>
+<td align="left" rowspan="1" colspan="1">0.97 (0.77, 1.17)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.01 (0.73, 1.29)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.89 (0.27, 1.51)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">NO<sub>2</sub></td>
+<td align="left" rowspan="1" colspan="1">1.04 (0.82, 1.25)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.08 (0.78, 1.38)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.95 (0.29, 1.61)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">PM<sub>10</sub></td>
+<td align="left" rowspan="1" colspan="1">1.07 (0.85, 1.30)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.12 (0.81, 1.43)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.99 (0.30, 1.67)<xref ref-type="table-fn" rid="nt107">*</xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt106"><label>a</label><p>We applied current-day (lag 0 day) temperature and relative humidity and 2-day moving average of air pollutant concentrations (lag01), and applied 8 df per year for time, 3 df to temperature, humidity and barometric pressure.</p></fn><fn id="nt107"><label>*</label><p><italic>P</italic>&lt;0.05.</p></fn></table-wrap-foot></table-wrap>
+<p>Air pollution effects on nonaccidental and cardiovascular mortality varied by sex and age (<xref ref-type="table" rid="pone-0076759-t004">Table 4</xref>). For both males and females, effect estimates of all the three air pollutants were statistically significant. And effect estimates for females were a little bit higher than those for males, but between-sex difference was non-significant for all these three pollutants.</p>
+<table-wrap id="pone-0076759-t004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0076759.t004</object-id><label>Table 4</label><caption>
+<title>Sex or age-specific percent increase of daily mortality of Beijing residents associated with an IQR increase of CO, NO<sub>2</sub> and PM<sub>10</sub>, using 8 df/year.<xref ref-type="table-fn" rid="nt108">a</xref></title>
+</caption><alternatives><graphic id="pone-0076759-t004-4" position="float" mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0076759.t004" xlink:type="simple"/>
+<table><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup>
+<thead>
+<tr>
+<td align="left" rowspan="1" colspan="1">Cause of death</td>
+<td align="left" rowspan="1" colspan="1">Proportion (%)</td>
+<td align="left" rowspan="1" colspan="1">CO</td>
+<td align="left" rowspan="1" colspan="1">NO<sub>2</sub></td>
+<td align="left" rowspan="1" colspan="1">PM<sub>10</sub></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2" align="left" rowspan="1">Nonaccidental mortality</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Male</td>
+<td align="left" rowspan="1" colspan="1">56.2</td>
+<td align="left" rowspan="1" colspan="1">2.22 (1.47, 2.97)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.35 (1.62, 3.09)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.43 (0.63, 2.23)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Female</td>
+<td align="left" rowspan="1" colspan="1">43.8</td>
+<td align="left" rowspan="1" colspan="1">2.96 (2.13, 3.79)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.77 (1.96, 3.59)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.27 (1.38, 3.17)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">45-</td>
+<td align="left" rowspan="1" colspan="1">20.02</td>
+<td align="left" rowspan="1" colspan="1">1.36 (0.08, 2.64)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.33 (0.08, 2.58)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.39 (0.03, 2.75)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">65-</td>
+<td align="left" rowspan="1" colspan="1">74.42</td>
+<td align="left" rowspan="1" colspan="1">2.70 (2.06, 3.33)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.71 (2.09, 3.33)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.82 (1.14, 2.51)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+</tr>
+<tr>
+<td colspan="2" align="left" rowspan="1">Cardiovascular mortality</td>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+<td align="left" rowspan="1" colspan="1"/>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Male</td>
+<td align="left" rowspan="1" colspan="1">54.75</td>
+<td align="left" rowspan="1" colspan="1">2.67 (1.63, 3.71)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.12 (1.10, 3.15)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">0.96 (−0.17, 2.09)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">Female</td>
+<td align="left" rowspan="1" colspan="1">45.25</td>
+<td align="left" rowspan="1" colspan="1">3.13 (1.98, 4.28)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">3.24 (2.11, 4.37)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.63 (1.39, 3.86)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">45-</td>
+<td align="left" rowspan="1" colspan="1">16.70</td>
+<td align="left" rowspan="1" colspan="1">1.25 (−0.66, 3.16)</td>
+<td align="left" rowspan="1" colspan="1">0.42 (−1.46, 2.30)</td>
+<td align="left" rowspan="1" colspan="1">0.53 (−1.53, 2.59)</td>
+</tr>
+<tr>
+<td align="left" rowspan="1" colspan="1">65-</td>
+<td align="left" rowspan="1" colspan="1">80.77</td>
+<td align="left" rowspan="1" colspan="1">3.11 (2.25, 3.97)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">2.97 (2.12, 3.81)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+<td align="left" rowspan="1" colspan="1">1.97 (1.04, 2.89)<xref ref-type="table-fn" rid="nt109">*</xref></td>
+</tr>
+</tbody>
+</table>
+</alternatives><table-wrap-foot><fn id="nt108"><label>a</label><p>We applied current-day (lag 0 day) temperature and relative humidity and 2-day moving average of air pollutant concentrations (lag01), and applied 3 df to temperature, humidity and barometric pressure.</p></fn><fn id="nt109"><label>*</label><p><italic>P</italic>&lt;0.05.</p></fn></table-wrap-foot></table-wrap>
+<p>We observed that the effects of air pollutants were statistically significant in residents aged 65 years or older for nonaccidental and cardiovascular mortalities (<xref ref-type="table" rid="pone-0076759-t004">Table 4</xref>), but only significant for nonaccidental mortality in residents aged 45 or older. For nonaccidental and cardiovascular mortality, effect estimates in residents aged 65 years or older for all these three air pollutants were higher than those in residents aged 45–64 years, but not reaching the level of statistically significantly difference.</p>
+<p><xref ref-type="fig" rid="pone-0076759-g002">Figure 2</xref> presents the lag pattern of effects of air pollutants on cardiovascular mortality, with statistically significant associations for most lag days of all three pollutants except for lag3 and lag4. Generally, cumulative exposure lag01 had larger effects than single-day exposure (lag0 to lag4) and the effects of cumulative exposures (from lag01 to lag04) showed a decreasing trend.</p>
+<fig id="pone-0076759-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0076759.g002</object-id><label>Figure 2</label><caption>
+<title>Percent increase of daily cardiovascular mortality associated with an IQR increase of CO, NO<sub>2</sub> and PM<sub>10</sub> concentrations, using different lag structure of pollutants.</title>
+</caption><graphic mimetype="image" xlink:href="info:doi/10.1371/journal.pone.0076759.g002" position="float" xlink:type="simple"/></fig></sec><sec id="s4">
+<title>Discussion</title>
+<p>The results of this time-series study found that ambient air pollutants CO, NO<sub>2</sub> and PM<sub>10</sub> remained strongly associated with nonaccidental deaths and mortalities caused by major cardiovascular and pulmonary diseases in Beijing after the 2008 Olympics (2009∼2010). After adjusting collinearity, all the three air pollutants were associated with nonaccidental and cardiopulmonary mortalities. Women and elderly were more vulnerable to air pollution than men and younger people.</p>
+<p>Air pollution has been a major environmental and public health problem in Beijing for the past decades. In addition to coal combustion, the rapid increase in motor vehicles has made exhaust emissions from them another major source of air pollution <xref ref-type="bibr" rid="pone.0076759-Chen1">[2]</xref>. In Beijing, number of automobiles increased substantially from 1.46 million in 1999 to around 5 million in 2011, which became major source of ambient air CO (86%) and NO<sub>x</sub> (56%) emissions there <xref ref-type="bibr" rid="pone.0076759-Beijing1">[17]</xref>, indicating Beijing still faces a substantial challenge of balancing economic growth and environment protection. Our study evaluated relationship between air pollutants and mortality after the 2008 Beijing Olympics and therefore provides important information for policy makers.</p>
+<p>A meta-analysis of 109 time-series studies of air pollution and daily mortality, most of which were conducted in North America and Europe, indicated that 1 mg/m<sup>3</sup> change of CO and 10 µg/m<sup>3</sup> change of NO<sub>2</sub> and PM<sub>10</sub> were associated with 1.35 percent (95% CI, 0.95, 1.75), 0.61 percent (95% CI, 0.46, 0.76) and 0.64 percent (95% CI, 0.48, 0.77) increases in all daily natural deaths, respectively (in single-pollutant models) <xref ref-type="bibr" rid="pone.0076759-Stieb1">[18]</xref>. Recently, a study about the relationship between CO and daily mortality in three Chinese cities (Shanghai, Anshan, Taiyuan) estimated that 1 mg/m<sup>3</sup> increase of CO was associated with 2.89 percent (95% CI: 1.68, 4.11) increase of nonaccidental mortality in the single-pollutant model <xref ref-type="bibr" rid="pone.0076759-Chen2">[19]</xref>. Another meta-analysis of Chinese studies estimated that 10 µg/m<sup>3</sup> increase in PM<sub>10</sub> corresponded to a 0.44 percent (95% CI, 0.13, 0.76) increase in nonaccidental mortality <xref ref-type="bibr" rid="pone.0076759-Kan1">[20]</xref>. There were several time series studies for association between air pollution and daily mortality in Beijing before the 2008 Olympics, Zhang et al examined the association between air pollution and daily mortality in an urban district using data from 2003 to 2008 and found that 10 µg/m<sup>3</sup> increase of NO<sub>2</sub> was associate with 0.271 percent (95% CI: 0.086, 0.457) increase for cardiovascular mortality and 0.947 percent (95% CI: 0.759, 1.135) increase for respiratory mortality. As for PM<sub>10</sub>, the corresponding figures were 0.164 percent (95% CI: 0.144, 0.184) and 0.101 percent (95% CI: 0.057, 0.145), respectively <xref ref-type="bibr" rid="pone.0076759-Zhang1">[7]</xref>. Yang et al investigated the relationship between air pollutants and cardiovascular mortality in Beijing using data from January 1, 2003 to December 31, 2003 and found that 10 µg/m<sup>3</sup> increase of NO<sub>2</sub> was associate with 0.404 percent (95% CI: 0.1, 0.8) increase for cardiovascular mortality and the corresponding figure was 0.381 percent (95% CI: 0.2, 0.6) for PM<sub>10</sub> <xref ref-type="bibr" rid="pone.0076759-Yang1">[21]</xref>.</p>
+<p>In order to compare our results with those in other studies, we also converting our percent increase of daily mortality associated with an IQR increase of pollutant concentrations into 10 µg/m<sup>3</sup> increase for NO<sub>2</sub> and PM<sub>10</sub> and 1 mg/m<sup>3</sup> increase for CO. Using two-day moving average of the air pollutants concentrations, an increase of 1 mg/m<sup>3</sup> of CO was associated with a 3.14 percent (95% CI: 2.45, 3.83) increase in nonaccidental mortality, and the corresponding numbers were 1.25 percent (95% CI: 0.99, 1.53) for 10 µg/m<sup>3</sup> increase of NO<sub>2</sub> and 0.25 percent (95% CI: 0.17, 0.33) for 10 µg/m<sup>3</sup> increase of PM<sub>10</sub>, respectively. For cardiovascular mortality, increase of 1 mg/m<sup>3</sup> of CO was associated with a 3.54 percent (95% CI: 2.59, 4.49) increase, and the corresponding numbers were 1.30 percent (95% CI: 0.92, 1.68) for 10 µg/m<sup>3</sup> increase of NO<sub>2</sub> and 0.24 percent (95% CI: 0.12, 0.35) for 10 µg/m<sup>3</sup> increase of PM<sub>10</sub>, respectively. For respiratory mortality, an increase of 1 mg/m<sup>3</sup> of CO was associated with a 2.94 percent (95% CI: 0.84, 5.03) increase, and the corresponding numbers were 0.89 percent (95% CI: 0.05, 1.72) for 10 µg/m<sup>3</sup> increase of NO<sub>2</sub> and 0.29 percent (95% CI: 0.03, 0.54) for 10 µg/m<sup>3</sup> increase of PM<sub>10</sub>, respectively<sub>.</sub> Our estimates on effects of gaseous pollutants (CO and NO<sub>2</sub>) in ambient air seemed higher than results of studies conducted before 2008 in Beijing and studies in multi-city analysis and meta analysis <xref ref-type="bibr" rid="pone.0076759-Zhang1">[7]</xref>, <xref ref-type="bibr" rid="pone.0076759-Stieb1">[18]</xref>, <xref ref-type="bibr" rid="pone.0076759-Chen2">[19]</xref>, <xref ref-type="bibr" rid="pone.0076759-Yang1">[21]</xref>, <xref ref-type="bibr" rid="pone.0076759-Samoli1">[22]</xref>. There are two possible explanations, automobiles became a major source of air pollutants in Beijing in the past several years. Compared with industrial emissions, automobile emission was much closer to the zones of human activities and was more likely to be inhaled. Health consequences of automobile derived from air pollutants in Beijing could be more severe and should be further investigated. Further, Beijing is also undergoing substantial changes in sociodemographic and health conditions such as rapidly aging, urbanization, lifestyles, disease spectrum, and so on, many of which may affect population susceptibility to the adverse effects of air pollution <xref ref-type="bibr" rid="pone.0076759-ONeill1">[23]</xref>. As estimated, PM<sub>10</sub> concentration in Beijing is generally comparable with that in a few years ago <xref ref-type="bibr" rid="pone.0076759-Yang1">[21]</xref> and in multi-city analysis <xref ref-type="bibr" rid="pone.0076759-Kan1">[20]</xref> and meta-analysis <xref ref-type="bibr" rid="pone.0076759-Stieb1">[18]</xref> worldwide. Health effects of PM<sub>10</sub> may be related to its composites and the residents’ sensitivity to air pollution. Components of particular mass were classified into five categories in previous studies, i.e., secondary inorganic aerosol, sea salt, heavy metal, mineral matter and construction dust <xref ref-type="bibr" rid="pone.0076759-Sun1">[24]</xref>. For Beijing, contribution of these components to PM<sub>2.1</sub> accounted for 23.9%, 6.5%, 1.1%, 13.3% and 4.0%, whereas for 12.0%, 9.5%, 0.8%, 37.1% and 7.8%, to PM<sub>2.1-9</sub>, respectively. The estimated contribution of anthropogenic sources to PM<sub>2.1</sub> in Beijing was 3.5 times as that of nature sources whereas the same ratio was 0.6 for PM<sub>2.1-9</sub>. Contribution of secondary components to PM<sub>2.1</sub> was equivalent to that of primary emissions, suggesting that the precursors emitted from coal combustion and vehicle exhaust should be controlled in target areas. In contrast, the ratio of primary emissions to secondary particulate matters in PM<sub>2.1-9</sub> was up to 5, indicating measures are required to reduce dust from construction areas <xref ref-type="bibr" rid="pone.0076759-Sun1">[24]</xref>. When it comes to susceptibility, the APHENA study of European and North American cities have already confirmed that the elderly and unemployed individuals were at higher risk of short-term PM exposure <xref ref-type="bibr" rid="pone.0076759-Samoli2">[25]</xref>. And obesity and active smoking have been newly recognized as a possible susceptible factors. Two cohort studies have shown that a greater body mass index enhances the susceptibility for PM-induced cardiovascular mortality, at least in women <xref ref-type="bibr" rid="pone.0076759-Miller1">[26]</xref>, <xref ref-type="bibr" rid="pone.0076759-Puett1">[27]</xref>.</p>
+<p>In our analysis, we found associations of air pollutants and nonaccidental and cardiovascular mortalities were stronger in women than in men, which is consistent with other reports <xref ref-type="bibr" rid="pone.0076759-Kan2">[28]</xref>. The fact that few Chinese women smoke might have further contributed to the effect of air pollutants on mortalities in China. And one study showed that effects of air pollution was greater in nonsmokers than smokers <xref ref-type="bibr" rid="pone.0076759-Kunzli1">[29]</xref>.</p>
+<p>As in many other studies <xref ref-type="bibr" rid="pone.0076759-Gouveia1">[30]</xref>–<xref ref-type="bibr" rid="pone.0076759-Katsouyanni1">[32]</xref>, we also found the elderly people were more vulnerable to the adverse effects of air pollution (<xref ref-type="table" rid="pone-0076759-t004">Table 4</xref>), who have often had chronic diseases that put them be at higher risk of harmful health effects due to ambient air pollution exposure <xref ref-type="bibr" rid="pone.0076759-McGrath1">[33]</xref>. Obviously, there was an overlap between elderly people and patients with cardiopulmonary diseases. We referred to the <bold><italic>Beijing Municipal Statistical Yearbook−2007</italic></bold> and <bold><italic>Beijing Municipal Statistical Yearbook−2010</italic></bold> and found that the cardiovascular morality rates were 129.82 per 100,000 in 2007 and 156.97 per 100,000 in 2010, and the respiratory mortality rates were 58.83 per 100,000 in 2007 and 60.92 per 100,000 in 2010, respectively, indicating an increasing trend of death from chronic diseases <xref ref-type="bibr" rid="pone.0076759-BeijingStatistical1">[34]</xref>, <xref ref-type="bibr" rid="pone.0076759-BeijingStatistical2">[35]</xref>. According to Beijing Statistical Bureau (2012), people over 65 years old accounted for 14.1% of the permanent residents in Beijing <xref ref-type="bibr" rid="pone.0076759-BeijingStatistical3">[36]</xref>, which means that a considerable number of residents in Beijing tend to be at increased risk for air-pollution-related health effects.</p>
+<p>Currently the most popular were single air pollutant model without considering the inner link between different air pollutants, which could lead to in certain limitations when using the single model in explanation of the results. If a multiple air pollutants were directly fitted into the model, collinearity could inevitable confound the model due to the nonindependence between different air pollutants, thus leading to the instability of the model. In order to solve the problem, principal component analysis was adopted to adjust the collinearity of different air pollutants in the multiple air pollutants model <xref ref-type="bibr" rid="pone.0076759-Zhao1">[14]</xref>. It is a multivariate method that combines three air pollutant indexes by means of an appropriate linear model, and then it generated an independent and specific composite latent variable (Principle component) with extracted variation information of original independent variable.</p>
+<p>Sensitivity analysis of the model suggests that cumulative effects (multiday effects from lag01 to lag04) were generally larger and more sensitive than lag effects (single day effects from lag1 to lag4).</p>
+<p>Our analysis also has several limitations. Like in most time-series studies, we used averages of monitoring stations as a surrogate for exposures to air pollution. Further, we did not have individual level information, and therefore were unable to evaluate other potential effect modifiers such as obesity and smoking. Finally, our data on weather parameters were extracted from only one monitoring station and may not accurately reflect the status of the whole city.</p>
+<p>In summary, in our time-serious analysis, we found that ambient air pollutants were strongly associated with nonaccidental and cardiopulmonary mortalities in Beijing during 2009∼2010. Further, women and the elderly were more vulnerable to the adverse effects of ambient air pollution. These updated data in Beijing may help authorities there formulate relevant policies to improve its air environment and health status of residents.</p>
+</sec></body>
+<back><ref-list>
+<title>References</title>
+<ref id="pone.0076759-Health1"><label>1</label>
+<mixed-citation publication-type="other" xlink:type="simple">Health Effect Institute (2004) Health effects of outdoor air pollution in developing countries of asia: A literature review. Boston, MA: Health Effects Institute.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Chen1"><label>2</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname><given-names>B</given-names></name>, <name name-style="western"><surname>Hong</surname><given-names>C</given-names></name>, <name name-style="western"><surname>Kan</surname><given-names>H</given-names></name> (<year>2004</year>) <article-title>Exposures and health outcomes from outdoor air pollutants in China</article-title>. <source>Toxicology</source> <volume>198</volume>: <fpage>291</fpage>–<lpage>300</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Xu1"><label>3</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Xu</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Yu</surname><given-names>D</given-names></name>, <name name-style="western"><surname>Jing</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>X</given-names></name> (<year>2000</year>) <article-title>Air pollution and daily mortality in Shenyang, China</article-title>. <source>Arch Environ Health</source> <volume>55</volume>: <fpage>115</fpage>–<lpage>120</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Dong1"><label>4</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dong</surname><given-names>JW</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>XP</given-names></name>, <name name-style="western"><surname>Dockery</surname><given-names>DW</given-names></name> (<year>1996</year>) <article-title>Association of air pollution with unscheduled outpatient visits in Beijing Longfu Hospital, 1991</article-title>. <source>Zhonghua Liu Xing Bing Xue Za Zhi</source> <volume>17</volume>: <fpage>13</fpage>–<lpage>16</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Aunan1"><label>5</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Aunan</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Pan</surname><given-names>XC</given-names></name> (<year>2004</year>) <article-title>Exposure-response functions for health effects of ambient air pollution applicable for China – a meta-analysis</article-title>. <source>Sci Total Environ</source> <volume>329</volume>: <fpage>3</fpage>–<lpage>16</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Chang1"><label>6</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chang</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Pan</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Xie</surname><given-names>X</given-names></name>, <name name-style="western"><surname>Gao</surname><given-names>Y</given-names></name> (<year>2003</year>) <article-title>Time-series analysis on the relationship between air pollution and daily mortality in Beijing</article-title>. <source>Wei Sheng Yan Jiu</source> <volume>32</volume>: <fpage>565</fpage>–<lpage>568</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Zhang1"><label>7</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhang</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Krafft</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Lv</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>W</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Study on the association between ambient air pollution and daily cardiovascular and respiratory mortality in an urban district of Beijing</article-title>. <source>Int J Environ Res Public Health</source> <volume>8</volume>: <fpage>2109</fpage>–<lpage>2123</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Zeger1"><label>8</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zeger</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Irizarry</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Peng</surname><given-names>RD</given-names></name> (<year>2006</year>) <article-title>On time series analysis of public health and biomedical data</article-title>. <source>Annu Rev Public Health</source> <volume>27</volume>: <fpage>57</fpage>–<lpage>79</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Hastie1"><label>9</label>
+<mixed-citation publication-type="other" xlink:type="simple">Hastie TJ, Tibshirani R (1990) Gerneralized Additive Models. London: Chapman and hal-1.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Samet1"><label>10</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Samet</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Dominici</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Curriero</surname><given-names>FC</given-names></name>, <name name-style="western"><surname>Coursac</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Zeger</surname><given-names>SL</given-names></name> (<year>2000</year>) <article-title>Fine particulate air pollution and mortality in 20 U.S. cities, 1987–1994</article-title>. <source>N Engl J Med</source> <volume>343</volume>: <fpage>1742</fpage>–<lpage>1749</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Dominici1"><label>11</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Dominici</surname><given-names>F</given-names></name>, <name name-style="western"><surname>Peng</surname><given-names>RD</given-names></name>, <name name-style="western"><surname>Bell</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>Pham</surname><given-names>L</given-names></name>, <name name-style="western"><surname>McDermott</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2006</year>) <article-title>Fine particulate air pollution and hospital admission for cardiovascular and respiratory diseases</article-title>. <source>JAMA</source> <volume>295</volume>: <fpage>1127</fpage>–<lpage>1134</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Braga1"><label>12</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Braga</surname><given-names>AL</given-names></name>, <name name-style="western"><surname>Zanobetti</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Schwartz</surname><given-names>J</given-names></name> (<year>2001</year>) <article-title>The lag structure between particulate air pollution and respiratory and cardiovascular deaths in 10 US cities</article-title>. <source>J Occup Environ Med</source> <volume>43</volume>: <fpage>927</fpage>–<lpage>933</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Bell1"><label>13</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Bell</surname><given-names>ML</given-names></name>, <name name-style="western"><surname>McDermott</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Zeger</surname><given-names>SL</given-names></name>, <name name-style="western"><surname>Samet</surname><given-names>JM</given-names></name>, <name name-style="western"><surname>Dominici</surname><given-names>F</given-names></name> (<year>2004</year>) <article-title>Ozone and short-term mortality in 95 US urban communities, 1987–2000</article-title>. <source>JAMA</source> <volume>292</volume>: <fpage>2372</fpage>–<lpage>2378</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Zhao1"><label>14</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zhao</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Liang</surname><given-names>Z</given-names></name>, <name name-style="western"><surname>Tao</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Du</surname><given-names>Y</given-names></name> (<year>2011</year>) <article-title>Effects of air pollution on neonatal prematurity in Guangzhou of China: a time-series study</article-title>. <source>Environ Health</source> <volume>10</volume>: <fpage>2</fpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Zeka1"><label>15</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Zeka</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Zanobetti</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Schwartz</surname><given-names>J</given-names></name> (<year>2006</year>) <article-title>Individual-level modifiers of the effects of particulate matter on daily mortality</article-title>. <source>Am J Epidemiol</source> <volume>163</volume>: <fpage>849</fpage>–<lpage>859</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-R1"><label>16</label>
+<mixed-citation publication-type="other" xlink:type="simple">R Development Core Team (2010) R: a language and environment for statistical computing, version 2.15.1. Vienna: R Foundation for Statistical Computing.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Beijing1"><label>17</label>
+<mixed-citation publication-type="other" xlink:type="simple">Beijing Municipal Environmental Protection Bureau (2011) The municipal government of beijing promoted the old vehicle update <ext-link ext-link-type="uri" xlink:href="http://www.bjepb.gov.cn/portal0/tab189/info6306.htm" xlink:type="simple">http://www.bjepb.gov.cn/portal0/tab189/info6306.htm</ext-link> [accessed Jan 8, 2013].</mixed-citation>
+</ref>
+<ref id="pone.0076759-Stieb1"><label>18</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Stieb</surname><given-names>DM</given-names></name>, <name name-style="western"><surname>Judek</surname><given-names>S</given-names></name>, <name name-style="western"><surname>Burnett</surname><given-names>RT</given-names></name> (<year>2002</year>) <article-title>Meta-analysis of time-series studies of air pollution and mortality: effects of gases and particles and the influence of cause of death, age, and season</article-title>. <source>J Air Waste Manag Assoc</source> <volume>52</volume>: <fpage>470</fpage>–<lpage>484</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Chen2"><label>19</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Chen</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Pan</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Xu</surname><given-names>Q</given-names></name>, <name name-style="western"><surname>Zeng</surname><given-names>G</given-names></name>, <etal>et al</etal>. (<year>2011</year>) <article-title>Ambient carbon monoxide and daily mortality in three Chinese cities: the China Air Pollution and Health Effects Study (CAPES)</article-title>. <source>Sci Total Environ</source> <volume>409</volume>: <fpage>4923</fpage>–<lpage>4928</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Kan1"><label>20</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kan</surname><given-names>HD</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>BH</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>CH</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>BY</given-names></name>, <name name-style="western"><surname>Fu</surname><given-names>QY</given-names></name> (<year>2005</year>) <article-title>Establishment of exposure-response functions of air particulate matter and adverse health outcomes in China and worldwide</article-title>. <source>Biomed Environ Sci</source> <volume>18</volume>: <fpage>159</fpage>–<lpage>163</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Yang1"><label>21</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Yang</surname><given-names>MJ</given-names></name>, <name name-style="western"><surname>Pan</surname><given-names>XC</given-names></name> (<year>2008</year>) <article-title>Time-series Analysis of Air PoHufion and Cardiovascular Mortality in Beijing, China</article-title>. <source>J Environ Health</source> <volume>25</volume>: <fpage>294</fpage>–<lpage>297</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Samoli1"><label>22</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Samoli</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Touloumi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Schwartz</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Anderson</surname><given-names>HR</given-names></name>, <name name-style="western"><surname>Schindler</surname><given-names>C</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Short-term effects of carbon monoxide on mortality: an analysis within the APHEA project</article-title>. <source>Environ Health Perspect</source> <volume>115</volume>: <fpage>1578</fpage>–<lpage>1583</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-ONeill1"><label>23</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>O'Neill</surname><given-names>MS</given-names></name>, <name name-style="western"><surname>Jerrett</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Kawachi</surname><given-names>I</given-names></name>, <name name-style="western"><surname>Levy</surname><given-names>JI</given-names></name>, <name name-style="western"><surname>Cohen</surname><given-names>AJ</given-names></name>, <etal>et al</etal>. (<year>2003</year>) <article-title>Health, wealth, and air pollution: advancing theory and methods</article-title>. <source>Environ Health Perspect</source> <volume>111</volume>: <fpage>1861</fpage>–<lpage>1870</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Sun1"><label>24</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Sun</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Pan</surname><given-names>YP</given-names></name>, <name name-style="western"><surname>Li</surname><given-names>XR</given-names></name>, <name name-style="western"><surname>Zhu</surname><given-names>RH</given-names></name>, <name name-style="western"><surname>Wang</surname><given-names>YS</given-names></name> (<year>2011</year>) <article-title>[Chemical composition and mass closure of particulate matter in Beijing, Tianjin and Hebei megacities, Northern China]</article-title>. <source>Huan Jing Ke Xue</source> <volume>32</volume>: <fpage>2732</fpage>–<lpage>2740</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Samoli2"><label>25</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Samoli</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Peng</surname><given-names>R</given-names></name>, <name name-style="western"><surname>Ramsay</surname><given-names>T</given-names></name>, <name name-style="western"><surname>Pipikou</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Touloumi</surname><given-names>G</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Acute effects of ambient particulate matter on mortality in Europe and North America: results from the APHENA study</article-title>. <source>Environ Health Perspect</source> <volume>116</volume>: <fpage>1480</fpage>–<lpage>1486</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Miller1"><label>26</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Miller</surname><given-names>KA</given-names></name>, <name name-style="western"><surname>Siscovick</surname><given-names>DS</given-names></name>, <name name-style="western"><surname>Sheppard</surname><given-names>L</given-names></name>, <name name-style="western"><surname>Shepherd</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Sullivan</surname><given-names>JH</given-names></name>, <etal>et al</etal>. (<year>2007</year>) <article-title>Long-term exposure to air pollution and incidence of cardiovascular events in women</article-title>. <source>N Engl J Med</source> <volume>356</volume>: <fpage>447</fpage>–<lpage>458</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Puett1"><label>27</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Puett</surname><given-names>RC</given-names></name>, <name name-style="western"><surname>Schwartz</surname><given-names>J</given-names></name>, <name name-style="western"><surname>Hart</surname><given-names>JE</given-names></name>, <name name-style="western"><surname>Yanosky</surname><given-names>JD</given-names></name>, <name name-style="western"><surname>Speizer</surname><given-names>FE</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Chronic particulate exposure, mortality, and coronary heart disease in the nurses' health study</article-title>. <source>Am J Epidemiol</source> <volume>168</volume>: <fpage>1161</fpage>–<lpage>1168</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Kan2"><label>28</label>
+<mixed-citation publication-type="other" xlink:type="simple">Kan H, Chen B, Zhao N, London SJ, Song G, <etal>et al</etal>.. (2010) Part 1. A time-series study of ambient air pollution and daily mortality in Shanghai, China. Res Rep Health Eff Inst: 17–78.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Kunzli1"><label>29</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kunzli</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Jerrett</surname><given-names>M</given-names></name>, <name name-style="western"><surname>Mack</surname><given-names>WJ</given-names></name>, <name name-style="western"><surname>Beckerman</surname><given-names>B</given-names></name>, <name name-style="western"><surname>LaBree</surname><given-names>L</given-names></name>, <etal>et al</etal>. (<year>2005</year>) <article-title>Ambient air pollution and atherosclerosis in Los Angeles</article-title>. <source>Environ Health Perspect</source> <volume>113</volume>: <fpage>201</fpage>–<lpage>206</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Gouveia1"><label>30</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Gouveia</surname><given-names>N</given-names></name>, <name name-style="western"><surname>Fletcher</surname><given-names>T</given-names></name> (<year>2000</year>) <article-title>Time series analysis of air pollution and mortality: effects by cause, age and socioeconomic status</article-title>. <source>J Epidemiol Community Health</source> <volume>54</volume>: <fpage>750</fpage>–<lpage>755</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Kan3"><label>31</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Kan</surname><given-names>H</given-names></name>, <name name-style="western"><surname>London</surname><given-names>SJ</given-names></name>, <name name-style="western"><surname>Chen</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Zhang</surname><given-names>Y</given-names></name>, <name name-style="western"><surname>Song</surname><given-names>G</given-names></name>, <etal>et al</etal>. (<year>2008</year>) <article-title>Season, sex, age, and education as modifiers of the effects of outdoor air pollution on daily mortality in Shanghai, China: The Public Health and Air Pollution in Asia (PAPA) Study</article-title>. <source>Environ Health Perspect</source> <volume>116</volume>: <fpage>1183</fpage>–<lpage>1188</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-Katsouyanni1"><label>32</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>Katsouyanni</surname><given-names>K</given-names></name>, <name name-style="western"><surname>Touloumi</surname><given-names>G</given-names></name>, <name name-style="western"><surname>Samoli</surname><given-names>E</given-names></name>, <name name-style="western"><surname>Gryparis</surname><given-names>A</given-names></name>, <name name-style="western"><surname>Le Tertre</surname><given-names>A</given-names></name>, <etal>et al</etal>. (<year>2001</year>) <article-title>Confounding and effect modification in the short-term effects of ambient particles on total mortality: results from 29 European cities within the APHEA2 project</article-title>. <source>Epidemiology</source> <volume>12</volume>: <fpage>521</fpage>–<lpage>531</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-McGrath1"><label>33</label>
+<mixed-citation publication-type="journal" xlink:type="simple"><name name-style="western"><surname>McGrath</surname><given-names>JJ</given-names></name> (<year>2000</year>) <article-title>Biological plausibility for carbon monoxide as a copollutant in PM epidemiologic studies</article-title>. <source>Inhal Toxicol</source> <volume>12</volume> Suppl 4<fpage>91</fpage>–<lpage>107</lpage>.</mixed-citation>
+</ref>
+<ref id="pone.0076759-BeijingStatistical1"><label>34</label>
+<mixed-citation publication-type="other" xlink:type="simple">Beijing Statistical yearbook (2007). Available:<ext-link ext-link-type="uri" xlink:href="http://www.bjstats.gov.cn/tjnj/2008-tjnj/" xlink:type="simple">http://www.bjstats.gov.cn/tjnj/2008-tjnj/</ext-link>[accessed 14 June 2013].</mixed-citation>
+</ref>
+<ref id="pone.0076759-BeijingStatistical2"><label>35</label>
+<mixed-citation publication-type="other" xlink:type="simple">Beijing Statistical yearbook (2011). Availble:<ext-link ext-link-type="uri" xlink:href="http://www.bjstats.gov.cn/nj/main/2011-tjnj/index.htm" xlink:type="simple">http://www.bjstats.gov.cn/nj/main/2011-tjnj/index.htm</ext-link>[accessed 14 June 2013].</mixed-citation>
+</ref>
+<ref id="pone.0076759-BeijingStatistical3"><label>36</label>
+<mixed-citation publication-type="other" xlink:type="simple">Beijing Statistical yearbook (2012). Available: <ext-link ext-link-type="uri" xlink:href="http://Http://www.Bjstats.Gov.Cn/nj/main/2012-tjnj/index.Htm" xlink:type="simple">Http://www.Bjstats.Gov.Cn/nj/main/2012-tjnj/index.Htm</ext-link> [accessed 27 December 2012].</mixed-citation>
+</ref>
+</ref-list></back>
+</article>
